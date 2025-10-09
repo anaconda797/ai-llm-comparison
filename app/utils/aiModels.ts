@@ -22995,6 +22995,23 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "cohere.embed-v4:0",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000012",
+        "output_cost_per_token": "0",
+        "litellm_provider": "bedrock",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
       "name": "databricks/databricks-bge-large-en",
       "provider": "databricks",
       "logo": "/logos/databricks.svg",
