@@ -429,6 +429,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "global.twelvelabs.pegasus-1-2-v1:0",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": "0.0000075",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://aws.amazon.com/bedrock/pricing/"
+      }
+    },
+    {
       "name": "amazon.titan-text-express-v1",
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
@@ -2227,6 +2245,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "azure_ai/gpt-chat-latest",
+      "provider": "azure_ai",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000005",
+        "output_cost_per_token": "0.00003",
+        "litellm_provider": "azure_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://azure.microsoft.com/en-us/pricing/details/cognitive-services/openai-service/"
+      }
+    },
+    {
       "name": "azure_ai/gpt-5.5-2026-04-23",
       "provider": "azure_ai",
       "logo": "/logos/azure.svg",
@@ -2357,9 +2393,27 @@ export const aiModels: AIModels = {
       "provider": "azure_ai",
       "logo": "/logos/azure.svg",
       "sample_spec": {
-        "max_tokens": null,
-        "max_input_tokens": null,
-        "max_output_tokens": null,
+        "max_tokens": 32768,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.00000014",
+        "output_cost_per_token": "0",
+        "litellm_provider": "azure_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://azure.microsoft.com/en-us/pricing/details/ai-foundry-models/aoai/"
+      }
+    },
+    {
+      "name": "azure_ai/model-router",
+      "provider": "azure_ai",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 32768,
         "input_cost_per_token": "0.00000014",
         "output_cost_per_token": "0",
         "litellm_provider": "azure_ai",
@@ -5335,6 +5389,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "azure_ai/cohere-command-a",
+      "provider": "azure_ai",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 8182,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 8182,
+        "input_cost_per_token": "0.0000025",
+        "output_cost_per_token": "0.00001",
+        "litellm_provider": "azure_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://azure.microsoft.com/en-us/pricing/details/ai-foundry-models/cohere/"
+      }
+    },
+    {
       "name": "azure_ai/MAI-DS-R1",
       "provider": "azure_ai",
       "logo": "/logos/azure.svg",
@@ -5638,6 +5710,42 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/grok-4-6-comes-to-microsoft-foundry-models-built-for-long-horizon-reasoning-and-/4547578"
+      }
+    },
+    {
+      "name": "azure_ai/grok-4-20-reasoning",
+      "provider": "azure_ai",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 262000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.00000125",
+        "output_cost_per_token": "0.0000025",
+        "litellm_provider": "azure_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://azure.microsoft.com/en-us/pricing/details/ai-foundry-models/grok/"
+      }
+    },
+    {
+      "name": "azure_ai/grok-4-20-non-reasoning",
+      "provider": "azure_ai",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 262000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.00000125",
+        "output_cost_per_token": "0.0000025",
+        "litellm_provider": "azure_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://azure.microsoft.com/en-us/pricing/details/ai-foundry-models/grok/"
       }
     },
     {
@@ -14732,8 +14840,8 @@ export const aiModels: AIModels = {
         "max_tokens": 8192,
         "max_input_tokens": 200000,
         "max_output_tokens": 8192,
-        "input_cost_per_token": "0.00000025",
-        "output_cost_per_token": "0.00000125",
+        "input_cost_per_token": "0.0000008",
+        "output_cost_per_token": "0.000004",
         "litellm_provider": "bedrock",
         "mode": "chat",
         "supports_function_calling": true,
@@ -27537,6 +27645,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "openrouter/openai/gpt-5.6-sol",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1050000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.00001",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/openai/gpt-5.6-sol"
+      }
+    },
+    {
       "name": "openrouter/openai/gpt-oss-120b",
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
@@ -34220,9 +34346,9 @@ export const aiModels: AIModels = {
       "provider": "vertex_ai-anthropic_models",
       "logo": "/logos/google.svg",
       "sample_spec": {
-        "max_tokens": 8192,
+        "max_tokens": 64000,
         "max_input_tokens": 200000,
-        "max_output_tokens": 8192,
+        "max_output_tokens": 64000,
         "input_cost_per_token": "0.000001",
         "output_cost_per_token": "0.000005",
         "litellm_provider": "vertex_ai-anthropic_models",
@@ -34238,9 +34364,9 @@ export const aiModels: AIModels = {
       "provider": "vertex_ai-anthropic_models",
       "logo": "/logos/google.svg",
       "sample_spec": {
-        "max_tokens": 8192,
+        "max_tokens": 64000,
         "max_input_tokens": 200000,
-        "max_output_tokens": 8192,
+        "max_output_tokens": 64000,
         "input_cost_per_token": "0.000001",
         "output_cost_per_token": "0.000005",
         "litellm_provider": "vertex_ai-anthropic_models",
@@ -35657,9 +35783,9 @@ export const aiModels: AIModels = {
       "provider": "vertex_ai",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 2000000,
-        "max_input_tokens": 2000000,
-        "max_output_tokens": 2000000,
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
         "input_cost_per_token": "0.0000002",
         "output_cost_per_token": "0.0000005",
         "litellm_provider": "vertex_ai",
@@ -35675,9 +35801,9 @@ export const aiModels: AIModels = {
       "provider": "vertex_ai",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 2000000,
-        "max_input_tokens": 2000000,
-        "max_output_tokens": 2000000,
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
         "input_cost_per_token": "0.0000002",
         "output_cost_per_token": "0.0000005",
         "litellm_provider": "vertex_ai",
@@ -35696,14 +35822,14 @@ export const aiModels: AIModels = {
         "max_tokens": 2000000,
         "max_input_tokens": 2000000,
         "max_output_tokens": 2000000,
-        "input_cost_per_token": "0.000002",
-        "output_cost_per_token": "0.000006",
+        "input_cost_per_token": "0.00000125",
+        "output_cost_per_token": "0.0000025",
         "litellm_provider": "vertex_ai",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://docs.x.ai/developers/models"
+        "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"
       }
     },
     {
@@ -35714,6 +35840,42 @@ export const aiModels: AIModels = {
         "max_tokens": 2000000,
         "max_input_tokens": 2000000,
         "max_output_tokens": 2000000,
+        "input_cost_per_token": "0.00000125",
+        "output_cost_per_token": "0.0000025",
+        "litellm_provider": "vertex_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"
+      }
+    },
+    {
+      "name": "vertex_ai/xai/grok-4.3",
+      "provider": "vertex_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 200000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 200000,
+        "input_cost_per_token": "0.00000125",
+        "output_cost_per_token": "0.0000025",
+        "litellm_provider": "vertex_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"
+      }
+    },
+    {
+      "name": "vertex_ai/xai/grok-4.6",
+      "provider": "vertex_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 524288,
+        "max_input_tokens": 524288,
+        "max_output_tokens": 524288,
         "input_cost_per_token": "0.000002",
         "output_cost_per_token": "0.000006",
         "litellm_provider": "vertex_ai",
@@ -35721,7 +35883,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://docs.x.ai/developers/models"
+        "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"
       }
     },
     {
@@ -43389,7 +43551,7 @@ export const aiModels: AIModels = {
         "max_tokens": 32768,
         "max_input_tokens": 131072,
         "max_output_tokens": 32768,
-        "input_cost_per_token": "0.000000075",
+        "input_cost_per_token": "0.00000007",
         "output_cost_per_token": "0.0000003",
         "litellm_provider": "bedrock_mantle",
         "mode": "chat",
@@ -43423,8 +43585,8 @@ export const aiModels: AIModels = {
         "max_tokens": 65536,
         "max_input_tokens": 131072,
         "max_output_tokens": 65536,
-        "input_cost_per_token": "0.000000075",
-        "output_cost_per_token": "0.0000003",
+        "input_cost_per_token": "0.00000007",
+        "output_cost_per_token": "0.0000002",
         "litellm_provider": "bedrock_mantle",
         "mode": "chat",
         "supports_function_calling": true,
@@ -43532,6 +43694,42 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true
+      }
+    },
+    {
+      "name": "us.openai.gpt-6-astra",
+      "provider": "bedrock_converse",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1050000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000011",
+        "output_cost_per_token": "0.000055",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-6-astra.html"
+      }
+    },
+    {
+      "name": "global.openai.gpt-6-astra",
+      "provider": "bedrock_converse",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1050000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00001",
+        "output_cost_per_token": "0.00005",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-6-astra.html"
       }
     },
     {
@@ -46290,6 +46488,42 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "wandb/deepseek-ai/DeepSeek-V4-Pro-0813",
+      "provider": "wandb",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000131",
+        "output_cost_per_token": "0.00000396",
+        "litellm_provider": "wandb",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://wandb.ai/site/pricing/tokens/"
+      }
+    },
+    {
+      "name": "wandb/ibm-granite/granite-4.2-8b",
+      "provider": "wandb",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.00000015",
+        "litellm_provider": "wandb",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://wandb.ai/site/pricing/tokens/"
+      }
+    },
+    {
       "name": "wandb/zai-org/GLM-5.2",
       "provider": "wandb",
       "logo": "/placeholder.svg?height=30&width=30",
@@ -48520,6 +48754,24 @@ export const aiModels: AIModels = {
         "max_tokens": 8192,
         "max_input_tokens": 131072,
         "max_output_tokens": 8192,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "gemini",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://ai.google.dev/gemini-api/docs/pricing"
+      }
+    },
+    {
+      "name": "gemini/lyria-3.5",
+      "provider": "gemini",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65536,
         "input_cost_per_token": "0",
         "output_cost_per_token": "0",
         "litellm_provider": "gemini",
@@ -51878,6 +52130,42 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "us.cohere.embed-v4:0",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000012",
+        "output_cost_per_token": "0",
+        "litellm_provider": "bedrock",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://aws.amazon.com/bedrock/pricing/"
+      }
+    },
+    {
+      "name": "global.cohere.embed-v4:0",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000012",
+        "output_cost_per_token": "0",
+        "litellm_provider": "bedrock",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://aws.amazon.com/bedrock/pricing/"
+      }
+    },
+    {
       "name": "cohere/embed-v4.0",
       "provider": "cohere",
       "logo": "/logos/cohere.svg",
@@ -53294,6 +53582,24 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false
+      }
+    },
+    {
+      "name": "voyage/voyage-multilingual-2",
+      "provider": "voyage",
+      "logo": "/logos/voyage.svg",
+      "sample_spec": {
+        "max_tokens": 32000,
+        "max_input_tokens": 32000,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000012",
+        "output_cost_per_token": "0",
+        "litellm_provider": "voyage",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.voyageai.com/docs/pricing"
       }
     },
     {
@@ -57058,6 +57364,78 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "gpt-image-2.5-flare",
+      "provider": "openai",
+      "logo": "/logos/openai.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000005",
+        "output_cost_per_token": null,
+        "litellm_provider": "openai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/pricing"
+      }
+    },
+    {
+      "name": "gpt-image-2.5-flare-2026-09-08",
+      "provider": "openai",
+      "logo": "/logos/openai.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000005",
+        "output_cost_per_token": null,
+        "litellm_provider": "openai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/pricing"
+      }
+    },
+    {
+      "name": "gpt-image-2.5-sunburst",
+      "provider": "openai",
+      "logo": "/logos/openai.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000005",
+        "output_cost_per_token": null,
+        "litellm_provider": "openai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/pricing"
+      }
+    },
+    {
+      "name": "gpt-image-2.5-sunburst-2026-09-08",
+      "provider": "openai",
+      "logo": "/logos/openai.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000005",
+        "output_cost_per_token": null,
+        "litellm_provider": "openai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/pricing"
+      }
+    },
+    {
       "name": "low/1024-x-1024/gpt-image-1.5",
       "provider": "openai",
       "logo": "/logos/openai.svg",
@@ -59634,6 +60012,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "azure_ai/whisper",
+      "provider": "azure_ai",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "azure_ai",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://azure.microsoft.com/en-us/pricing/details/cognitive-services/openai-service/"
+      }
+    },
+    {
       "name": "azure/gpt-4o-mini-transcribe",
       "provider": "azure",
       "logo": "/logos/azure.svg",
@@ -60831,7 +61227,7 @@ export const aiModels: AIModels = {
         "max_tokens": null,
         "max_input_tokens": null,
         "max_output_tokens": null,
-        "input_cost_per_token": "0.0000025",
+        "input_cost_per_token": "0.000002",
         "output_cost_per_token": "0.000012",
         "litellm_provider": "vertex_ai",
         "mode": "audio_transcription",
