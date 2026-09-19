@@ -11125,6 +11125,42 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "dashscope/qwen3.8-flash",
+      "provider": "dashscope",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 991808,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.00000047",
+        "litellm_provider": "dashscope",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/model-pricing"
+      }
+    },
+    {
+      "name": "dashscope/qwen3.8-omni-flash",
+      "provider": "dashscope",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 991808,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.00000047",
+        "litellm_provider": "dashscope",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/model-pricing"
+      }
+    },
+    {
       "name": "dashscope/qwq-plus",
       "provider": "dashscope",
       "logo": "/placeholder.svg?height=30&width=30",
@@ -12601,6 +12637,42 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "qwen_ai_platform/qwen3.8-flash",
+      "provider": "qwen_ai_platform",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 991808,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.00000047",
+        "litellm_provider": "qwen_ai_platform",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/model-pricing"
+      }
+    },
+    {
+      "name": "qwen_ai_platform/qwen3.8-omni-flash",
+      "provider": "qwen_ai_platform",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 991808,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.00000047",
+        "litellm_provider": "qwen_ai_platform",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/model-pricing"
+      }
+    },
+    {
       "name": "qwen_ai_platform/qwq-plus",
       "provider": "qwen_ai_platform",
       "logo": "/placeholder.svg?height=30&width=30",
@@ -12956,7 +13028,7 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false,
+        "supports_vision": true,
         "source": "https://www.databricks.com/product/pricing/proprietary-foundation-model-serving"
       }
     },
@@ -12974,7 +13046,7 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false,
+        "supports_vision": true,
         "source": "https://www.databricks.com/product/pricing/proprietary-foundation-model-serving"
       }
     },
@@ -12992,7 +13064,7 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false,
+        "supports_vision": true,
         "source": "https://www.databricks.com/product/pricing/proprietary-foundation-model-serving"
       }
     },
@@ -13046,7 +13118,7 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false,
+        "supports_vision": true,
         "source": "https://www.databricks.com/product/pricing/proprietary-foundation-model-serving"
       }
     },
@@ -13064,7 +13136,7 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false,
+        "supports_vision": true,
         "source": "https://www.databricks.com/product/pricing/proprietary-foundation-model-serving"
       }
     },
@@ -14410,7 +14482,7 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": true
       }
     },
     {
@@ -14427,7 +14499,7 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": true
       }
     },
     {
@@ -18300,40 +18372,6 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "github_copilot/gemini-2.5-pro",
-      "provider": "github_copilot",
-      "logo": "/placeholder.svg?height=30&width=30",
-      "sample_spec": {
-        "max_tokens": 64000,
-        "max_input_tokens": 128000,
-        "max_output_tokens": 64000,
-        "input_cost_per_token": null,
-        "output_cost_per_token": null,
-        "litellm_provider": "github_copilot",
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": true,
-        "supports_vision": true
-      }
-    },
-    {
-      "name": "github_copilot/gemini-3-pro-preview",
-      "provider": "github_copilot",
-      "logo": "/placeholder.svg?height=30&width=30",
-      "sample_spec": {
-        "max_tokens": 64000,
-        "max_input_tokens": 128000,
-        "max_output_tokens": 64000,
-        "input_cost_per_token": null,
-        "output_cost_per_token": null,
-        "litellm_provider": "github_copilot",
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": true,
-        "supports_vision": true
-      }
-    },
-    {
       "name": "github_copilot/gpt-3.5-turbo",
       "provider": "github_copilot",
       "logo": "/placeholder.svg?height=30&width=30",
@@ -18892,23 +18930,6 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
-      }
-    },
-    {
-      "name": "gmi/google/gemini-3-pro-preview",
-      "provider": "gmi",
-      "logo": "/placeholder.svg?height=30&width=30",
-      "sample_spec": {
-        "max_tokens": 65536,
-        "max_input_tokens": 1048576,
-        "max_output_tokens": 65536,
-        "input_cost_per_token": "0.000002",
-        "output_cost_per_token": "0.000012",
-        "litellm_provider": "gmi",
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
-        "supports_vision": true
       }
     },
     {
@@ -27155,7 +27176,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -27206,7 +27228,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -27223,7 +27246,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -27240,7 +27264,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -27258,7 +27283,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/anthropic/claude-sonnet-4.6"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -27276,7 +27301,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/anthropic/claude-opus-4.5"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -27303,7 +27328,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
         "max_tokens": 64000,
-        "max_input_tokens": 200000,
+        "max_input_tokens": 1000000,
         "max_output_tokens": 64000,
         "input_cost_per_token": "0.000003",
         "output_cost_per_token": "0.000015",
@@ -27312,7 +27337,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/anthropic/claude-sonnet-4.5"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -27330,7 +27355,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/anthropic/claude-haiku-4.5"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -27347,7 +27372,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -27365,7 +27391,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/anthropic/claude-opus-5"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -27374,7 +27400,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
         "max_tokens": 2048,
-        "max_input_tokens": 131072,
+        "max_input_tokens": 128000,
         "max_output_tokens": 2048,
         "input_cost_per_token": "0.0000001",
         "output_cost_per_token": "0.0000002",
@@ -27382,8 +27408,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false,
-        "source": "https://openrouter.ai/bytedance/ui-tars-1.5-7b"
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -27391,14 +27417,14 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 8192,
-        "max_input_tokens": 65536,
-        "max_output_tokens": 8192,
-        "input_cost_per_token": "0.0000002574",
-        "output_cost_per_token": "0.0000010287",
+        "max_tokens": 16384,
+        "max_input_tokens": 163840,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.00000032",
+        "output_cost_per_token": "0.00000089",
         "litellm_provider": "openrouter",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://openrouter.ai/api/v1/models"
@@ -27409,16 +27435,17 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 8192,
-        "max_input_tokens": 65536,
-        "max_output_tokens": 8192,
+        "max_tokens": 147456,
+        "max_input_tokens": 163840,
+        "max_output_tokens": 147456,
         "input_cost_per_token": "0.00000025",
         "output_cost_per_token": "0.000001",
         "litellm_provider": "openrouter",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -27426,9 +27453,9 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 163840,
+        "max_tokens": 32768,
         "max_input_tokens": 163840,
-        "max_output_tokens": 163840,
+        "max_output_tokens": 32768,
         "input_cost_per_token": "0.00000025",
         "output_cost_per_token": "0.00000095",
         "litellm_provider": "openrouter",
@@ -27436,7 +27463,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/deepseek/deepseek-chat-v3.1"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -27462,16 +27489,17 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 163840,
+        "max_tokens": 65536,
         "max_input_tokens": 163840,
-        "max_output_tokens": 163840,
+        "max_output_tokens": 65536,
         "input_cost_per_token": "0.00000027",
         "output_cost_per_token": "0.00000041",
         "litellm_provider": "openrouter",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -27479,16 +27507,17 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 8192,
-        "max_input_tokens": 65336,
-        "max_output_tokens": 8192,
+        "max_tokens": 16000,
+        "max_input_tokens": 64000,
+        "max_output_tokens": 16000,
         "input_cost_per_token": "0.0000007",
         "output_cost_per_token": "0.0000025",
         "litellm_provider": "openrouter",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -27496,16 +27525,17 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 8192,
-        "max_input_tokens": 65336,
-        "max_output_tokens": 8192,
+        "max_tokens": 32768,
+        "max_input_tokens": 163840,
+        "max_output_tokens": 32768,
         "input_cost_per_token": "0.0000005",
         "output_cost_per_token": "0.00000215",
         "litellm_provider": "openrouter",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -27513,9 +27543,9 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 384000,
+        "max_tokens": 393216,
         "max_input_tokens": 1048576,
-        "max_output_tokens": 384000,
+        "max_output_tokens": 393216,
         "input_cost_per_token": "0.0000016",
         "output_cost_per_token": "0.0000032",
         "litellm_provider": "openrouter",
@@ -27523,7 +27553,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/deepseek/deepseek-v4-pro"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -27541,7 +27571,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/deepseek/deepseek-v4.1-flash"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -27549,17 +27579,17 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 384000,
+        "max_tokens": 393216,
         "max_input_tokens": 1048576,
-        "max_output_tokens": 384000,
-        "input_cost_per_token": "0.00000057948",
-        "output_cost_per_token": "0.00000173844",
+        "max_output_tokens": 393216,
+        "input_cost_per_token": "0.00000057816",
+        "output_cost_per_token": "0.00000173448",
         "litellm_provider": "openrouter",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -27594,7 +27624,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/google/gemini-2.5-flash"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -27602,9 +27632,9 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 65535,
+        "max_tokens": 65536,
         "max_input_tokens": 1048576,
-        "max_output_tokens": 65535,
+        "max_output_tokens": 65536,
         "input_cost_per_token": "0.00000125",
         "output_cost_per_token": "0.00001",
         "litellm_provider": "openrouter",
@@ -27612,7 +27642,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/google/gemini-2.5-pro"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -27637,9 +27667,9 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 65535,
+        "max_tokens": 65536,
         "max_input_tokens": 1048576,
-        "max_output_tokens": 65535,
+        "max_output_tokens": 65536,
         "input_cost_per_token": "0.0000005",
         "output_cost_per_token": "0.000003",
         "litellm_provider": "openrouter",
@@ -27647,7 +27677,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://ai.google.dev/gemini-api/docs/pricing"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -27665,7 +27695,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://ai.google.dev/gemini-api/docs/pricing"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -27683,7 +27713,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://ai.google.dev/gemini-api/docs/pricing#gemini-3.1-flash-lite"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -27701,7 +27731,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/google/gemini-3.1-pro-preview"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -27709,9 +27739,9 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 8192,
-        "max_input_tokens": null,
-        "max_output_tokens": null,
+        "max_tokens": 3686,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 3686,
         "input_cost_per_token": "0.00000008",
         "output_cost_per_token": "0.00000011",
         "litellm_provider": "openrouter",
@@ -27727,16 +27757,17 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 2000,
+        "max_tokens": 6000,
         "max_input_tokens": 8000,
-        "max_output_tokens": 2000,
+        "max_output_tokens": 6000,
         "input_cost_per_token": "0.0000004",
         "output_cost_per_token": "0.00000075",
         "litellm_provider": "openrouter",
         "mode": "chat",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -27761,16 +27792,17 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 204800,
+        "max_tokens": 131072,
         "max_input_tokens": 204800,
-        "max_output_tokens": 204800,
+        "max_output_tokens": 131072,
         "input_cost_per_token": "0.000000255",
         "output_cost_per_token": "0.00000102",
         "litellm_provider": "openrouter",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -27778,16 +27810,17 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 65536,
+        "max_tokens": 209715,
         "max_input_tokens": 262144,
-        "max_output_tokens": 65536,
+        "max_output_tokens": 209715,
         "input_cost_per_token": "0.0000004",
         "output_cost_per_token": "0.000002",
         "litellm_provider": "openrouter",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -27795,16 +27828,17 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 131072,
+        "max_tokens": 104857,
         "max_input_tokens": 131072,
-        "max_output_tokens": 131072,
+        "max_output_tokens": 104857,
         "input_cost_per_token": "0.0000001",
         "output_cost_per_token": "0.0000001",
         "litellm_provider": "openrouter",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -27812,16 +27846,17 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 262144,
+        "max_tokens": 209715,
         "max_input_tokens": 262144,
-        "max_output_tokens": 262144,
+        "max_output_tokens": 209715,
         "input_cost_per_token": "0.00000015",
         "output_cost_per_token": "0.00000015",
         "litellm_provider": "openrouter",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -27829,16 +27864,17 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 262144,
+        "max_tokens": 209715,
         "max_input_tokens": 262144,
-        "max_output_tokens": 262144,
+        "max_output_tokens": 209715,
         "input_cost_per_token": "0.0000002",
         "output_cost_per_token": "0.0000002",
         "litellm_provider": "openrouter",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -27846,16 +27882,17 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 262144,
+        "max_tokens": 209715,
         "max_input_tokens": 262144,
-        "max_output_tokens": 262144,
-        "input_cost_per_token": "0.0000005",
-        "output_cost_per_token": "0.0000015",
+        "max_output_tokens": 209715,
+        "input_cost_per_token": "0.00000055",
+        "output_cost_per_token": "0.00000165",
         "litellm_provider": "openrouter",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -27880,16 +27917,17 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 8191,
+        "max_tokens": 102400,
         "max_input_tokens": 128000,
-        "max_output_tokens": 8191,
+        "max_output_tokens": 102400,
         "input_cost_per_token": "0.000002",
         "output_cost_per_token": "0.000006",
         "litellm_provider": "openrouter",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -27897,16 +27935,17 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 131072,
-        "max_input_tokens": 131072,
-        "max_output_tokens": 131072,
+        "max_tokens": 102400,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 102400,
         "input_cost_per_token": "0.000000351",
         "output_cost_per_token": "0.000000555",
         "litellm_provider": "openrouter",
         "mode": "chat",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -27914,16 +27953,16 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 128000,
-        "max_input_tokens": 128000,
-        "max_output_tokens": 128000,
+        "max_tokens": 16384,
+        "max_input_tokens": 256000,
+        "max_output_tokens": 16384,
         "input_cost_per_token": "0.00000009375",
         "output_cost_per_token": "0.00000025",
         "litellm_provider": "openrouter",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false,
+        "supports_vision": true,
         "source": "https://openrouter.ai/api/v1/models"
       }
     },
@@ -27932,16 +27971,17 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 65536,
+        "max_tokens": 52428,
         "max_input_tokens": 65536,
-        "max_output_tokens": 65536,
+        "max_output_tokens": 52428,
         "input_cost_per_token": "0.000002",
         "output_cost_per_token": "0.000006",
         "litellm_provider": "openrouter",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -27949,9 +27989,9 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 262144,
+        "max_tokens": 235929,
         "max_input_tokens": 262144,
-        "max_output_tokens": 262144,
+        "max_output_tokens": 235929,
         "input_cost_per_token": "0.00000045",
         "output_cost_per_token": "0.00000225",
         "litellm_provider": "openrouter",
@@ -27959,7 +27999,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/moonshotai/kimi-k2.5"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -27967,9 +28007,9 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": null,
+        "max_tokens": 131072,
         "max_input_tokens": 262144,
-        "max_output_tokens": null,
+        "max_output_tokens": 131072,
         "input_cost_per_token": "0.00000008",
         "output_cost_per_token": "0.0000002",
         "litellm_provider": "openrouter",
@@ -27977,7 +28017,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/nvidia/nemotron-3.5-lightning"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -27992,10 +28032,10 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000015",
         "litellm_provider": "openrouter",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/openai/gpt-3.5-turbo"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -28010,9 +28050,10 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.000004",
         "litellm_provider": "openrouter",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -28027,9 +28068,10 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00006",
         "litellm_provider": "openrouter",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -28046,7 +28088,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -28063,7 +28106,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -28080,7 +28124,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -28098,7 +28143,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://openrouter.ai/openai/gpt-4o"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -28115,7 +28160,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -28158,15 +28204,16 @@ export const aiModels: AIModels = {
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 272000,
+        "max_input_tokens": 400000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000175",
         "output_cost_per_token": "0.000014",
         "litellm_provider": "openrouter",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -28175,15 +28222,16 @@ export const aiModels: AIModels = {
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 272000,
+        "max_input_tokens": 400000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000125",
         "output_cost_per_token": "0.00001",
         "litellm_provider": "openrouter",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -28192,15 +28240,16 @@ export const aiModels: AIModels = {
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 272000,
+        "max_input_tokens": 400000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000025",
         "output_cost_per_token": "0.000002",
         "litellm_provider": "openrouter",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -28209,15 +28258,16 @@ export const aiModels: AIModels = {
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 272000,
+        "max_input_tokens": 400000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000005",
         "output_cost_per_token": "0.0000004",
         "litellm_provider": "openrouter",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -28235,7 +28285,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/openai/gpt-5.1-codex-max"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -28244,7 +28294,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 272000,
+        "max_input_tokens": 400000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000175",
         "output_cost_per_token": "0.000014",
@@ -28252,7 +28302,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -28260,16 +28311,17 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 16384,
+        "max_tokens": 32000,
         "max_input_tokens": 128000,
-        "max_output_tokens": 16384,
+        "max_output_tokens": 32000,
         "input_cost_per_token": "0.00000175",
         "output_cost_per_token": "0.000014",
         "litellm_provider": "openrouter",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -28278,7 +28330,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 272000,
+        "max_input_tokens": 400000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.000021",
         "output_cost_per_token": "0.000168",
@@ -28286,7 +28338,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -28304,7 +28357,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/openai/gpt-5.6-sol"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -28322,7 +28375,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/openai/gpt-5.6-sol-pro"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -28330,17 +28383,17 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 32768,
+        "max_tokens": 117964,
         "max_input_tokens": 131072,
-        "max_output_tokens": 32768,
-        "input_cost_per_token": "0.000000037",
-        "output_cost_per_token": "0.00000017",
+        "max_output_tokens": 117964,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.0000006",
         "litellm_provider": "openrouter",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": false,
-        "source": "https://openrouter.ai/openai/gpt-oss-120b"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -28348,9 +28401,9 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 32768,
+        "max_tokens": 117964,
         "max_input_tokens": 131072,
-        "max_output_tokens": 32768,
+        "max_output_tokens": 117964,
         "input_cost_per_token": "0.00000003",
         "output_cost_per_token": "0.00000013",
         "litellm_provider": "openrouter",
@@ -28358,7 +28411,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": false,
-        "source": "https://openrouter.ai/openai/gpt-oss-20b"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -28375,7 +28428,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -28393,7 +28447,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": false,
-        "source": "https://openrouter.ai/openai/o3-mini"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -28411,7 +28465,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": false,
-        "source": "https://openrouter.ai/openai/o3-mini-high"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -28419,16 +28473,17 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 33792,
-        "max_input_tokens": 33792,
-        "max_output_tokens": 33792,
+        "max_tokens": 29491,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 29491,
         "input_cost_per_token": "0.00000066",
         "output_cost_per_token": "0.000001",
         "litellm_provider": "openrouter",
         "mode": "chat",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -28453,9 +28508,9 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 262100,
-        "max_input_tokens": 262100,
-        "max_output_tokens": 262100,
+        "max_tokens": 65536,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 65536,
         "input_cost_per_token": "0.0000003",
         "output_cost_per_token": "0.000001",
         "litellm_provider": "openrouter",
@@ -28463,7 +28518,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/qwen/qwen3-coder"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -28472,7 +28527,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
         "max_tokens": 65536,
-        "max_input_tokens": 997952,
+        "max_input_tokens": 1000000,
         "max_output_tokens": 65536,
         "input_cost_per_token": "0.00000065",
         "output_cost_per_token": "0.00000325",
@@ -28481,7 +28536,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/qwen/qwen3-coder-plus"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -28489,9 +28544,9 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 262144,
+        "max_tokens": 235929,
         "max_input_tokens": 262144,
-        "max_output_tokens": 262144,
+        "max_output_tokens": 235929,
         "input_cost_per_token": "0.0000000875",
         "output_cost_per_token": "0.00000035",
         "litellm_provider": "openrouter",
@@ -28499,7 +28554,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/qwen/qwen3-235b-a22b-2507"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -28507,9 +28562,9 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 262144,
-        "max_input_tokens": 262144,
-        "max_output_tokens": 262144,
+        "max_tokens": 117964,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 117964,
         "input_cost_per_token": "0.00000023",
         "output_cost_per_token": "0.0000023",
         "litellm_provider": "openrouter",
@@ -28517,7 +28572,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/qwen/qwen3-235b-a22b-thinking-2507"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -28535,7 +28590,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/qwen/qwen3.6-plus"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -28553,7 +28608,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/qwen/qwen3.5-35b-a3b"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -28571,7 +28626,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/qwen/qwen3.5-27b"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -28589,7 +28644,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/qwen/qwen3.5-122b-a10b"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -28607,7 +28662,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/qwen/qwen3.5-flash-02-23"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -28625,7 +28680,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/qwen/qwen3.5-plus-02-15"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -28633,9 +28688,9 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 65536,
+        "max_tokens": 235929,
         "max_input_tokens": 262144,
-        "max_output_tokens": 65536,
+        "max_output_tokens": 235929,
         "input_cost_per_token": "0.00000055",
         "output_cost_per_token": "0.0000035",
         "litellm_provider": "openrouter",
@@ -28643,7 +28698,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/qwen/qwen3.5-397b-a17b"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -28669,16 +28724,17 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 4096,
+        "max_tokens": 5529,
         "max_input_tokens": 6144,
-        "max_output_tokens": 4096,
-        "input_cost_per_token": "0.00000045",
+        "max_output_tokens": 5529,
+        "input_cost_per_token": "0.00000035",
         "output_cost_per_token": "0.00000065",
         "litellm_provider": "openrouter",
         "mode": "chat",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -28704,9 +28760,9 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 131000,
-        "max_input_tokens": 202800,
-        "max_output_tokens": 131000,
+        "max_tokens": 16384,
+        "max_input_tokens": 204800,
+        "max_output_tokens": 16384,
         "input_cost_per_token": "0.00000043",
         "output_cost_per_token": "0.00000175",
         "litellm_provider": "openrouter",
@@ -28714,7 +28770,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/z-ai/glm-4.6"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -28757,16 +28813,17 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 16384,
-        "max_input_tokens": 1048576,
-        "max_output_tokens": 16384,
+        "max_tokens": 131072,
+        "max_input_tokens": 1050000,
+        "max_output_tokens": 131072,
         "input_cost_per_token": "0.000000435",
         "output_cost_per_token": "0.00000087",
         "litellm_provider": "openrouter",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -28775,7 +28832,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
         "max_tokens": 131072,
-        "max_input_tokens": 1048576,
+        "max_input_tokens": 1050000,
         "max_output_tokens": 131072,
         "input_cost_per_token": "0.00000014",
         "output_cost_per_token": "0.00000028",
@@ -28783,7 +28840,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -28791,16 +28849,17 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 64000,
-        "max_input_tokens": 202752,
-        "max_output_tokens": 64000,
+        "max_tokens": 131072,
+        "max_input_tokens": 204800,
+        "max_output_tokens": 131072,
         "input_cost_per_token": "0.0000004",
         "output_cost_per_token": "0.00000175",
         "litellm_provider": "openrouter",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": true
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -28808,16 +28867,17 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 32000,
+        "max_tokens": 117964,
         "max_input_tokens": 200000,
-        "max_output_tokens": 32000,
-        "input_cost_per_token": "0.00000006",
+        "max_output_tokens": 117964,
+        "input_cost_per_token": "0.0000000605",
         "output_cost_per_token": "0.0000004",
         "litellm_provider": "openrouter",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": true
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -28826,7 +28886,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 202752,
+        "max_input_tokens": 204800,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.0000006",
         "output_cost_per_token": "0.00000192",
@@ -28835,7 +28895,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/z-ai/glm-5"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -28843,9 +28903,9 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 65535,
-        "max_input_tokens": 202752,
-        "max_output_tokens": 65535,
+        "max_tokens": 128000,
+        "max_input_tokens": 204800,
+        "max_output_tokens": 128000,
         "input_cost_per_token": "0.000000966",
         "output_cost_per_token": "0.000003036",
         "litellm_provider": "openrouter",
@@ -28853,7 +28913,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/z-ai/glm-5.1"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -28861,16 +28921,17 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 64000,
-        "max_input_tokens": 204000,
-        "max_output_tokens": 64000,
+        "max_tokens": 131072,
+        "max_input_tokens": 204800,
+        "max_output_tokens": 131072,
         "input_cost_per_token": "0.0000003",
         "output_cost_per_token": "0.0000012",
         "litellm_provider": "openrouter",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": true
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -28878,9 +28939,9 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 65536,
-        "max_input_tokens": 196608,
-        "max_output_tokens": 65536,
+        "max_tokens": 128000,
+        "max_input_tokens": 204800,
+        "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000027",
         "output_cost_per_token": "0.00000108",
         "litellm_provider": "openrouter",
@@ -28888,7 +28949,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/minimax/minimax-m2.5"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -28957,7 +29018,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/stealth/union-alpha"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -30377,8 +30438,8 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.000012",
         "litellm_provider": "replicate",
         "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": true,
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
         "supports_vision": true
       }
     },
@@ -30492,12 +30553,12 @@ export const aiModels: AIModels = {
         "max_tokens": null,
         "max_input_tokens": null,
         "max_output_tokens": null,
-        "input_cost_per_token": "0.0000025",
+        "input_cost_per_token": "0.0000003",
         "output_cost_per_token": "0.0000025",
         "litellm_provider": "replicate",
         "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": true,
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
         "supports_vision": true
       }
     },
@@ -34022,7 +34083,7 @@ export const aiModels: AIModels = {
         "max_tokens": 65536,
         "max_input_tokens": 1048576,
         "max_output_tokens": 65536,
-        "input_cost_per_token": "0.0000025",
+        "input_cost_per_token": "0.00000125",
         "output_cost_per_token": "0.00001",
         "litellm_provider": "vercel_ai_gateway",
         "mode": "chat",
@@ -36443,7 +36504,7 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 256000,
+        "max_input_tokens": 262144,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000015",
         "output_cost_per_token": "0.0000006",
@@ -49890,7 +49951,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/anthropic/claude-fable-5"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -49908,7 +49969,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/anthropic/claude-fable-5.1"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -49926,7 +49987,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/anthropic/claude-opus-4.8"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -49944,7 +50005,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/anthropic/claude-sonnet-5"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -49962,7 +50023,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/google/gemini-2.5-flash-lite"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -49970,9 +50031,9 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 65535,
+        "max_tokens": 65536,
         "max_input_tokens": 1048576,
-        "max_output_tokens": 65535,
+        "max_output_tokens": 65536,
         "input_cost_per_token": "0.0000015",
         "output_cost_per_token": "0.000009",
         "litellm_provider": "openrouter",
@@ -49980,7 +50041,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/google/gemini-3.5-flash"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -49998,7 +50059,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/google/gemini-3.5-flash-lite"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -50016,7 +50077,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/google/gemini-3.6-flash"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -50034,7 +50095,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/google/gemini-3.7-flash"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -50052,7 +50113,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/google/gemini-3.8-flash"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -50070,7 +50131,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/openai/gpt-4o-mini"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -50079,7 +50140,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 272000,
+        "max_input_tokens": 400000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000125",
         "output_cost_per_token": "0.00001",
@@ -50088,7 +50149,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/openai/gpt-5.1"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -50097,7 +50158,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 272000,
+        "max_input_tokens": 400000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000175",
         "output_cost_per_token": "0.000014",
@@ -50106,7 +50167,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/openai/gpt-5.3-codex"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -50124,7 +50185,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/openai/gpt-5.4"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -50133,7 +50194,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 272000,
+        "max_input_tokens": 400000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000075",
         "output_cost_per_token": "0.0000045",
@@ -50142,7 +50203,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/openai/gpt-5.4-mini"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -50151,7 +50212,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 272000,
+        "max_input_tokens": 400000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.0000002",
         "output_cost_per_token": "0.00000125",
@@ -50160,7 +50221,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/openai/gpt-5.4-nano"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -50178,7 +50239,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/openai/gpt-5.5"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -50187,7 +50248,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 922000,
+        "max_input_tokens": 1050000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.0000002",
         "output_cost_per_token": "0.0000012",
@@ -50196,7 +50257,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/openai/gpt-5.6-luna"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -50214,7 +50275,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/openai/gpt-5.6-luna-pro"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -50223,7 +50284,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 922000,
+        "max_input_tokens": 1050000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.000002",
         "output_cost_per_token": "0.000012",
@@ -50232,7 +50293,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/openai/gpt-5.6-terra"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -50250,7 +50311,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/openai/gpt-5.6-terra-pro"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -50268,7 +50329,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/openai/o3"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -50286,7 +50347,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/openai/o4-mini"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -50294,9 +50355,9 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 1000000,
-        "max_input_tokens": 1000000,
-        "max_output_tokens": 1000000,
+        "max_tokens": 1800000,
+        "max_input_tokens": 2000000,
+        "max_output_tokens": 1800000,
         "input_cost_per_token": "0.00000125",
         "output_cost_per_token": "0.0000025",
         "litellm_provider": "openrouter",
@@ -50304,7 +50365,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/x-ai/grok-4.20"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -50312,9 +50373,9 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 1000000,
-        "max_input_tokens": 1000000,
-        "max_output_tokens": 1000000,
+        "max_tokens": 1800000,
+        "max_input_tokens": 2000000,
+        "max_output_tokens": 1800000,
         "input_cost_per_token": "0.00000125",
         "output_cost_per_token": "0.0000025",
         "litellm_provider": "openrouter",
@@ -50322,7 +50383,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/x-ai/grok-4.20-multi-agent"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -50330,9 +50391,9 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 1000000,
+        "max_tokens": 900000,
         "max_input_tokens": 1000000,
-        "max_output_tokens": 1000000,
+        "max_output_tokens": 900000,
         "input_cost_per_token": "0.00000125",
         "output_cost_per_token": "0.0000025",
         "litellm_provider": "openrouter",
@@ -50340,7 +50401,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/x-ai/grok-4.3"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -50348,9 +50409,9 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 500000,
+        "max_tokens": 450000,
         "max_input_tokens": 500000,
-        "max_output_tokens": 500000,
+        "max_output_tokens": 450000,
         "input_cost_per_token": "0.000002",
         "output_cost_per_token": "0.000006",
         "litellm_provider": "openrouter",
@@ -50358,7 +50419,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/x-ai/grok-4.5"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -50366,9 +50427,9 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 500000,
+        "max_tokens": 450000,
         "max_input_tokens": 500000,
-        "max_output_tokens": 500000,
+        "max_output_tokens": 450000,
         "input_cost_per_token": "0.000002",
         "output_cost_per_token": "0.000006",
         "litellm_provider": "openrouter",
@@ -50376,7 +50437,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/x-ai/grok-4.6"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -50384,9 +50445,9 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 256000,
+        "max_tokens": 230400,
         "max_input_tokens": 256000,
-        "max_output_tokens": 256000,
+        "max_output_tokens": 230400,
         "input_cost_per_token": "0.000001",
         "output_cost_per_token": "0.000002",
         "litellm_provider": "openrouter",
@@ -50394,7 +50455,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/x-ai/grok-build-0.1"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -50430,7 +50491,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/minimax/minimax-m3"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -50448,7 +50509,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/qwen/qwen3.7-plus"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -50466,7 +50527,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/openai/gpt-6-astra"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -50484,7 +50545,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/openai/gpt-6-astra-pro"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -50502,7 +50563,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/qwen/qwen3.8-flash"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -50520,7 +50581,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/z-ai/glm-5.3-flash"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -50528,17 +50589,17 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 384000,
+        "max_tokens": 943718,
         "max_input_tokens": 1048576,
-        "max_output_tokens": 384000,
-        "input_cost_per_token": "0.00000022",
-        "output_cost_per_token": "0.00000066",
+        "max_output_tokens": 943718,
+        "input_cost_per_token": "0.0000002156",
+        "output_cost_per_token": "0.0000006468",
         "litellm_provider": "openrouter",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/deepseek/deepseek-v4-flash-vision-exp"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -50546,17 +50607,17 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 262144,
+        "max_tokens": 943717,
         "max_input_tokens": 1310720,
-        "max_output_tokens": 262144,
-        "input_cost_per_token": "0.0000014",
-        "output_cost_per_token": "0.0000044",
+        "max_output_tokens": 943717,
+        "input_cost_per_token": "0.00000091",
+        "output_cost_per_token": "0.00000286",
         "litellm_provider": "openrouter",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": false,
-        "source": "https://openrouter.ai/z-ai/glm-5.3"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -50574,7 +50635,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/qwen/qwen3.8-27b"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -50582,9 +50643,9 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 262144,
+        "max_tokens": 131072,
         "max_input_tokens": 1048576,
-        "max_output_tokens": 262144,
+        "max_output_tokens": 131072,
         "input_cost_per_token": "0.000002",
         "output_cost_per_token": "0.000006",
         "litellm_provider": "openrouter",
@@ -50592,7 +50653,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/qwen/qwen3.8-2.4t-a95b"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -50610,7 +50671,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/nvidia/nemotron-3.5-lightning:free"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -50646,7 +50707,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/qwen/qwen3.8-max-0902"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -50664,7 +50725,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": false,
-        "source": "https://openrouter.ai/deepseek/deepseek-v4-flash-0731"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -50682,7 +50743,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/qwen/qwen3.7-flash"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -50700,7 +50761,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/poolside/laguna-s-2.1"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -50718,7 +50779,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/poolside/laguna-s-2.1:free"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -50729,14 +50790,14 @@ export const aiModels: AIModels = {
         "max_tokens": 943718,
         "max_input_tokens": 1048576,
         "max_output_tokens": 943718,
-        "input_cost_per_token": "0.000003",
-        "output_cost_per_token": "0.000015",
+        "input_cost_per_token": "0.0000021",
+        "output_cost_per_token": "0.00001095",
         "litellm_provider": "openrouter",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/moonshotai/kimi-k3"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -50754,7 +50815,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/poolside/laguna-xs-2.1"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -50772,7 +50833,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/poolside/laguna-xs-2.1:free"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -50790,7 +50851,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/google/gemini-3.1-flash-lite-image"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -50808,7 +50869,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/google/gemini-3.1-flash-image"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -50826,7 +50887,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/google/gemini-3-pro-image"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -50837,14 +50898,14 @@ export const aiModels: AIModels = {
         "max_tokens": 131072,
         "max_input_tokens": 1048576,
         "max_output_tokens": 131072,
-        "input_cost_per_token": "0.0000014",
-        "output_cost_per_token": "0.0000044",
+        "input_cost_per_token": "0.0000005544",
+        "output_cost_per_token": "0.0000017424",
         "litellm_provider": "openrouter",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": false,
-        "source": "https://openrouter.ai/z-ai/glm-5.2"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -50852,17 +50913,17 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 230400,
-        "max_input_tokens": 256000,
-        "max_output_tokens": 230400,
+        "max_tokens": 29491,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 29491,
         "input_cost_per_token": "0",
         "output_cost_per_token": "0",
         "litellm_provider": "openrouter",
         "mode": "chat",
-        "supports_function_calling": true,
+        "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/z-ai/glm-5.2:free"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -50880,7 +50941,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://openrouter.ai/moonshotai/kimi-k2.7-code"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -50898,7 +50959,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/nvidia/nemotron-3.5-content-safety"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -50916,7 +50977,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/nvidia/nemotron-3.5-content-safety:free"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -50934,7 +50995,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -50952,7 +51013,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -50988,7 +51049,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/qwen/qwen3.7-max"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -51006,7 +51067,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/mistralai/mistral-medium-3-5"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -51024,7 +51085,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -51042,7 +51103,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/qwen/qwen3.5-plus-20260420"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -51060,7 +51121,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/qwen/qwen3.6-flash"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -51078,7 +51139,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/qwen/qwen3.6-35b-a3b"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -51096,7 +51157,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/qwen/qwen3.6-max-preview"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -51114,7 +51175,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/qwen/qwen3.6-27b"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -51132,7 +51193,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/openai/gpt-5.5-pro"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -51150,7 +51211,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/openai/gpt-chat-latest"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -51161,14 +51222,14 @@ export const aiModels: AIModels = {
         "max_tokens": 384000,
         "max_input_tokens": 1048576,
         "max_output_tokens": 384000,
-        "input_cost_per_token": "0.0000000854",
-        "output_cost_per_token": "0.0000001708",
+        "input_cost_per_token": "0.00000004984",
+        "output_cost_per_token": "0.00000009968",
         "litellm_provider": "openrouter",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -51186,7 +51247,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://openrouter.ai/moonshotai/kimi-k2.6"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -51194,9 +51255,9 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 16384,
+        "max_tokens": 235929,
         "max_input_tokens": 262144,
-        "max_output_tokens": 16384,
+        "max_output_tokens": 235929,
         "input_cost_per_token": "0.00000009",
         "output_cost_per_token": "0.0000003",
         "litellm_provider": "openrouter",
@@ -51204,7 +51265,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/google/gemma-4-26b-a4b-it"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -51222,7 +51283,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/google/gemma-4-26b-a4b-it:free"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -51240,7 +51301,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/google/gemma-4-31b-it"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -51258,7 +51319,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/google/gemma-4-31b-it:free"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -51276,7 +51337,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/z-ai/glm-5v-turbo"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -51294,7 +51355,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/minimax/minimax-m2.7"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -51330,7 +51391,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/mistralai/mistral-small-2603"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -51348,7 +51409,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/z-ai/glm-5-turbo"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -51356,17 +51417,17 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 16384,
-        "max_input_tokens": 1000000,
-        "max_output_tokens": 16384,
-        "input_cost_per_token": "0.000000085",
-        "output_cost_per_token": "0.0000004",
+        "max_tokens": 235929,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 235929,
+        "input_cost_per_token": "0.00000008",
+        "output_cost_per_token": "0.00000045",
         "litellm_provider": "openrouter",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -51384,7 +51445,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b:free"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -51402,7 +51463,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/qwen/qwen3.5-9b"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -51420,7 +51481,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/openai/gpt-5.4-pro"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -51438,7 +51499,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/google/gemini-3.1-flash-image-preview"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -51456,7 +51517,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/google/gemini-3.1-pro-preview-customtools"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -51474,7 +51535,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/qwen/qwen3-max-thinking"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -51492,7 +51553,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/qwen/qwen3-coder-next"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -51510,7 +51571,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/minimax/minimax-m2-her"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -51528,7 +51589,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/openai/gpt-audio"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -51546,7 +51607,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/openai/gpt-audio-mini"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -51557,14 +51618,14 @@ export const aiModels: AIModels = {
         "max_tokens": 235929,
         "max_input_tokens": 262144,
         "max_output_tokens": 235929,
-        "input_cost_per_token": "0.00000005",
-        "output_cost_per_token": "0.0000002",
+        "input_cost_per_token": "0.00000006",
+        "output_cost_per_token": "0.00000024",
         "litellm_provider": "openrouter",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/nvidia/nemotron-3-nano-30b-a3b"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -51582,7 +51643,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/z-ai/glm-4.6v"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -51600,7 +51661,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/google/gemini-3-pro-image-preview"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -51618,7 +51679,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/openai/gpt-5.1-codex"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -51636,7 +51697,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/openai/gpt-5.1-codex-mini"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -51644,9 +51705,9 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 100352,
+        "max_tokens": 98304,
         "max_input_tokens": 262144,
-        "max_output_tokens": 100352,
+        "max_output_tokens": 98304,
         "input_cost_per_token": "0.0000006",
         "output_cost_per_token": "0.0000025",
         "litellm_provider": "openrouter",
@@ -51654,7 +51715,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/moonshotai/kimi-k2-thinking"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -51672,7 +51733,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/mistralai/voxtral-small-24b-2507"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -51690,7 +51751,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/openai/gpt-oss-safeguard-20b"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -51708,7 +51769,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/qwen/qwen3-vl-32b-instruct"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -51726,7 +51787,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/qwen/qwen3-vl-8b-thinking"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -51744,7 +51805,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/qwen/qwen3-vl-8b-instruct"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -51762,7 +51823,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/google/gemini-2.5-flash-image"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -51780,7 +51841,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/qwen/qwen3-vl-30b-a3b-thinking"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -51788,9 +51849,9 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 16384,
+        "max_tokens": 32768,
         "max_input_tokens": 262144,
-        "max_output_tokens": 16384,
+        "max_output_tokens": 32768,
         "input_cost_per_token": "0.00000013",
         "output_cost_per_token": "0.00000052",
         "litellm_provider": "openrouter",
@@ -51798,7 +51859,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/qwen/qwen3-vl-30b-a3b-instruct"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -51816,7 +51877,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/openai/gpt-5-pro"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -51834,7 +51895,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/qwen/qwen3-vl-235b-a22b-thinking"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -51852,7 +51913,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/qwen/qwen3-vl-235b-a22b-instruct"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -51870,7 +51931,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/qwen/qwen3-max"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -51888,7 +51949,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/deepseek/deepseek-v3.1-terminus"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -51906,7 +51967,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/qwen/qwen3-coder-flash"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -51924,7 +51985,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/qwen/qwen3-next-80b-a3b-thinking"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -51932,9 +51993,9 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 235929,
+        "max_tokens": 16384,
         "max_input_tokens": 262144,
-        "max_output_tokens": 235929,
+        "max_output_tokens": 16384,
         "input_cost_per_token": "0.00000009",
         "output_cost_per_token": "0.0000011",
         "litellm_provider": "openrouter",
@@ -51942,7 +52003,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/qwen/qwen3-next-80b-a3b-instruct"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -51960,7 +52021,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/qwen/qwen-plus-2025-07-28"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -51968,9 +52029,9 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 100352,
+        "max_tokens": 98304,
         "max_input_tokens": 262144,
-        "max_output_tokens": 100352,
+        "max_output_tokens": 98304,
         "input_cost_per_token": "0.0000006",
         "output_cost_per_token": "0.0000025",
         "litellm_provider": "openrouter",
@@ -51978,7 +52039,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/moonshotai/kimi-k2-0905"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -51996,7 +52057,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/qwen/qwen3-30b-a3b-thinking-2507"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -52014,7 +52075,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/mistralai/mistral-medium-3.1"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -52032,7 +52093,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/z-ai/glm-4.5v"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -52050,7 +52111,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/mistralai/codestral-2508"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -52068,7 +52129,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/qwen/qwen3-coder-30b-a3b-instruct"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -52086,7 +52147,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/qwen/qwen3-30b-a3b-instruct-2507"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -52104,7 +52165,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/z-ai/glm-4.5"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -52122,7 +52183,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/z-ai/glm-4.5-air"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -52130,9 +52191,9 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 100352,
+        "max_tokens": 98304,
         "max_input_tokens": 131072,
-        "max_output_tokens": 100352,
+        "max_output_tokens": 98304,
         "input_cost_per_token": "0.00000057",
         "output_cost_per_token": "0.0000023",
         "litellm_provider": "openrouter",
@@ -52140,7 +52201,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/moonshotai/kimi-k2"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -52158,7 +52219,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/minimax/minimax-m1"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -52176,7 +52237,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/openai/o3-pro"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -52194,7 +52255,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/google/gemini-2.5-pro-preview"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -52212,7 +52273,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/mistralai/mistral-medium-3"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -52248,7 +52309,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/meta-llama/llama-guard-4-12b"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -52266,7 +52327,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/qwen/qwen3-30b-a3b"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -52284,7 +52345,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/qwen/qwen3-8b"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -52302,7 +52363,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/qwen/qwen3-14b"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -52320,7 +52381,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/qwen/qwen3-32b"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -52338,7 +52399,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/qwen/qwen3-235b-a22b"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -52356,7 +52417,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/openai/o4-mini-high"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -52364,9 +52425,9 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 115200,
+        "max_tokens": 16384,
         "max_input_tokens": 1048576,
-        "max_output_tokens": 115200,
+        "max_output_tokens": 16384,
         "input_cost_per_token": "0.0000001875",
         "output_cost_per_token": "0.0000006525",
         "litellm_provider": "openrouter",
@@ -52374,7 +52435,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/meta-llama/llama-4-maverick"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -52392,7 +52453,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/meta-llama/llama-4-scout"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -52410,7 +52471,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/openai/o1-pro"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -52428,7 +52489,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/google/gemma-3-4b-it"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -52446,7 +52507,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/google/gemma-3-12b-it"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -52464,7 +52525,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/google/gemma-3-27b-it"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -52482,7 +52543,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/mistralai/mistral-saba"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -52500,7 +52561,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/qwen/qwen2.5-vl-72b-instruct"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -52518,7 +52579,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/qwen/qwen-plus"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -52536,7 +52597,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/mistralai/mistral-small-24b-instruct-2501"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -52554,7 +52615,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/deepseek/deepseek-r1-distill-llama-70b"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -52572,7 +52633,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/minimax/minimax-01"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -52590,7 +52651,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/meta-llama/llama-3.3-70b-instruct"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -52608,7 +52669,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/openai/gpt-4o-2024-11-20"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -52626,7 +52687,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/mistralai/mistral-large-2407"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -52644,7 +52705,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/qwen/qwen-2.5-7b-instruct"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -52662,7 +52723,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/meta-llama/llama-3.2-1b-instruct"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -52680,7 +52741,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/meta-llama/llama-3.2-3b-instruct"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -52698,7 +52759,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/qwen/qwen-2.5-72b-instruct"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -52716,7 +52777,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/openai/gpt-4o-2024-08-06"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -52734,7 +52795,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/meta-llama/llama-3.1-70b-instruct"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -52752,7 +52813,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/meta-llama/llama-3.1-8b-instruct"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -52770,7 +52831,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/mistralai/mistral-nemo"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -52788,7 +52849,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/openai/gpt-4o-mini-2024-07-18"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -52806,7 +52867,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/google/gemma-2-27b-it"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -52824,7 +52885,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://openrouter.ai/openai/gpt-4-turbo"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -52860,7 +52921,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/openai/gpt-3.5-turbo-instruct"
+        "source": "https://openrouter.ai/api/v1/models"
       }
     },
     {
@@ -55562,6 +55623,3444 @@ export const aiModels: AIModels = {
         "supports_vision": false,
         "source": "https://wandb.ai/site/pricing/tokens/"
       }
+    },
+    {
+      "name": "openrouter/~anthropic/claude-fable-latest",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00001",
+        "output_cost_per_token": "0.00005",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/~anthropic/claude-haiku-latest",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 64000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 64000,
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.000005",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/~anthropic/claude-opus-latest",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000005",
+        "output_cost_per_token": "0.000025",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/~anthropic/claude-sonnet-latest",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.00001",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/~deepseek/deepseek-flash-latest",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 393216,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 393216,
+        "input_cost_per_token": "0.00000014",
+        "output_cost_per_token": "0.00000042",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/~deepseek/deepseek-pro-latest",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 393216,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 393216,
+        "input_cost_per_token": "0.00000057816",
+        "output_cost_per_token": "0.00000173448",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/~deepseek/deepseek-v4-flash-latest",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 393216,
+        "max_input_tokens": 1310720,
+        "max_output_tokens": 393216,
+        "input_cost_per_token": "0.000000055",
+        "output_cost_per_token": "0.000000165",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/~google/gemini-flash-latest",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.00000075",
+        "output_cost_per_token": "0.00000375",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/~google/gemini-pro-latest",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000012",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/~moonshotai/kimi-latest",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 943718,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 943718,
+        "input_cost_per_token": "0.0000021",
+        "output_cost_per_token": "0.00001095",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/~openai/gpt-astra-latest",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1050000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00001",
+        "output_cost_per_token": "0.00005",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/~openai/gpt-luna-latest",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1050000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/~openai/gpt-mini-latest",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 400000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000075",
+        "output_cost_per_token": "0.0000045",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/~openai/gpt-sol-latest",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1050000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.00001",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/~openai/gpt-terra-latest",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1050000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000012",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/~x-ai/grok-latest",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 450000,
+        "max_input_tokens": 500000,
+        "max_output_tokens": 450000,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000006",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/~z-ai/glm-flash-latest",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 1310720,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.000000075",
+        "output_cost_per_token": "0.00000025",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/~z-ai/glm-latest",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 235929,
+        "max_input_tokens": 1310720,
+        "max_output_tokens": 235929,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.000002805",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/aion-labs/aion-2.0",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000008",
+        "output_cost_per_token": "0.0000016",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/aion-labs/aion-3.0",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.000003",
+        "output_cost_per_token": "0.000006",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/aion-labs/aion-3.0-mini",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000007",
+        "output_cost_per_token": "0.0000014",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/aion-labs/aion-rp-llama-3.1-8b",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 29491,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 29491,
+        "input_cost_per_token": "0.0000008",
+        "output_cost_per_token": "0.0000016",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/amazon/nova-2-lite-v1",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 65535,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 65535,
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.0000025",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/amazon/nova-lite-v1",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 5120,
+        "max_input_tokens": 300000,
+        "max_output_tokens": 5120,
+        "input_cost_per_token": "0.00000006",
+        "output_cost_per_token": "0.00000024",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/amazon/nova-micro-v1",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 5120,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 5120,
+        "input_cost_per_token": "0.000000035",
+        "output_cost_per_token": "0.00000014",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/amazon/nova-premier-v1",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 32000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 32000,
+        "input_cost_per_token": "0.0000025",
+        "output_cost_per_token": "0.0000125",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/amazon/nova-pro-v1",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 5120,
+        "max_input_tokens": 300000,
+        "max_output_tokens": 5120,
+        "input_cost_per_token": "0.0000008",
+        "output_cost_per_token": "0.0000032",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/anthracite-org/magnum-v4-72b",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.0000025",
+        "output_cost_per_token": "0.000005",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/anthropic/claude-fable-5:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000005",
+        "output_cost_per_token": "0.000025",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/anthropic/claude-fable-5.1:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000005",
+        "output_cost_per_token": "0.000025",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/anthropic/claude-haiku-4.5:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 64000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 64000,
+        "input_cost_per_token": "0.0000005",
+        "output_cost_per_token": "0.0000025",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/anthropic/claude-opus-4.1:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 32000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 32000,
+        "input_cost_per_token": "0.0000075",
+        "output_cost_per_token": "0.0000375",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/anthropic/claude-opus-4.5:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 64000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 64000,
+        "input_cost_per_token": "0.0000025",
+        "output_cost_per_token": "0.0000125",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/anthropic/claude-opus-4.6:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000025",
+        "output_cost_per_token": "0.0000125",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/anthropic/claude-opus-4.7:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000025",
+        "output_cost_per_token": "0.0000125",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/anthropic/claude-opus-4.8:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000025",
+        "output_cost_per_token": "0.0000125",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/anthropic/claude-opus-5:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000025",
+        "output_cost_per_token": "0.0000125",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/anthropic/claude-sonnet-4.5:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 64000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 64000,
+        "input_cost_per_token": "0.0000015",
+        "output_cost_per_token": "0.0000075",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/anthropic/claude-sonnet-4.6:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000015",
+        "output_cost_per_token": "0.0000075",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/anthropic/claude-sonnet-5:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.000005",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/arcee-ai/trinity-large-thinking",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 80000,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 80000,
+        "input_cost_per_token": "0.00000025",
+        "output_cost_per_token": "0.0000008",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/baidu/ernie-4.5-vl-424b-a47b",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 16000,
+        "max_input_tokens": 123000,
+        "max_output_tokens": 16000,
+        "input_cost_per_token": "0.00000042",
+        "output_cost_per_token": "0.00000125",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/bytedance-seed/seed-1.6",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.00000025",
+        "output_cost_per_token": "0.000002",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/bytedance-seed/seed-1.6-flash",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.000000075",
+        "output_cost_per_token": "0.0000003",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/bytedance-seed/seed-2-1-turbo",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 235929,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 235929,
+        "input_cost_per_token": "0.0000005",
+        "output_cost_per_token": "0.0000025",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/bytedance-seed/seed-2.0-code",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000005",
+        "output_cost_per_token": "0.000003",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/bytedance-seed/seed-2.0-lite",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.00000025",
+        "output_cost_per_token": "0.000002",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/bytedance-seed/seed-2.0-mini",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000004",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/cognitivecomputations/dolphin-mistral-24b-venice-edition",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/cohere/command-a",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 256000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0000025",
+        "output_cost_per_token": "0.00001",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/cohere/command-r-08-2024",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 4000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 4000,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.0000006",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/cohere/command-r-plus-08-2024",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 4000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 4000,
+        "input_cost_per_token": "0.0000025",
+        "output_cost_per_token": "0.00001",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/cohere/command-r7b-12-2024",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 4000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 4000,
+        "input_cost_per_token": "0.0000000375",
+        "output_cost_per_token": "0.00000015",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/cohere/north-mini-code:free",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 64000,
+        "max_input_tokens": 256000,
+        "max_output_tokens": 64000,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/deepseek/deepseek-v4-flash-0731:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 943718,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 943718,
+        "input_cost_per_token": "0.00000011",
+        "output_cost_per_token": "0.00000033",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/deepseek/deepseek-v4-flash-0731:free",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 393216,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 393216,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/deepseek/deepseek-v4-flash-vision-exp:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 943718,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 943718,
+        "input_cost_per_token": "0.00000011",
+        "output_cost_per_token": "0.00000033",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/deepseek/deepseek-v4-pro-0813:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 943718,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 943718,
+        "input_cost_per_token": "0.00000066",
+        "output_cost_per_token": "0.00000198",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/dots-studio/dots-3-note-preview:free",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 460800,
+        "max_input_tokens": 512000,
+        "max_output_tokens": 460800,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/google/gemini-2.5-flash-lite:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 65535,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65535,
+        "input_cost_per_token": "0.00000005",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/google/gemini-2.5-flash:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 65535,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65535,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.00000125",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/google/gemini-2.5-pro:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.000000625",
+        "output_cost_per_token": "0.000005",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/google/gemini-3-flash-preview:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.00000025",
+        "output_cost_per_token": "0.0000015",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/google/gemini-3.1-flash-lite:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.000000125",
+        "output_cost_per_token": "0.00000075",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/google/gemini-3.1-pro-preview:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.000006",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/google/gemini-3.5-flash-lite:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.00000125",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/google/gemini-3.5-flash:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.00000075",
+        "output_cost_per_token": "0.0000045",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/google/gemini-3.6-flash:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.000000375",
+        "output_cost_per_token": "0.000001875",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/google/gemini-3.7-flash:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.000000375",
+        "output_cost_per_token": "0.000001875",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/google/gemini-3.8-flash:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.000000375",
+        "output_cost_per_token": "0.000001875",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/ibm-granite/granite-4.0-h-micro",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 117900,
+        "max_input_tokens": 131000,
+        "max_output_tokens": 117900,
+        "input_cost_per_token": "0.000000017",
+        "output_cost_per_token": "0.000000112",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/ibm-granite/granite-4.2-8b",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 117964,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 117964,
+        "input_cost_per_token": "0.00000006",
+        "output_cost_per_token": "0.00000025",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/inception/mercury-2",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 50000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 50000,
+        "input_cost_per_token": "0.00000025",
+        "output_cost_per_token": "0.00000075",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/inception/mercury-2.5",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 260000,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.00000004",
+        "output_cost_per_token": "0.00000015",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/inclusionai/ling-3.0-flash",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.000000021",
+        "output_cost_per_token": "0.000000063",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/inclusionai/ling-3.0-flash-fin",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 235929,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 235929,
+        "input_cost_per_token": "0.00000006",
+        "output_cost_per_token": "0.00000018",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/inclusionai/ling-3.0-flash-fin:free",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/inclusionai/ling-3.0-flash-sante:free",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/inclusionai/ling-3.0-flash-vl",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.00000006",
+        "output_cost_per_token": "0.00000018",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/inclusionai/ling-3.0-flash-vl:free",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/inference-net/schematron-v2-small",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.00000005",
+        "output_cost_per_token": "0.00000023",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/inference-net/schematron-v2-turbo",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.00000003",
+        "output_cost_per_token": "0.00000015",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/kwaipilot/kat-coder-pro-v2",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 144000,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 144000,
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/kwaipilot/kat-coder-pro-v2.5",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 235929,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 235929,
+        "input_cost_per_token": "0.00000074",
+        "output_cost_per_token": "0.00000296",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/liquid/lfm-2.5-2.6b:free",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 65536,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/meituan/longcat-2.0",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 1048756,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/meta/muse-glimmer-30b",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 117964,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 117964,
+        "input_cost_per_token": "0.00000035",
+        "output_cost_per_token": "0.0000015",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/meta/muse-glimmer-30b:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 117964,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 117964,
+        "input_cost_per_token": "0.000000175",
+        "output_cost_per_token": "0.00000075",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/meta/muse-spark-1.1",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 943718,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 943718,
+        "input_cost_per_token": "0.00000125",
+        "output_cost_per_token": "0.00000425",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/meta/muse-spark-1.2",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 943718,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 943718,
+        "input_cost_per_token": "0.00000125",
+        "output_cost_per_token": "0.00000425",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/meta/muse-spark-1.2-contributor",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 943718,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 943718,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/meta/muse-spark-1.3",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 943718,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 943718,
+        "input_cost_per_token": "0.00000125",
+        "output_cost_per_token": "0.00000425",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/meta/muse-spark-1.3-contributor",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 943718,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 943718,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/microsoft/phi-4",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 14745,
+        "max_input_tokens": 16384,
+        "max_output_tokens": 14745,
+        "input_cost_per_token": "0.00000007",
+        "output_cost_per_token": "0.00000014",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/microsoft/wizardlm-2-8x22b",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 8000,
+        "max_input_tokens": 65535,
+        "max_output_tokens": 8000,
+        "input_cost_per_token": "0.00000062",
+        "output_cost_per_token": "0.00000062",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/minimax/minimax-m3:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 471859,
+        "max_input_tokens": 524288,
+        "max_output_tokens": 471859,
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/mistralai/codestral-2508:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 204800,
+        "max_input_tokens": 256000,
+        "max_output_tokens": 204800,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.00000045",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/mistralai/ministral-8b-2512:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 209715,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 209715,
+        "input_cost_per_token": "0.000000075",
+        "output_cost_per_token": "0.000000075",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/mistralai/mistral-large-2512:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 209715,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 209715,
+        "input_cost_per_token": "0.00000025",
+        "output_cost_per_token": "0.00000075",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/mistralai/mistral-medium-3-5:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 209715,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 209715,
+        "input_cost_per_token": "0.00000075",
+        "output_cost_per_token": "0.00000375",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/mistralai/mistral-medium-3.1:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 104857,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 104857,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.000001",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/mistralai/mistral-small-2603:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 209715,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 209715,
+        "input_cost_per_token": "0.000000075",
+        "output_cost_per_token": "0.0000003",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/moonshotai/kimi-k3:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 943718,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 943718,
+        "input_cost_per_token": "0.000003",
+        "output_cost_per_token": "0.000015",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/morph/morph-v3-fast",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 38000,
+        "max_input_tokens": 81920,
+        "max_output_tokens": 38000,
+        "input_cost_per_token": "0.0000008",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/morph/morph-v3-large",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000019",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/nex-agi/nex-n2.5-mini:free",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 235929,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 235929,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/nex-agi/nex-n2.5-pro:free",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 235929,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 235929,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/nousresearch/hermes-3-llama-3.1-405b",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.000001",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/nousresearch/hermes-3-llama-3.1-70b",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.0000007",
+        "output_cost_per_token": "0.0000007",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/nousresearch/hermes-4-405b",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 117964,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 117964,
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.000003",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/openai/gpt-3.5-turbo-0613",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 3685,
+        "max_input_tokens": 4095,
+        "max_output_tokens": 3685,
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.000002",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/openai/gpt-3.5-turbo:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 16385,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.00000025",
+        "output_cost_per_token": "0.00000075",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/openai/gpt-4-turbo:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.000005",
+        "output_cost_per_token": "0.000015",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/openai/gpt-4.1-mini:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 1047576,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000008",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/openai/gpt-4.1-nano:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 1047576,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.00000005",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/openai/gpt-4.1:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 1047576,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.000004",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/openai/gpt-4o-mini:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.000000075",
+        "output_cost_per_token": "0.0000003",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/openai/gpt-4o:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.00000125",
+        "output_cost_per_token": "0.000005",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/openai/gpt-5-image",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 400000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00001",
+        "output_cost_per_token": "0.00001",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/openai/gpt-5-image-mini",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 400000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000025",
+        "output_cost_per_token": "0.000002",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/openai/gpt-5-mini:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 400000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000000125",
+        "output_cost_per_token": "0.000001",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/openai/gpt-5-nano:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 400000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000000025",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/openai/gpt-5-pro:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 400000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000075",
+        "output_cost_per_token": "0.00006",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/openai/gpt-5:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 400000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000000625",
+        "output_cost_per_token": "0.000005",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/openai/gpt-5.1:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 400000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000000625",
+        "output_cost_per_token": "0.000005",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/openai/gpt-5.2-pro:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 400000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000105",
+        "output_cost_per_token": "0.000084",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/openai/gpt-5.2:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 400000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000000875",
+        "output_cost_per_token": "0.000007",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/openai/gpt-5.4-image-2",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000008",
+        "output_cost_per_token": "0.000015",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/openai/gpt-5.4-mini:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 400000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000000375",
+        "output_cost_per_token": "0.00000225",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/openai/gpt-5.4-nano:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 400000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.000000625",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/openai/gpt-5.4-pro:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1050000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000015",
+        "output_cost_per_token": "0.00009",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/openai/gpt-5.4:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1050000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000125",
+        "output_cost_per_token": "0.0000075",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/openai/gpt-5.5-pro:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1050000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000015",
+        "output_cost_per_token": "0.00009",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/openai/gpt-5.5:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1050000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000025",
+        "output_cost_per_token": "0.000015",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/openai/gpt-5.6-luna-pro:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1050000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000006",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/openai/gpt-5.6-luna:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1050000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000006",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/openai/gpt-5.6-sol-pro:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1050000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.000005",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/openai/gpt-5.6-sol:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1050000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.000005",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/openai/gpt-5.6-terra-pro:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1050000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.000006",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/openai/gpt-5.6-terra:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1050000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.000006",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/openai/gpt-6-astra-pro:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1050000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000005",
+        "output_cost_per_token": "0.000025",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/openai/gpt-6-astra:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1050000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000005",
+        "output_cost_per_token": "0.000025",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/openai/gpt-oss-120b:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 117964,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 117964,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.0000006",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/openai/o3-mini:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 100000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 100000,
+        "input_cost_per_token": "0.00000055",
+        "output_cost_per_token": "0.0000022",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/openai/o3:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 100000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 100000,
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.000004",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/openai/o4-mini:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 100000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 100000,
+        "input_cost_per_token": "0.00000055",
+        "output_cost_per_token": "0.0000022",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/perceptron/perceptron-mk1",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.0000015",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/perplexity/sonar",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 114364,
+        "max_input_tokens": 127072,
+        "max_output_tokens": 114364,
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.000001",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/perplexity/sonar-deep-research",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 115200,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 115200,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000008",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/perplexity/sonar-pro",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 8000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 8000,
+        "input_cost_per_token": "0.000003",
+        "output_cost_per_token": "0.000015",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/perplexity/sonar-pro-search",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 8000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 8000,
+        "input_cost_per_token": "0.000003",
+        "output_cost_per_token": "0.000015",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/perplexity/sonar-reasoning-pro",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 115200,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 115200,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000008",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/qwen/qwen3.5-9b:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 235929,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 235929,
+        "input_cost_per_token": "0.00000017",
+        "output_cost_per_token": "0.00000025",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/qwen/qwen3.8-2.4t-a95b:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 909000,
+        "max_input_tokens": 1010000,
+        "max_output_tokens": 909000,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000006",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/qwen/qwen3.8-27b:free",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 235929,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 235929,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/rekaai/reka-edge",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 14745,
+        "max_input_tokens": 16384,
+        "max_output_tokens": 14745,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000001",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/rekaai/reka-flash-3",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 58982,
+        "max_input_tokens": 65536,
+        "max_output_tokens": 58982,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/relace/relace-apply-3",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 256000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000085",
+        "output_cost_per_token": "0.00000125",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/relace/relace-search",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 256000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.000003",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/sakana/fugu-max",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000006",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/sakana/fugu-ultra",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000005",
+        "output_cost_per_token": "0.00003",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/sakana/fugu-ultra-v2",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000005",
+        "output_cost_per_token": "0.00003",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/sakana/sakana-namazu",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.00000095",
+        "output_cost_per_token": "0.000004",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/sao10k/l3-lunaris-8b",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 7372,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 7372,
+        "input_cost_per_token": "0.00000004",
+        "output_cost_per_token": "0.00000005",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/sao10k/l3.1-euryale-70b",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.00000085",
+        "output_cost_per_token": "0.00000085",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/sao10k/l3.3-euryale-70b",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.00000065",
+        "output_cost_per_token": "0.00000075",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/stepfun/step-3.5-flash",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000003",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/stepfun/step-3.7-flash",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 230400,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 230400,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.00000115",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/tencent/hunyuan-a13b-instruct",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 117964,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 117964,
+        "input_cost_per_token": "0.00000014",
+        "output_cost_per_token": "0.00000057",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/tencent/hy-mt2-1.8b",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.000000044",
+        "output_cost_per_token": "0.000000177",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/tencent/hy-mt2-30b-a3b",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.000000074",
+        "output_cost_per_token": "0.000000295",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/tencent/hy-mt2-7b",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.000000074",
+        "output_cost_per_token": "0.000000295",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/tencent/hy3",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000000825",
+        "output_cost_per_token": "0.00000033",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/tencent/hy3-preview",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 235929,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 235929,
+        "input_cost_per_token": "0.00000018",
+        "output_cost_per_token": "0.0000006",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/tencent/hy4-preview",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 64000,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 64000,
+        "input_cost_per_token": "0.000000834",
+        "output_cost_per_token": "0.000002501",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/thedrummer/cydonia-24b-v4.1",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 117964,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 117964,
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.0000005",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/thedrummer/skyfall-36b-v2",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 29491,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 29491,
+        "input_cost_per_token": "0.00000055",
+        "output_cost_per_token": "0.0000008",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/thedrummer/unslopnemo-12b",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 819200,
+        "max_input_tokens": 1024000,
+        "max_output_tokens": 819200,
+        "input_cost_per_token": "0.0000004",
+        "output_cost_per_token": "0.0000004",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/thinkingmachines/inkling",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 471859,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 471859,
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.00000405",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/thinkingmachines/inkling-small",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.00000045",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/thinkingmachines/inkling-small:free",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/thinkingmachines/inkling:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 471859,
+        "max_input_tokens": 524288,
+        "max_output_tokens": 471859,
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.00000405",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/thinkingmachines/inkling:free",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/unbiased/pareto",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000025",
+        "output_cost_per_token": "0.0000075",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/upstage/solar-pro-3",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 117964,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 117964,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.0000006",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/upstage/solar-pro4",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 524288,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.00000009",
+        "output_cost_per_token": "0.00000036",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/writer/palmyra-x5",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 1040000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0000006",
+        "output_cost_per_token": "0.000006",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/x-ai/grok-4.3:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 900000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 900000,
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.000002",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/z-ai/glm-5.2:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 943718,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 943718,
+        "input_cost_per_token": "0.0000007",
+        "output_cost_per_token": "0.0000022",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/z-ai/glm-5.3-flash:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 943718,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 943718,
+        "input_cost_per_token": "0.000000075",
+        "output_cost_per_token": "0.00000025",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/z-ai/glm-5.3:batch",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 943718,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 943718,
+        "input_cost_per_token": "0.0000007",
+        "output_cost_per_token": "0.0000022",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
     }
   ],
   "embedding": [
@@ -56229,8 +59728,8 @@ export const aiModels: AIModels = {
       "provider": "cohere",
       "logo": "/logos/cohere.svg",
       "sample_spec": {
-        "max_tokens": 1024,
-        "max_input_tokens": 1024,
+        "max_tokens": 512,
+        "max_input_tokens": 512,
         "max_output_tokens": null,
         "input_cost_per_token": "0.0000001",
         "output_cost_per_token": "0",
@@ -56263,8 +59762,8 @@ export const aiModels: AIModels = {
       "provider": "cohere",
       "logo": "/logos/cohere.svg",
       "sample_spec": {
-        "max_tokens": 1024,
-        "max_input_tokens": 1024,
+        "max_tokens": 512,
+        "max_input_tokens": 512,
         "max_output_tokens": null,
         "input_cost_per_token": "0.0000001",
         "output_cost_per_token": "0",
@@ -56297,8 +59796,8 @@ export const aiModels: AIModels = {
       "provider": "cohere",
       "logo": "/logos/cohere.svg",
       "sample_spec": {
-        "max_tokens": 1024,
-        "max_input_tokens": 1024,
+        "max_tokens": 512,
+        "max_input_tokens": 512,
         "max_output_tokens": null,
         "input_cost_per_token": "0.0000001",
         "output_cost_per_token": "0",
@@ -56314,8 +59813,8 @@ export const aiModels: AIModels = {
       "provider": "cohere",
       "logo": "/logos/cohere.svg",
       "sample_spec": {
-        "max_tokens": 1024,
-        "max_input_tokens": 1024,
+        "max_tokens": 512,
+        "max_input_tokens": 512,
         "max_output_tokens": null,
         "input_cost_per_token": "0.0001",
         "output_cost_per_token": "0",
@@ -59306,6 +62805,24 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://ai.azure.com/explore/models/flux.2-pro/version/1/registry/azureml-blackforestlabs"
+      }
+    },
+    {
+      "name": "azure_ai/FLUX.2-flex",
+      "provider": "azure_ai",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 32000,
+        "max_input_tokens": 32000,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "azure_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://azure.microsoft.com/en-us/pricing/details/ai-foundry-models/black-forest-labs/"
       }
     },
     {
@@ -64734,6 +68251,114 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "deepgram/streaming/nova-3",
+      "provider": "deepgram",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "deepgram",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://deepgram.com/pricing"
+      }
+    },
+    {
+      "name": "deepgram/streaming/nova-3-multilingual",
+      "provider": "deepgram",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "deepgram",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://deepgram.com/pricing"
+      }
+    },
+    {
+      "name": "deepgram/streaming/redact",
+      "provider": "deepgram",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "deepgram",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://deepgram.com/pricing"
+      }
+    },
+    {
+      "name": "deepgram/streaming/keyterm",
+      "provider": "deepgram",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "deepgram",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://deepgram.com/pricing"
+      }
+    },
+    {
+      "name": "deepgram/streaming/detect_entities",
+      "provider": "deepgram",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "deepgram",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://deepgram.com/pricing"
+      }
+    },
+    {
+      "name": "deepgram/streaming/diarize",
+      "provider": "deepgram",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "deepgram",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://deepgram.com/pricing"
+      }
+    },
+    {
       "name": "deepgram/whisper",
       "provider": "deepgram",
       "logo": "/placeholder.svg?height=30&width=30",
@@ -64981,6 +68606,24 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://docs.mistral.ai/models/model-cards/voxtral-mini-transcribe-realtime-26-02"
+      }
+    },
+    {
+      "name": "transcribe/StartTranscriptionJob",
+      "provider": "transcribe",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "transcribe",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://aws.amazon.com/transcribe/pricing/"
       }
     },
     {
