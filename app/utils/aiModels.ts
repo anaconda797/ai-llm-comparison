@@ -5578,7 +5578,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/retired-models"
       }
     },
     {
@@ -5596,7 +5597,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://marketplace.microsoft.com/en-us/marketplace/apps/metagenai.meta-llama-3-1-70b-instruct-offer?tab=PlansAndPrice"
+        "source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/retired-models"
       }
     },
     {
@@ -5614,7 +5615,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'"
+        "source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/retired-models"
       }
     },
     {
@@ -5632,7 +5633,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'"
+        "source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/retired-models"
       }
     },
     {
@@ -5650,7 +5651,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'"
+        "source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/retired-models"
       }
     },
     {
@@ -5668,7 +5669,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'"
+        "source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/retired-models"
       }
     },
     {
@@ -5686,7 +5687,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'"
+        "source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/retired-models"
       }
     },
     {
@@ -5704,7 +5705,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'"
+        "source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/retired-models"
       }
     },
     {
@@ -5722,7 +5723,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'"
+        "source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/retired-models"
       }
     },
     {
@@ -5740,7 +5741,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'"
+        "source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/retired-models"
       }
     },
     {
@@ -5758,7 +5759,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'"
+        "source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/retired-models"
       }
     },
     {
@@ -5884,7 +5885,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'"
+        "source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/retired-models"
       }
     },
     {
@@ -5938,7 +5939,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'"
+        "source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/retired-models"
       }
     },
     {
@@ -6154,7 +6155,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://ai.azure.com/catalog/models/jais-30b-chat"
+        "source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/retired-models"
       }
     },
     {
@@ -6242,7 +6243,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/retired-models"
       }
     },
     {
@@ -6260,7 +6262,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://marketplace.microsoft.com/en/marketplace/apps/000-000.mistral-ai-large-2407-offer?tab=Overview"
+        "source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/retired-models"
       }
     },
     {
@@ -6331,7 +6333,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://marketplace.microsoft.com/en/marketplace/apps/000-000.mistral-nemo-12b-2407?tab=PlansAndPrice"
+        "source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/retired-models"
       }
     },
     {
@@ -6348,7 +6350,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/retired-models"
       }
     },
     {
@@ -23994,7 +23997,7 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": null,
-        "max_input_tokens": null,
+        "max_input_tokens": 979000,
         "max_output_tokens": null,
         "input_cost_per_token": "0.00000132",
         "output_cost_per_token": "0.00000396",
@@ -24012,7 +24015,7 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": 384000,
-        "max_input_tokens": 1048576,
+        "max_input_tokens": 1048000,
         "max_output_tokens": 384000,
         "input_cost_per_token": "0.0000003",
         "output_cost_per_token": "0.0000012",
@@ -24385,6 +24388,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "nebius/Qwen/Qwen3.8-27B",
+      "provider": "nebius",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 262144,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000045",
+        "output_cost_per_token": "0.000003",
+        "litellm_provider": "nebius",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://tokenfactory.nebius.com/models/catalog/text2text/Qwen%2FQwen3.8-27B"
+      }
+    },
+    {
       "name": "nebius/zai-org/GLM-5.1",
       "provider": "nebius",
       "logo": "/placeholder.svg?height=30&width=30",
@@ -24425,8 +24446,8 @@ export const aiModels: AIModels = {
       "provider": "nebius",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 1048576,
-        "max_input_tokens": 1048576,
+        "max_tokens": 1024000,
+        "max_input_tokens": 1024000,
         "max_output_tokens": null,
         "input_cost_per_token": "0.0000014",
         "output_cost_per_token": "0.0000044",
@@ -24452,7 +24473,7 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false,
+        "supports_vision": true,
         "source": "https://tokenfactory.nebius.com/models/catalog/text2text/zai-org%2FGLM-5.3-Flash"
       }
     },
@@ -26115,8 +26136,8 @@ export const aiModels: AIModels = {
         "max_tokens": 384000,
         "max_input_tokens": 1048576,
         "max_output_tokens": 384000,
-        "input_cost_per_token": "0.000000783",
-        "output_cost_per_token": "0.000001566",
+        "input_cost_per_token": "0.0000002088",
+        "output_cost_per_token": "0.0000004176",
         "litellm_provider": "openrouter",
         "mode": "chat",
         "supports_function_calling": true,
@@ -26133,8 +26154,8 @@ export const aiModels: AIModels = {
         "max_tokens": 943718,
         "max_input_tokens": 1048576,
         "max_output_tokens": 943718,
-        "input_cost_per_token": "0.0000000198",
-        "output_cost_per_token": "0.000000396",
+        "input_cost_per_token": "0.00000003",
+        "output_cost_per_token": "0.0000005",
         "litellm_provider": "openrouter",
         "mode": "chat",
         "supports_function_calling": true,
@@ -26559,11 +26580,11 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 32768,
+        "max_tokens": 131072,
         "max_input_tokens": 262144,
-        "max_output_tokens": 32768,
-        "input_cost_per_token": "0.00000006",
-        "output_cost_per_token": "0.00000016",
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000000595",
+        "output_cost_per_token": "0.00000017",
         "litellm_provider": "openrouter",
         "mode": "chat",
         "supports_function_calling": true,
@@ -43044,14 +43065,14 @@ export const aiModels: AIModels = {
         "max_tokens": 393216,
         "max_input_tokens": 1048576,
         "max_output_tokens": 393216,
-        "input_cost_per_token": "0.00000022",
-        "output_cost_per_token": "0.00000066",
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.0000012",
         "litellm_provider": "fireworks_ai",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://api.fireworks.ai/v1/serverless/models?format=nested"
+        "source": "https://docs.fireworks.ai/serverless/pricing"
       }
     },
     {
@@ -43134,14 +43155,14 @@ export const aiModels: AIModels = {
         "max_tokens": 393216,
         "max_input_tokens": 1048576,
         "max_output_tokens": 393216,
-        "input_cost_per_token": "0.00000022",
-        "output_cost_per_token": "0.00000066",
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.0000012",
         "litellm_provider": "fireworks_ai",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://api.fireworks.ai/v1/serverless/models?format=nested"
+        "source": "https://docs.fireworks.ai/serverless/pricing"
       }
     },
     {
@@ -46489,7 +46510,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://fireworks.ai/models/fireworks/inkling"
+        "source": "https://api.fireworks.ai/v1/serverless/models?format=nested"
       }
     },
     {
@@ -47785,7 +47806,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/google.svg",
       "sample_spec": {
         "max_tokens": 65536,
-        "max_input_tokens": 1048576,
+        "max_input_tokens": 131072,
         "max_output_tokens": 65536,
         "input_cost_per_token": "0",
         "output_cost_per_token": "0",
@@ -48504,11 +48525,11 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 943717,
-        "max_input_tokens": 1310720,
-        "max_output_tokens": 943717,
-        "input_cost_per_token": "0.0000014",
-        "output_cost_per_token": "0.0000044",
+        "max_tokens": 943718,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 943718,
+        "input_cost_per_token": "0.0000002219",
+        "output_cost_per_token": "0.00000339",
         "litellm_provider": "openrouter",
         "mode": "chat",
         "supports_function_calling": true,
@@ -48633,7 +48654,7 @@ export const aiModels: AIModels = {
         "max_tokens": 943718,
         "max_input_tokens": 1048576,
         "max_output_tokens": 943718,
-        "input_cost_per_token": "0.0000000089",
+        "input_cost_per_token": "0.0000000108",
         "output_cost_per_token": "0.00000128",
         "litellm_provider": "openrouter",
         "mode": "chat",
@@ -48705,7 +48726,7 @@ export const aiModels: AIModels = {
         "max_tokens": 943718,
         "max_input_tokens": 1048576,
         "max_output_tokens": 943718,
-        "input_cost_per_token": "0.00000028",
+        "input_cost_per_token": "0.0000004357",
         "output_cost_per_token": "0.00001",
         "litellm_provider": "openrouter",
         "mode": "chat",
@@ -48813,7 +48834,7 @@ export const aiModels: AIModels = {
         "max_tokens": 943718,
         "max_input_tokens": 1048576,
         "max_output_tokens": 943718,
-        "input_cost_per_token": "0.0000003249",
+        "input_cost_per_token": "0.00000041",
         "output_cost_per_token": "0.00000399",
         "litellm_provider": "openrouter",
         "mode": "chat",
@@ -49134,11 +49155,11 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 384000,
+        "max_tokens": 131072,
         "max_input_tokens": 1048576,
-        "max_output_tokens": 384000,
-        "input_cost_per_token": "0.00000007854",
-        "output_cost_per_token": "0.00000015708",
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.00000004186",
+        "output_cost_per_token": "0.00000008372",
         "litellm_provider": "openrouter",
         "mode": "chat",
         "supports_function_calling": true,
@@ -49155,8 +49176,8 @@ export const aiModels: AIModels = {
         "max_tokens": 235929,
         "max_input_tokens": 262144,
         "max_output_tokens": 235929,
-        "input_cost_per_token": "0.00000065",
-        "output_cost_per_token": "0.00000341",
+        "input_cost_per_token": "0.00000043415",
+        "output_cost_per_token": "0.000001828",
         "litellm_provider": "openrouter",
         "mode": "chat",
         "supports_function_calling": true,
@@ -50127,7 +50148,7 @@ export const aiModels: AIModels = {
         "max_tokens": 40000,
         "max_input_tokens": 1000000,
         "max_output_tokens": 40000,
-        "input_cost_per_token": "0.0000004",
+        "input_cost_per_token": "0.00000055",
         "output_cost_per_token": "0.0000022",
         "litellm_provider": "openrouter",
         "mode": "chat",
@@ -54998,6 +55019,42 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "openrouter/apodex/apodex-1.1-mini:free",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 235929,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 235929,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "openrouter/unbiased/pareto-26.10-preview",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000008",
+        "output_cost_per_token": "0.0000032",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
       "name": "openrouter/dots-studio/dots-3-note-preview:free",
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
@@ -57918,9 +57975,9 @@ export const aiModels: AIModels = {
       "provider": "baseten",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 32768,
+        "max_tokens": 262144,
         "max_input_tokens": 1048576,
-        "max_output_tokens": 32768,
+        "max_output_tokens": 262144,
         "input_cost_per_token": "0.0000003",
         "output_cost_per_token": "0.0000012",
         "litellm_provider": "baseten",
@@ -59348,6 +59405,24 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-6-1-sol.html"
+      }
+    },
+    {
+      "name": "vertex_ai/xai/grok-4.7",
+      "provider": "vertex_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 524288,
+        "max_input_tokens": 524288,
+        "max_output_tokens": 524288,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000006",
+        "litellm_provider": "vertex_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"
       }
     }
   ],
@@ -61347,6 +61422,24 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false
+      }
+    },
+    {
+      "name": "voyage/voyage-large-2-instruct",
+      "provider": "voyage",
+      "logo": "/logos/voyage.svg",
+      "sample_spec": {
+        "max_tokens": 16000,
+        "max_input_tokens": 16000,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000012",
+        "output_cost_per_token": "0",
+        "litellm_provider": "voyage",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.voyageai.com/docs/pricing"
       }
     },
     {
@@ -69818,7 +69911,8 @@ export const aiModels: AIModels = {
         "mode": "audio_transcription",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://management.azure.com/subscriptions/c873328e-b572-4770-8dff-aaeb6f1f0e79/providers/Microsoft.CognitiveServices/locations/eastus2/models?api-version=2024-10-01"
       }
     },
     {
