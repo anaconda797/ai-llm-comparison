@@ -26032,8 +26032,8 @@ export const aiModels: AIModels = {
         "max_tokens": 147456,
         "max_input_tokens": 163840,
         "max_output_tokens": 147456,
-        "input_cost_per_token": "0.00000029",
-        "output_cost_per_token": "0.00000114",
+        "input_cost_per_token": "0.00000025",
+        "output_cost_per_token": "0.000001",
         "litellm_provider": "openrouter",
         "mode": "chat",
         "supports_function_calling": true,
@@ -26173,11 +26173,11 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 393216,
+        "max_tokens": 943718,
         "max_input_tokens": 1048576,
-        "max_output_tokens": 393216,
-        "input_cost_per_token": "0.00000132",
-        "output_cost_per_token": "0.00000396",
+        "max_output_tokens": 943718,
+        "input_cost_per_token": "0.00000022",
+        "output_cost_per_token": "0.0000042",
         "litellm_provider": "openrouter",
         "mode": "chat",
         "supports_function_calling": true,
@@ -48658,7 +48658,7 @@ export const aiModels: AIModels = {
         "max_tokens": 943718,
         "max_input_tokens": 1048576,
         "max_output_tokens": 943718,
-        "input_cost_per_token": "0.0000000051",
+        "input_cost_per_token": "0.0000000152",
         "output_cost_per_token": "0.00000128",
         "litellm_provider": "openrouter",
         "mode": "chat",
@@ -48730,8 +48730,8 @@ export const aiModels: AIModels = {
         "max_tokens": 943718,
         "max_input_tokens": 1048576,
         "max_output_tokens": 943718,
-        "input_cost_per_token": "0.0000027",
-        "output_cost_per_token": "0.0000135",
+        "input_cost_per_token": "0.000000499",
+        "output_cost_per_token": "0.000013",
         "litellm_provider": "openrouter",
         "mode": "chat",
         "supports_function_calling": true,
@@ -48838,8 +48838,8 @@ export const aiModels: AIModels = {
         "max_tokens": 943718,
         "max_input_tokens": 1048576,
         "max_output_tokens": 943718,
-        "input_cost_per_token": "0.00000041",
-        "output_cost_per_token": "0.00000399",
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.00000349",
         "litellm_provider": "openrouter",
         "mode": "chat",
         "supports_function_calling": true,
@@ -49180,8 +49180,8 @@ export const aiModels: AIModels = {
         "max_tokens": 235929,
         "max_input_tokens": 262144,
         "max_output_tokens": 235929,
-        "input_cost_per_token": "0.00000043415",
-        "output_cost_per_token": "0.000001828",
+        "input_cost_per_token": "0.00000095",
+        "output_cost_per_token": "0.000004",
         "litellm_provider": "openrouter",
         "mode": "chat",
         "supports_function_calling": true,
@@ -50077,11 +50077,11 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 235929,
+        "max_tokens": 32000,
         "max_input_tokens": 262144,
-        "max_output_tokens": 235929,
-        "input_cost_per_token": "0.0000001",
-        "output_cost_per_token": "0.0000003",
+        "max_output_tokens": 32000,
+        "input_cost_per_token": "0.00000004815",
+        "output_cost_per_token": "0.00000019305",
         "litellm_provider": "openrouter",
         "mode": "chat",
         "supports_function_calling": true,
@@ -50584,8 +50584,8 @@ export const aiModels: AIModels = {
         "max_tokens": 16384,
         "max_input_tokens": 131072,
         "max_output_tokens": 16384,
-        "input_cost_per_token": "0.0000001",
-        "output_cost_per_token": "0.00000032",
+        "input_cost_per_token": "0.00000022",
+        "output_cost_per_token": "0.0000005",
         "litellm_provider": "openrouter",
         "mode": "chat",
         "supports_function_calling": true,
@@ -51801,24 +51801,6 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "azure/eu/codex-mini",
-      "provider": "azure",
-      "logo": "/logos/azure.svg",
-      "sample_spec": {
-        "max_tokens": null,
-        "max_input_tokens": null,
-        "max_output_tokens": null,
-        "input_cost_per_token": "0.00000165",
-        "output_cost_per_token": "0.0000066",
-        "litellm_provider": "azure",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false,
-        "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'"
-      }
-    },
-    {
       "name": "azure/eu/computer-use-preview",
       "provider": "azure",
       "logo": "/logos/azure.svg",
@@ -51927,24 +51909,6 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "azure/eu/gpt-5-codex",
-      "provider": "azure",
-      "logo": "/logos/azure.svg",
-      "sample_spec": {
-        "max_tokens": null,
-        "max_input_tokens": null,
-        "max_output_tokens": null,
-        "input_cost_per_token": "0.000001375",
-        "output_cost_per_token": "0.000011",
-        "litellm_provider": "azure",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false,
-        "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'"
-      }
-    },
-    {
       "name": "azure/eu/gpt-5-mini",
       "provider": "azure",
       "logo": "/logos/azure.svg",
@@ -51981,97 +51945,7 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "azure/eu/gpt-5-pro",
-      "provider": "azure",
-      "logo": "/logos/azure.svg",
-      "sample_spec": {
-        "max_tokens": null,
-        "max_input_tokens": null,
-        "max_output_tokens": null,
-        "input_cost_per_token": "0.0000165",
-        "output_cost_per_token": "0.000132",
-        "litellm_provider": "azure",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false,
-        "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'"
-      }
-    },
-    {
-      "name": "azure/eu/gpt-5.1-codex-max",
-      "provider": "azure",
-      "logo": "/logos/azure.svg",
-      "sample_spec": {
-        "max_tokens": null,
-        "max_input_tokens": null,
-        "max_output_tokens": null,
-        "input_cost_per_token": "0.000001375",
-        "output_cost_per_token": "0.000011",
-        "litellm_provider": "azure",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false,
-        "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'"
-      }
-    },
-    {
       "name": "azure/eu/gpt-5.2",
-      "provider": "azure",
-      "logo": "/logos/azure.svg",
-      "sample_spec": {
-        "max_tokens": null,
-        "max_input_tokens": null,
-        "max_output_tokens": null,
-        "input_cost_per_token": "0.000001925",
-        "output_cost_per_token": "0.0000154",
-        "litellm_provider": "azure",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false,
-        "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'"
-      }
-    },
-    {
-      "name": "azure/eu/gpt-5.2-codex",
-      "provider": "azure",
-      "logo": "/logos/azure.svg",
-      "sample_spec": {
-        "max_tokens": null,
-        "max_input_tokens": null,
-        "max_output_tokens": null,
-        "input_cost_per_token": "0.000001925",
-        "output_cost_per_token": "0.0000154",
-        "litellm_provider": "azure",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false,
-        "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'"
-      }
-    },
-    {
-      "name": "azure/eu/gpt-5.2-pro",
-      "provider": "azure",
-      "logo": "/logos/azure.svg",
-      "sample_spec": {
-        "max_tokens": null,
-        "max_input_tokens": null,
-        "max_output_tokens": null,
-        "input_cost_per_token": "0.0000231",
-        "output_cost_per_token": "0.0001848",
-        "litellm_provider": "azure",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false,
-        "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'"
-      }
-    },
-    {
-      "name": "azure/eu/gpt-5.3-codex",
       "provider": "azure",
       "logo": "/logos/azure.svg",
       "sample_spec": {
@@ -52116,24 +51990,6 @@ export const aiModels: AIModels = {
         "max_output_tokens": null,
         "input_cost_per_token": "0.00000022",
         "output_cost_per_token": "0.000001375",
-        "litellm_provider": "azure",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false,
-        "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'"
-      }
-    },
-    {
-      "name": "azure/eu/gpt-5.4-pro",
-      "provider": "azure",
-      "logo": "/logos/azure.svg",
-      "sample_spec": {
-        "max_tokens": null,
-        "max_input_tokens": null,
-        "max_output_tokens": null,
-        "input_cost_per_token": "0.000033",
-        "output_cost_per_token": "0.000198",
         "litellm_provider": "azure",
         "mode": "chat",
         "supports_function_calling": false,
@@ -52269,24 +52125,6 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "azure/us/codex-mini",
-      "provider": "azure",
-      "logo": "/logos/azure.svg",
-      "sample_spec": {
-        "max_tokens": null,
-        "max_input_tokens": null,
-        "max_output_tokens": null,
-        "input_cost_per_token": "0.00000165",
-        "output_cost_per_token": "0.0000066",
-        "litellm_provider": "azure",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false,
-        "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'"
-      }
-    },
-    {
       "name": "azure/us/computer-use-preview",
       "provider": "azure",
       "logo": "/logos/azure.svg",
@@ -52395,24 +52233,6 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "azure/us/gpt-5-codex",
-      "provider": "azure",
-      "logo": "/logos/azure.svg",
-      "sample_spec": {
-        "max_tokens": null,
-        "max_input_tokens": null,
-        "max_output_tokens": null,
-        "input_cost_per_token": "0.000001375",
-        "output_cost_per_token": "0.000011",
-        "litellm_provider": "azure",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false,
-        "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'"
-      }
-    },
-    {
       "name": "azure/us/gpt-5-mini",
       "provider": "azure",
       "logo": "/logos/azure.svg",
@@ -52449,97 +52269,7 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "azure/us/gpt-5-pro",
-      "provider": "azure",
-      "logo": "/logos/azure.svg",
-      "sample_spec": {
-        "max_tokens": null,
-        "max_input_tokens": null,
-        "max_output_tokens": null,
-        "input_cost_per_token": "0.0000165",
-        "output_cost_per_token": "0.000132",
-        "litellm_provider": "azure",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false,
-        "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'"
-      }
-    },
-    {
-      "name": "azure/us/gpt-5.1-codex-max",
-      "provider": "azure",
-      "logo": "/logos/azure.svg",
-      "sample_spec": {
-        "max_tokens": null,
-        "max_input_tokens": null,
-        "max_output_tokens": null,
-        "input_cost_per_token": "0.000001375",
-        "output_cost_per_token": "0.000011",
-        "litellm_provider": "azure",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false,
-        "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'"
-      }
-    },
-    {
       "name": "azure/us/gpt-5.2",
-      "provider": "azure",
-      "logo": "/logos/azure.svg",
-      "sample_spec": {
-        "max_tokens": null,
-        "max_input_tokens": null,
-        "max_output_tokens": null,
-        "input_cost_per_token": "0.000001925",
-        "output_cost_per_token": "0.0000154",
-        "litellm_provider": "azure",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false,
-        "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'"
-      }
-    },
-    {
-      "name": "azure/us/gpt-5.2-codex",
-      "provider": "azure",
-      "logo": "/logos/azure.svg",
-      "sample_spec": {
-        "max_tokens": null,
-        "max_input_tokens": null,
-        "max_output_tokens": null,
-        "input_cost_per_token": "0.000001925",
-        "output_cost_per_token": "0.0000154",
-        "litellm_provider": "azure",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false,
-        "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'"
-      }
-    },
-    {
-      "name": "azure/us/gpt-5.2-pro",
-      "provider": "azure",
-      "logo": "/logos/azure.svg",
-      "sample_spec": {
-        "max_tokens": null,
-        "max_input_tokens": null,
-        "max_output_tokens": null,
-        "input_cost_per_token": "0.0000231",
-        "output_cost_per_token": "0.0001848",
-        "litellm_provider": "azure",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false,
-        "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'"
-      }
-    },
-    {
-      "name": "azure/us/gpt-5.3-codex",
       "provider": "azure",
       "logo": "/logos/azure.svg",
       "sample_spec": {
@@ -52584,24 +52314,6 @@ export const aiModels: AIModels = {
         "max_output_tokens": null,
         "input_cost_per_token": "0.00000022",
         "output_cost_per_token": "0.000001375",
-        "litellm_provider": "azure",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false,
-        "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'"
-      }
-    },
-    {
-      "name": "azure/us/gpt-5.4-pro",
-      "provider": "azure",
-      "logo": "/logos/azure.svg",
-      "sample_spec": {
-        "max_tokens": null,
-        "max_input_tokens": null,
-        "max_output_tokens": null,
-        "input_cost_per_token": "0.000033",
-        "output_cost_per_token": "0.000198",
         "litellm_provider": "azure",
         "mode": "chat",
         "supports_function_calling": false,
@@ -59446,6 +59158,24 @@ export const aiModels: AIModels = {
         "supports_vision": false,
         "source": "https://openrouter.ai/api/v1/models"
       }
+    },
+    {
+      "name": "azure_ai/kimi-k2-thinking",
+      "provider": "azure_ai",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.0000006",
+        "output_cost_per_token": "0.0000025",
+        "litellm_provider": "azure_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://azure.microsoft.com/en-us/pricing/details/ai-foundry-models/kimi/"
+      }
     }
   ],
   "embedding": [
@@ -59661,8 +59391,8 @@ export const aiModels: AIModels = {
       "provider": "azure",
       "logo": "/logos/azure.svg",
       "sample_spec": {
-        "max_tokens": 8191,
-        "max_input_tokens": 8191,
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
         "max_output_tokens": null,
         "input_cost_per_token": "0.00000013",
         "output_cost_per_token": "0",
@@ -59671,7 +59401,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'"
+        "source": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure"
       }
     },
     {
@@ -59679,8 +59409,8 @@ export const aiModels: AIModels = {
       "provider": "azure",
       "logo": "/logos/azure.svg",
       "sample_spec": {
-        "max_tokens": 8191,
-        "max_input_tokens": 8191,
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
         "max_output_tokens": null,
         "input_cost_per_token": "0.00000002",
         "output_cost_per_token": "0",
@@ -59689,7 +59419,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'"
+        "source": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure"
       }
     },
     {
@@ -59697,8 +59427,8 @@ export const aiModels: AIModels = {
       "provider": "azure",
       "logo": "/logos/azure.svg",
       "sample_spec": {
-        "max_tokens": 8191,
-        "max_input_tokens": 8191,
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
         "max_output_tokens": null,
         "input_cost_per_token": "0.0000001",
         "output_cost_per_token": "0",
@@ -59707,7 +59437,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'"
+        "source": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure"
       }
     },
     {
@@ -59948,6 +59678,42 @@ export const aiModels: AIModels = {
         "max_input_tokens": 128000,
         "max_output_tokens": null,
         "input_cost_per_token": "0.00000012",
+        "output_cost_per_token": "0",
+        "litellm_provider": "cohere",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://cohere.com/pricing"
+      }
+    },
+    {
+      "name": "cohere/embed-v5.0-pro",
+      "provider": "cohere",
+      "logo": "/logos/cohere.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000012",
+        "output_cost_per_token": "0",
+        "litellm_provider": "cohere",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://cohere.com/pricing"
+      }
+    },
+    {
+      "name": "cohere/embed-v5.0-fast",
+      "provider": "cohere",
+      "logo": "/logos/cohere.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000008",
         "output_cost_per_token": "0",
         "litellm_provider": "cohere",
         "mode": "embedding",
@@ -63082,8 +62848,8 @@ export const aiModels: AIModels = {
       "provider": "azure_ai",
       "logo": "/logos/azure.svg",
       "sample_spec": {
-        "max_tokens": null,
-        "max_input_tokens": null,
+        "max_tokens": 32000,
+        "max_input_tokens": 32000,
         "max_output_tokens": null,
         "input_cost_per_token": null,
         "output_cost_per_token": null,
@@ -63092,7 +62858,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://ai.azure.com/explore/models/flux.2-pro/version/1/registry/azureml-blackforestlabs"
+        "source": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure"
       }
     },
     {
@@ -63119,7 +62885,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/azure.svg",
       "sample_spec": {
         "max_tokens": null,
-        "max_input_tokens": null,
+        "max_input_tokens": 32000,
         "max_output_tokens": null,
         "input_cost_per_token": "0.000005",
         "output_cost_per_token": null,
@@ -63137,7 +62903,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/azure.svg",
       "sample_spec": {
         "max_tokens": null,
-        "max_input_tokens": null,
+        "max_input_tokens": 32000,
         "max_output_tokens": null,
         "input_cost_per_token": "0.00000175",
         "output_cost_per_token": null,
@@ -63155,7 +62921,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/azure.svg",
       "sample_spec": {
         "max_tokens": null,
-        "max_input_tokens": null,
+        "max_input_tokens": 32000,
         "max_output_tokens": null,
         "input_cost_per_token": "0.000005",
         "output_cost_per_token": null,
@@ -69172,7 +68938,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/azure.svg",
       "sample_spec": {
         "max_tokens": null,
-        "max_input_tokens": null,
+        "max_input_tokens": 32000,
         "max_output_tokens": null,
         "input_cost_per_token": "0.000005",
         "output_cost_per_token": null,
@@ -69190,7 +68956,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/azure.svg",
       "sample_spec": {
         "max_tokens": null,
-        "max_input_tokens": null,
+        "max_input_tokens": 32000,
         "max_output_tokens": null,
         "input_cost_per_token": "0.00000175",
         "output_cost_per_token": null,
@@ -69200,6 +68966,60 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'"
+      }
+    },
+    {
+      "name": "openrouter/openai/gpt-image-2",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000005",
+        "output_cost_per_token": null,
+        "litellm_provider": "openrouter",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/images/models/openai/gpt-image-2/endpoints"
+      }
+    },
+    {
+      "name": "openrouter/openai/gpt-image-2.5-flare",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000005",
+        "output_cost_per_token": null,
+        "litellm_provider": "openrouter",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/images/models/openai/gpt-image-2.5-flare/endpoints"
+      }
+    },
+    {
+      "name": "openrouter/openai/gpt-image-2.5-sunburst",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000005",
+        "output_cost_per_token": null,
+        "litellm_provider": "openrouter",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/api/v1/images/models/openai/gpt-image-2.5-sunburst/endpoints"
       }
     },
     {
@@ -71230,9 +71050,9 @@ export const aiModels: AIModels = {
       "provider": "gemini",
       "logo": "/logos/google.svg",
       "sample_spec": {
-        "max_tokens": null,
-        "max_input_tokens": null,
-        "max_output_tokens": null,
+        "max_tokens": 32768,
+        "max_input_tokens": 98304,
+        "max_output_tokens": 32768,
         "input_cost_per_token": "0.000002",
         "output_cost_per_token": "0.000012",
         "litellm_provider": "gemini",
@@ -71248,9 +71068,9 @@ export const aiModels: AIModels = {
       "provider": "gemini",
       "logo": "/logos/google.svg",
       "sample_spec": {
-        "max_tokens": null,
-        "max_input_tokens": null,
-        "max_output_tokens": null,
+        "max_tokens": 65536,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 65536,
         "input_cost_per_token": "0.0000035",
         "output_cost_per_token": "0.000021",
         "litellm_provider": "gemini",
