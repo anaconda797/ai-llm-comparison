@@ -277,8 +277,8 @@ export const aiModels: AIModels = {
         "max_tokens": 64000,
         "max_input_tokens": 1000000,
         "max_output_tokens": 64000,
-        "input_cost_per_token": "0.00000033",
-        "output_cost_per_token": "0.00000275",
+        "input_cost_per_token": "0.000000396",
+        "output_cost_per_token": "0.000003311",
         "litellm_provider": "bedrock_converse",
         "mode": "chat",
         "supports_function_calling": true,
@@ -312,8 +312,8 @@ export const aiModels: AIModels = {
         "max_tokens": 64000,
         "max_input_tokens": 1000000,
         "max_output_tokens": 64000,
-        "input_cost_per_token": "0.00000033",
-        "output_cost_per_token": "0.00000275",
+        "input_cost_per_token": "0.000000429",
+        "output_cost_per_token": "0.000003597",
         "litellm_provider": "bedrock_converse",
         "mode": "chat",
         "supports_function_calling": true,
@@ -389,6 +389,23 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
+      }
+    },
+    {
+      "name": "amazon.nova-premier-v1:0",
+      "provider": "bedrock_converse",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 10000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 10000,
+        "input_cost_per_token": "0.0000025",
+        "output_cost_per_token": "0.0000125",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
       }
     },
     {
@@ -485,8 +502,8 @@ export const aiModels: AIModels = {
         "max_tokens": 8000,
         "max_input_tokens": 42000,
         "max_output_tokens": 8000,
-        "input_cost_per_token": "0.0000013",
-        "output_cost_per_token": "0.0000017",
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000006",
         "litellm_provider": "bedrock",
         "mode": "chat",
         "supports_function_calling": false,
@@ -502,8 +519,8 @@ export const aiModels: AIModels = {
         "max_tokens": 4000,
         "max_input_tokens": 42000,
         "max_output_tokens": 4000,
-        "input_cost_per_token": "0.0000003",
-        "output_cost_per_token": "0.0000004",
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.0000002",
         "litellm_provider": "bedrock",
         "mode": "chat",
         "supports_function_calling": false,
@@ -6770,14 +6787,14 @@ export const aiModels: AIModels = {
         "max_tokens": 16000,
         "max_input_tokens": 262144,
         "max_output_tokens": 16000,
-        "input_cost_per_token": "0.00000073",
-        "output_cost_per_token": "0.00000303",
+        "input_cost_per_token": "0.0000006",
+        "output_cost_per_token": "0.0000025",
         "litellm_provider": "bedrock",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-moonshot-ai-kimi-k2-thinking.html"
+        "source": "https://b0.p.awsstatic.com/pricing/2.0/meteredUnitMaps/bedrock/USD/current/bedrock.json"
       }
     },
     {
@@ -6789,13 +6806,13 @@ export const aiModels: AIModels = {
         "max_input_tokens": 262144,
         "max_output_tokens": 16000,
         "input_cost_per_token": "0.0000006",
-        "output_cost_per_token": "0.00000303",
+        "output_cost_per_token": "0.000003",
         "litellm_provider": "bedrock",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-moonshot-ai-kimi-k2-5.html"
+        "source": "https://b0.p.awsstatic.com/pricing/2.0/meteredUnitMaps/bedrock/USD/current/bedrock.json"
       }
     },
     {
@@ -8470,8 +8487,8 @@ export const aiModels: AIModels = {
         "max_tokens": 8000,
         "max_input_tokens": 42000,
         "max_output_tokens": 8000,
-        "input_cost_per_token": "0.0000013",
-        "output_cost_per_token": "0.0000017",
+        "input_cost_per_token": "0.0000008",
+        "output_cost_per_token": "0.0000016",
         "litellm_provider": "bedrock",
         "mode": "chat",
         "supports_function_calling": false,
@@ -51050,6 +51067,91 @@ export const aiModels: AIModels = {
         "supports_vision": false,
         "source": "https://developers.openai.com/api/docs/pricing"
       }
+    },
+    {
+      "name": "scaledown/extract",
+      "provider": "scaledown",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000005",
+        "output_cost_per_token": "0",
+        "litellm_provider": "scaledown",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "scaledown/summarize",
+      "provider": "scaledown",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000005",
+        "output_cost_per_token": "0",
+        "litellm_provider": "scaledown",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "scaledown/compress",
+      "provider": "scaledown",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000005",
+        "output_cost_per_token": "0",
+        "litellm_provider": "scaledown",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "scaledown/classify",
+      "provider": "scaledown",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000005",
+        "output_cost_per_token": "0",
+        "litellm_provider": "scaledown",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "scaledown/decisions",
+      "provider": "scaledown",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000005",
+        "output_cost_per_token": "0",
+        "litellm_provider": "scaledown",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
     }
   ],
   "embedding": [
@@ -51444,7 +51546,7 @@ export const aiModels: AIModels = {
         "max_tokens": 8192,
         "max_input_tokens": 8192,
         "max_output_tokens": null,
-        "input_cost_per_token": "0.0000002",
+        "input_cost_per_token": "0.00000011",
         "output_cost_per_token": "0",
         "litellm_provider": "bedrock",
         "mode": "embedding",
@@ -53662,6 +53764,42 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'"
+      }
+    },
+    {
+      "name": "azure_ai/Cohere-Embed-V5-Fast",
+      "provider": "azure_ai",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000008",
+        "output_cost_per_token": "0",
+        "litellm_provider": "azure_ai",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://prices.azure.com/api/retail/prices?$filter=productName%20eq%20'Cohere%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'"
+      }
+    },
+    {
+      "name": "azure_ai/Cohere-Embed-V5-Pro",
+      "provider": "azure_ai",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000012",
+        "output_cost_per_token": "0",
+        "litellm_provider": "azure_ai",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://prices.azure.com/api/retail/prices?$filter=productName%20eq%20'Cohere%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'"
       }
     }
   ],
