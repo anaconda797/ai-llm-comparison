@@ -78,9 +78,9 @@ export const aiModels: AIModels = {
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 256000,
+        "max_tokens": 4096,
         "max_input_tokens": 256000,
-        "max_output_tokens": 256000,
+        "max_output_tokens": 4096,
         "input_cost_per_token": "0.000002",
         "output_cost_per_token": "0.000008",
         "litellm_provider": "bedrock",
@@ -88,7 +88,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://aws.amazon.com/bedrock/pricing/"
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-ai21-labs-jamba-1-5-large.md"
       }
     },
     {
@@ -96,9 +96,9 @@ export const aiModels: AIModels = {
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 256000,
+        "max_tokens": 4096,
         "max_input_tokens": 256000,
-        "max_output_tokens": 256000,
+        "max_output_tokens": 4096,
         "input_cost_per_token": "0.0000002",
         "output_cost_per_token": "0.0000004",
         "litellm_provider": "bedrock",
@@ -106,7 +106,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://aws.amazon.com/bedrock/pricing/"
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-ai21-labs-jamba-1-5-mini.md"
       }
     },
     {
@@ -151,7 +151,7 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": 8192,
-        "max_input_tokens": 1000000,
+        "max_input_tokens": 128000,
         "max_output_tokens": 8192,
         "input_cost_per_token": "0.0000006",
         "output_cost_per_token": "0.000006",
@@ -160,7 +160,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://aws.amazon.com/bedrock/pricing/"
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-writer-palmyra-x5.md"
       }
     },
     {
@@ -187,7 +187,7 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": 8192,
-        "max_input_tokens": 1000000,
+        "max_input_tokens": 128000,
         "max_output_tokens": 8192,
         "input_cost_per_token": "0.0000006",
         "output_cost_per_token": "0.000006",
@@ -196,7 +196,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://aws.amazon.com/bedrock/pricing/"
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-writer-palmyra-x5.md"
       }
     },
     {
@@ -6829,7 +6829,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-3-70b-instruct.md"
       }
     },
     {
@@ -6846,7 +6847,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-3-8b-instruct.md"
       }
     },
     {
@@ -7079,7 +7081,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-3-70b-instruct.md"
       }
     },
     {
@@ -7096,7 +7099,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-3-8b-instruct.md"
       }
     },
     {
@@ -7392,7 +7396,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-3-70b-instruct.md"
       }
     },
     {
@@ -7409,7 +7414,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-3-8b-instruct.md"
       }
     },
     {
@@ -7480,7 +7486,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-3-70b-instruct.md"
       }
     },
     {
@@ -7497,7 +7504,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-3-8b-instruct.md"
       }
     },
     {
@@ -7577,16 +7585,17 @@ export const aiModels: AIModels = {
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 8191,
+        "max_tokens": 4096,
         "max_input_tokens": 32000,
-        "max_output_tokens": 8191,
+        "max_output_tokens": 4096,
         "input_cost_per_token": "0.0000002",
         "output_cost_per_token": "0.00000026",
         "litellm_provider": "bedrock",
         "mode": "chat",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-mistral-ai-mistral-7b-instruct.md"
       }
     },
     {
@@ -7594,9 +7603,9 @@ export const aiModels: AIModels = {
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 8191,
+        "max_tokens": 4096,
         "max_input_tokens": 32000,
-        "max_output_tokens": 8191,
+        "max_output_tokens": 4096,
         "input_cost_per_token": "0.0000052",
         "output_cost_per_token": "0.0000156",
         "litellm_provider": "bedrock",
@@ -7604,7 +7613,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://aws.amazon.com/bedrock/pricing/"
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-mistral-ai-mistral-large.md"
       }
     },
     {
@@ -7612,16 +7621,17 @@ export const aiModels: AIModels = {
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 8191,
+        "max_tokens": 4096,
         "max_input_tokens": 32000,
-        "max_output_tokens": 8191,
+        "max_output_tokens": 4096,
         "input_cost_per_token": "0.00000059",
         "output_cost_per_token": "0.00000091",
         "litellm_provider": "bedrock",
         "mode": "chat",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-mistral-ai-mixtral-8x7b-instruct.md"
       }
     },
     {
@@ -7709,7 +7719,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-3-70b-instruct.md"
       }
     },
     {
@@ -7726,7 +7737,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-3-8b-instruct.md"
       }
     },
     {
@@ -8004,7 +8016,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-3-70b-instruct.md"
       }
     },
     {
@@ -8021,7 +8034,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-3-8b-instruct.md"
       }
     },
     {
@@ -8029,16 +8043,17 @@ export const aiModels: AIModels = {
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 8191,
+        "max_tokens": 4096,
         "max_input_tokens": 32000,
-        "max_output_tokens": 8191,
+        "max_output_tokens": 4096,
         "input_cost_per_token": "0.00000015",
         "output_cost_per_token": "0.0000002",
         "litellm_provider": "bedrock",
         "mode": "chat",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-mistral-ai-mistral-7b-instruct.md"
       }
     },
     {
@@ -8046,9 +8061,9 @@ export const aiModels: AIModels = {
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 8191,
+        "max_tokens": 4096,
         "max_input_tokens": 32000,
-        "max_output_tokens": 8191,
+        "max_output_tokens": 4096,
         "input_cost_per_token": "0.000004",
         "output_cost_per_token": "0.000012",
         "litellm_provider": "bedrock",
@@ -8056,7 +8071,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://aws.amazon.com/bedrock/pricing/"
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-mistral-ai-mistral-large.md"
       }
     },
     {
@@ -8064,16 +8079,17 @@ export const aiModels: AIModels = {
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 8191,
+        "max_tokens": 4096,
         "max_input_tokens": 32000,
-        "max_output_tokens": 8191,
+        "max_output_tokens": 4096,
         "input_cost_per_token": "0.00000045",
         "output_cost_per_token": "0.0000007",
         "litellm_provider": "bedrock",
         "mode": "chat",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-mistral-ai-mixtral-8x7b-instruct.md"
       }
     },
     {
@@ -8612,7 +8628,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-3-70b-instruct.md"
       }
     },
     {
@@ -8629,7 +8646,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-3-8b-instruct.md"
       }
     },
     {
@@ -8790,16 +8808,17 @@ export const aiModels: AIModels = {
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 8191,
+        "max_tokens": 4096,
         "max_input_tokens": 32000,
-        "max_output_tokens": 8191,
+        "max_output_tokens": 4096,
         "input_cost_per_token": "0.00000015",
         "output_cost_per_token": "0.0000002",
         "litellm_provider": "bedrock",
         "mode": "chat",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-mistral-ai-mistral-7b-instruct.md"
       }
     },
     {
@@ -8807,9 +8826,9 @@ export const aiModels: AIModels = {
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 8191,
+        "max_tokens": 4096,
         "max_input_tokens": 32000,
-        "max_output_tokens": 8191,
+        "max_output_tokens": 4096,
         "input_cost_per_token": "0.000004",
         "output_cost_per_token": "0.000012",
         "litellm_provider": "bedrock",
@@ -8817,7 +8836,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://aws.amazon.com/bedrock/pricing/"
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-mistral-ai-mistral-large.md"
       }
     },
     {
@@ -8825,16 +8844,17 @@ export const aiModels: AIModels = {
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 8191,
+        "max_tokens": 4096,
         "max_input_tokens": 32000,
-        "max_output_tokens": 8191,
+        "max_output_tokens": 4096,
         "input_cost_per_token": "0.00000045",
         "output_cost_per_token": "0.0000007",
         "litellm_provider": "bedrock",
         "mode": "chat",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-mistral-ai-mixtral-8x7b-instruct.md"
       }
     },
     {
@@ -15291,16 +15311,17 @@ export const aiModels: AIModels = {
       "provider": "bedrock_converse",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 4096,
+        "max_tokens": 16384,
         "max_input_tokens": 128000,
-        "max_output_tokens": 4096,
+        "max_output_tokens": 16384,
         "input_cost_per_token": "0.000002",
         "output_cost_per_token": "0.000006",
         "litellm_provider": "bedrock_converse",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-mistral-ai-pixtral-large.md"
       }
     },
     {
@@ -21687,9 +21708,9 @@ export const aiModels: AIModels = {
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 2048,
+        "max_tokens": 4096,
         "max_input_tokens": 128000,
-        "max_output_tokens": 2048,
+        "max_output_tokens": 4096,
         "input_cost_per_token": "0.00000072",
         "output_cost_per_token": "0.00000072",
         "litellm_provider": "bedrock",
@@ -21697,7 +21718,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://b0.p.awsstatic.com/pricing/2.0/meteredUnitMaps/bedrock/USD/current/bedrock.json"
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-3-1-70b-instruct.md"
       }
     },
     {
@@ -21705,16 +21726,17 @@ export const aiModels: AIModels = {
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 2048,
+        "max_tokens": 4096,
         "max_input_tokens": 128000,
-        "max_output_tokens": 2048,
+        "max_output_tokens": 4096,
         "input_cost_per_token": "0.00000022",
         "output_cost_per_token": "0.00000022",
         "litellm_provider": "bedrock",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-3-1-8b-instruct.md"
       }
     },
     {
@@ -21801,7 +21823,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-3-3-70b-instruct.md"
       }
     },
     {
@@ -21818,7 +21841,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-3-70b-instruct.md"
       }
     },
     {
@@ -21835,7 +21859,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-3-8b-instruct.md"
       }
     },
     {
@@ -21843,16 +21868,17 @@ export const aiModels: AIModels = {
       "provider": "bedrock_converse",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 4096,
-        "max_input_tokens": 128000,
-        "max_output_tokens": 4096,
+        "max_tokens": 8192,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 8192,
         "input_cost_per_token": "0.00000024",
         "output_cost_per_token": "0.00000097",
         "litellm_provider": "bedrock_converse",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-4-maverick-17b-instruct.md"
       }
     },
     {
@@ -21860,16 +21886,17 @@ export const aiModels: AIModels = {
       "provider": "bedrock_converse",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 4096,
-        "max_input_tokens": 128000,
-        "max_output_tokens": 4096,
+        "max_tokens": 8192,
+        "max_input_tokens": 10000000,
+        "max_output_tokens": 8192,
         "input_cost_per_token": "0.00000017",
         "output_cost_per_token": "0.00000066",
         "litellm_provider": "bedrock_converse",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-4-scout-17b-instruct.md"
       }
     },
     {
@@ -22285,9 +22312,9 @@ export const aiModels: AIModels = {
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 8191,
+        "max_tokens": 4096,
         "max_input_tokens": 32000,
-        "max_output_tokens": 8191,
+        "max_output_tokens": 4096,
         "input_cost_per_token": "0.00000015",
         "output_cost_per_token": "0.0000002",
         "litellm_provider": "bedrock",
@@ -22295,7 +22322,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://aws.amazon.com/bedrock/pricing/"
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-mistral-ai-mistral-7b-instruct.md"
       }
     },
     {
@@ -22303,9 +22330,9 @@ export const aiModels: AIModels = {
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 8191,
+        "max_tokens": 4096,
         "max_input_tokens": 32000,
-        "max_output_tokens": 8191,
+        "max_output_tokens": 4096,
         "input_cost_per_token": "0.000004",
         "output_cost_per_token": "0.000012",
         "litellm_provider": "bedrock",
@@ -22313,7 +22340,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://aws.amazon.com/bedrock/pricing/"
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-mistral-ai-mistral-large.md"
       }
     },
     {
@@ -22357,9 +22384,9 @@ export const aiModels: AIModels = {
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 8191,
+        "max_tokens": 4096,
         "max_input_tokens": 32000,
-        "max_output_tokens": 8191,
+        "max_output_tokens": 4096,
         "input_cost_per_token": "0.000001",
         "output_cost_per_token": "0.000003",
         "litellm_provider": "bedrock",
@@ -22367,7 +22394,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://aws.amazon.com/bedrock/pricing/"
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-mistral-ai-mistral-small.md"
       }
     },
     {
@@ -22375,9 +22402,9 @@ export const aiModels: AIModels = {
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 8191,
+        "max_tokens": 4096,
         "max_input_tokens": 32000,
-        "max_output_tokens": 8191,
+        "max_output_tokens": 4096,
         "input_cost_per_token": "0.00000045",
         "output_cost_per_token": "0.0000007",
         "litellm_provider": "bedrock",
@@ -22385,7 +22412,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://aws.amazon.com/bedrock/pricing/"
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-mistral-ai-mixtral-8x7b-instruct.md"
       }
     },
     {
@@ -29406,9 +29433,9 @@ export const aiModels: AIModels = {
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 2048,
+        "max_tokens": 4096,
         "max_input_tokens": 128000,
-        "max_output_tokens": 2048,
+        "max_output_tokens": 4096,
         "input_cost_per_token": "0.00000072",
         "output_cost_per_token": "0.00000072",
         "litellm_provider": "bedrock",
@@ -29416,7 +29443,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://b0.p.awsstatic.com/pricing/2.0/meteredUnitMaps/bedrock/USD/current/bedrock.json"
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-3-1-70b-instruct.md"
       }
     },
     {
@@ -29424,16 +29451,17 @@ export const aiModels: AIModels = {
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 2048,
+        "max_tokens": 4096,
         "max_input_tokens": 128000,
-        "max_output_tokens": 2048,
+        "max_output_tokens": 4096,
         "input_cost_per_token": "0.00000022",
         "output_cost_per_token": "0.00000022",
         "litellm_provider": "bedrock",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-3-1-8b-instruct.md"
       }
     },
     {
@@ -29520,7 +29548,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-3-3-70b-instruct.md"
       }
     },
     {
@@ -29528,16 +29557,17 @@ export const aiModels: AIModels = {
       "provider": "bedrock_converse",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 4096,
-        "max_input_tokens": 128000,
-        "max_output_tokens": 4096,
+        "max_tokens": 8192,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 8192,
         "input_cost_per_token": "0.00000024",
         "output_cost_per_token": "0.00000097",
         "litellm_provider": "bedrock_converse",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-4-maverick-17b-instruct.md"
       }
     },
     {
@@ -29545,16 +29575,17 @@ export const aiModels: AIModels = {
       "provider": "bedrock_converse",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 4096,
-        "max_input_tokens": 128000,
-        "max_output_tokens": 4096,
+        "max_tokens": 8192,
+        "max_input_tokens": 10000000,
+        "max_output_tokens": 8192,
         "input_cost_per_token": "0.00000017",
         "output_cost_per_token": "0.00000066",
         "litellm_provider": "bedrock_converse",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-4-scout-17b-instruct.md"
       }
     },
     {
@@ -29562,9 +29593,9 @@ export const aiModels: AIModels = {
       "provider": "bedrock_converse",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 4096,
+        "max_tokens": 16384,
         "max_input_tokens": 128000,
-        "max_output_tokens": 4096,
+        "max_output_tokens": 16384,
         "input_cost_per_token": "0.000002",
         "output_cost_per_token": "0.000006",
         "litellm_provider": "bedrock_converse",
@@ -29572,7 +29603,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://aws.amazon.com/bedrock/pricing/"
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-mistral-ai-pixtral-large.md"
       }
     },
     {
@@ -33633,9 +33664,9 @@ export const aiModels: AIModels = {
       "provider": "bedrock_converse",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 4000,
+        "max_tokens": 128000,
         "max_input_tokens": 203000,
-        "max_output_tokens": 4000,
+        "max_output_tokens": 128000,
         "input_cost_per_token": "0.0000006",
         "output_cost_per_token": "0.0000022",
         "litellm_provider": "bedrock_converse",
@@ -33643,7 +33674,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-zai-glm-4-7.html"
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-zai-glm-4-7.md"
       }
     },
     {
@@ -33669,9 +33700,9 @@ export const aiModels: AIModels = {
       "provider": "bedrock_converse",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 4000,
+        "max_tokens": 128000,
         "max_input_tokens": 203000,
-        "max_output_tokens": 4000,
+        "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000007",
         "output_cost_per_token": "0.0000004",
         "litellm_provider": "bedrock_converse",
@@ -33679,7 +33710,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-zai-glm-4-7-flash.html"
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-zai-glm-4-7-flash.md"
       }
     },
     {
