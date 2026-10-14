@@ -604,7 +604,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/amazon.svg",
       "sample_spec": {
         "max_tokens": 4096,
-        "max_input_tokens": 1000000,
+        "max_input_tokens": 200000,
         "max_output_tokens": 4096,
         "input_cost_per_token": "0.000003",
         "output_cost_per_token": "0.000015",
@@ -621,7 +621,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/amazon.svg",
       "sample_spec": {
         "max_tokens": 8192,
-        "max_input_tokens": 1000000,
+        "max_input_tokens": 200000,
         "max_output_tokens": 8192,
         "input_cost_per_token": "0.000003",
         "output_cost_per_token": "0.000015",
@@ -3076,13 +3076,14 @@ export const aiModels: AIModels = {
         "max_tokens": 4096,
         "max_input_tokens": 128000,
         "max_output_tokens": 4096,
-        "input_cost_per_token": "0.00001",
-        "output_cost_per_token": "0.00003",
+        "input_cost_per_token": "0.000011",
+        "output_cost_per_token": "0.000033",
         "litellm_provider": "azure",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://azure.microsoft.com/en-us/pricing/details/azure-openai/"
       }
     },
     {
@@ -3093,13 +3094,14 @@ export const aiModels: AIModels = {
         "max_tokens": 4096,
         "max_input_tokens": 128000,
         "max_output_tokens": 4096,
-        "input_cost_per_token": "0.00001",
-        "output_cost_per_token": "0.00003",
+        "input_cost_per_token": "0.000011",
+        "output_cost_per_token": "0.000033",
         "litellm_provider": "azure",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://azure.microsoft.com/en-us/pricing/details/azure-openai/"
       }
     },
     {
@@ -3110,13 +3112,14 @@ export const aiModels: AIModels = {
         "max_tokens": 4096,
         "max_input_tokens": 128000,
         "max_output_tokens": 4096,
-        "input_cost_per_token": "0.00001",
-        "output_cost_per_token": "0.00003",
+        "input_cost_per_token": "0.000011",
+        "output_cost_per_token": "0.000033",
         "litellm_provider": "azure",
         "mode": "chat",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://azure.microsoft.com/en-us/pricing/details/azure-openai/"
       }
     },
     {
@@ -15526,7 +15529,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/fireworks ai.svg",
       "sample_spec": {
         "max_tokens": 20480,
-        "max_input_tokens": 128000,
+        "max_input_tokens": 163840,
         "max_output_tokens": 20480,
         "input_cost_per_token": "0.000003",
         "output_cost_per_token": "0.000008",
@@ -15544,7 +15547,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/fireworks ai.svg",
       "sample_spec": {
         "max_tokens": 160000,
-        "max_input_tokens": 160000,
+        "max_input_tokens": 163840,
         "max_output_tokens": 160000,
         "input_cost_per_token": "0.000003",
         "output_cost_per_token": "0.000008",
@@ -15562,7 +15565,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/fireworks ai.svg",
       "sample_spec": {
         "max_tokens": 20480,
-        "max_input_tokens": 128000,
+        "max_input_tokens": 163840,
         "max_output_tokens": 20480,
         "input_cost_per_token": "0.00000055",
         "output_cost_per_token": "0.00000219",
@@ -15580,7 +15583,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/fireworks ai.svg",
       "sample_spec": {
         "max_tokens": 8192,
-        "max_input_tokens": 128000,
+        "max_input_tokens": 131072,
         "max_output_tokens": 8192,
         "input_cost_per_token": "0.0000009",
         "output_cost_per_token": "0.0000009",
@@ -15742,7 +15745,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/fireworks ai.svg",
       "sample_spec": {
         "max_tokens": 96000,
-        "max_input_tokens": 128000,
+        "max_input_tokens": 131072,
         "max_output_tokens": 96000,
         "input_cost_per_token": "0.00000055",
         "output_cost_per_token": "0.00000219",
@@ -15760,7 +15763,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/fireworks ai.svg",
       "sample_spec": {
         "max_tokens": 96000,
-        "max_input_tokens": 128000,
+        "max_input_tokens": 131072,
         "max_output_tokens": 96000,
         "input_cost_per_token": "0.00000022",
         "output_cost_per_token": "0.00000088",
@@ -15778,7 +15781,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/fireworks ai.svg",
       "sample_spec": {
         "max_tokens": 202800,
-        "max_input_tokens": 202800,
+        "max_input_tokens": 202752,
         "max_output_tokens": 202800,
         "input_cost_per_token": "0.00000055",
         "output_cost_per_token": "0.00000219",
@@ -15796,7 +15799,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/fireworks ai.svg",
       "sample_spec": {
         "max_tokens": 202800,
-        "max_input_tokens": 202800,
+        "max_input_tokens": 202752,
         "max_output_tokens": 202800,
         "input_cost_per_token": "0.0000006",
         "output_cost_per_token": "0.0000022",
@@ -15814,7 +15817,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/fireworks ai.svg",
       "sample_spec": {
         "max_tokens": 131072,
-        "max_input_tokens": 202800,
+        "max_input_tokens": 202752,
         "max_output_tokens": 131072,
         "input_cost_per_token": "0.0000014",
         "output_cost_per_token": "0.0000044",
@@ -15994,7 +15997,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/fireworks ai.svg",
       "sample_spec": {
         "max_tokens": 16384,
-        "max_input_tokens": 128000,
+        "max_input_tokens": 131072,
         "max_output_tokens": 16384,
         "input_cost_per_token": "0.000003",
         "output_cost_per_token": "0.000003",
@@ -16012,7 +16015,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/fireworks ai.svg",
       "sample_spec": {
         "max_tokens": 16384,
-        "max_input_tokens": 16384,
+        "max_input_tokens": 131072,
         "max_output_tokens": 16384,
         "input_cost_per_token": "0.0000001",
         "output_cost_per_token": "0.0000001",
@@ -16030,7 +16033,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/fireworks ai.svg",
       "sample_spec": {
         "max_tokens": 16384,
-        "max_input_tokens": 16384,
+        "max_input_tokens": 131072,
         "max_output_tokens": 16384,
         "input_cost_per_token": "0.0000002",
         "output_cost_per_token": "0.0000002",
@@ -16048,7 +16051,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/fireworks ai.svg",
       "sample_spec": {
         "max_tokens": 16384,
-        "max_input_tokens": 16384,
+        "max_input_tokens": 131072,
         "max_output_tokens": 16384,
         "input_cost_per_token": "0.0000001",
         "output_cost_per_token": "0.0000001",
@@ -16066,7 +16069,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/fireworks ai.svg",
       "sample_spec": {
         "max_tokens": 16384,
-        "max_input_tokens": 16384,
+        "max_input_tokens": 131072,
         "max_output_tokens": 16384,
         "input_cost_per_token": "0.0000001",
         "output_cost_per_token": "0.0000001",
@@ -16084,7 +16087,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/fireworks ai.svg",
       "sample_spec": {
         "max_tokens": 16384,
-        "max_input_tokens": 16384,
+        "max_input_tokens": 131072,
         "max_output_tokens": 16384,
         "input_cost_per_token": "0.0000009",
         "output_cost_per_token": "0.0000009",
@@ -16138,7 +16141,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/fireworks ai.svg",
       "sample_spec": {
         "max_tokens": 204800,
-        "max_input_tokens": 204800,
+        "max_input_tokens": 196608,
         "max_output_tokens": 204800,
         "input_cost_per_token": "0.0000003",
         "output_cost_per_token": "0.0000012",
@@ -16264,7 +16267,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/fireworks ai.svg",
       "sample_spec": {
         "max_tokens": 202800,
-        "max_input_tokens": 202800,
+        "max_input_tokens": 202752,
         "max_output_tokens": 202800,
         "input_cost_per_token": "0.0000006",
         "output_cost_per_token": "0.0000022",
@@ -16282,7 +16285,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/fireworks ai.svg",
       "sample_spec": {
         "max_tokens": 131072,
-        "max_input_tokens": 202800,
+        "max_input_tokens": 202752,
         "max_output_tokens": 131072,
         "input_cost_per_token": "0.0000014",
         "output_cost_per_token": "0.0000044",
@@ -16462,7 +16465,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/fireworks ai.svg",
       "sample_spec": {
         "max_tokens": 204800,
-        "max_input_tokens": 204800,
+        "max_input_tokens": 196608,
         "max_output_tokens": 204800,
         "input_cost_per_token": "0.0000003",
         "output_cost_per_token": "0.0000012",
@@ -28800,14 +28803,14 @@ export const aiModels: AIModels = {
         "max_tokens": 1000000,
         "max_input_tokens": 1000000,
         "max_output_tokens": null,
-        "input_cost_per_token": "0.0000025",
-        "output_cost_per_token": "0.0000075",
+        "input_cost_per_token": "0.0000015",
+        "output_cost_per_token": "0.0000045",
         "litellm_provider": "together_ai",
         "mode": "chat",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://api.together.ai/v1/models"
+        "source": "https://www.together.ai/pricing"
       }
     },
     {
@@ -28944,8 +28947,8 @@ export const aiModels: AIModels = {
         "max_tokens": 1048576,
         "max_input_tokens": 1048576,
         "max_output_tokens": null,
-        "input_cost_per_token": "0.0000027",
-        "output_cost_per_token": "0.0000135",
+        "input_cost_per_token": "0.000003",
+        "output_cost_per_token": "0.000015",
         "litellm_provider": "together_ai",
         "mode": "chat",
         "supports_function_calling": true,
@@ -34986,7 +34989,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/fireworks ai.svg",
       "sample_spec": {
         "max_tokens": 4096,
-        "max_input_tokens": 4096,
+        "max_input_tokens": 131072,
         "max_output_tokens": 4096,
         "input_cost_per_token": "0.0000001",
         "output_cost_per_token": "0.0000001",
@@ -35003,7 +35006,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/fireworks ai.svg",
       "sample_spec": {
         "max_tokens": 4096,
-        "max_input_tokens": 4096,
+        "max_input_tokens": 131072,
         "max_output_tokens": 4096,
         "input_cost_per_token": "0.0000001",
         "output_cost_per_token": "0.0000001",
@@ -35785,7 +35788,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/fireworks ai.svg",
       "sample_spec": {
         "max_tokens": 4096,
-        "max_input_tokens": 4096,
+        "max_input_tokens": 196608,
         "max_output_tokens": 4096,
         "input_cost_per_token": "0.0000003",
         "output_cost_per_token": "0.0000012",
@@ -36108,7 +36111,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/fireworks ai.svg",
       "sample_spec": {
         "max_tokens": 4096,
-        "max_input_tokens": 4096,
+        "max_input_tokens": 131072,
         "max_output_tokens": 4096,
         "input_cost_per_token": "0.0000001",
         "output_cost_per_token": "0.0000001",
@@ -36227,7 +36230,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/fireworks ai.svg",
       "sample_spec": {
         "max_tokens": 131072,
-        "max_input_tokens": 131072,
+        "max_input_tokens": 128000,
         "max_output_tokens": 131072,
         "input_cost_per_token": "0.0000002",
         "output_cost_per_token": "0.0000002",
@@ -36244,7 +36247,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/fireworks ai.svg",
       "sample_spec": {
         "max_tokens": 131072,
-        "max_input_tokens": 131072,
+        "max_input_tokens": 128000,
         "max_output_tokens": 131072,
         "input_cost_per_token": "0.0000002",
         "output_cost_per_token": "0.0000002",
@@ -37332,7 +37335,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/fireworks ai.svg",
       "sample_spec": {
         "max_tokens": 4096,
-        "max_input_tokens": 4096,
+        "max_input_tokens": 262144,
         "max_output_tokens": 4096,
         "input_cost_per_token": "0.0000009",
         "output_cost_per_token": "0.0000009",
@@ -37468,7 +37471,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/fireworks ai.svg",
       "sample_spec": {
         "max_tokens": 4096,
-        "max_input_tokens": 4096,
+        "max_input_tokens": 262144,
         "max_output_tokens": 4096,
         "input_cost_per_token": "0.0000002",
         "output_cost_per_token": "0.0000002",
@@ -41223,14 +41226,14 @@ export const aiModels: AIModels = {
         "max_tokens": 384000,
         "max_input_tokens": 1000000,
         "max_output_tokens": 384000,
-        "input_cost_per_token": "0.000000435",
-        "output_cost_per_token": "0.00000087",
+        "input_cost_per_token": "0.00000174",
+        "output_cost_per_token": "0.00000348",
         "litellm_provider": "tencent",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": false,
-        "source": "https://www.tencentcloud.com/products/tokenhub"
+        "source": "https://www.tencentcloud.com/document/product/1300/78937"
       }
     },
     {
@@ -41248,7 +41251,187 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": false,
-        "source": "https://www.tencentcloud.com/products/tokenhub"
+        "source": "https://www.tencentcloud.com/document/product/1300/78937"
+      }
+    },
+    {
+      "name": "tencent/deepseek-v4-pro-0813",
+      "provider": "tencent",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 384000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 384000,
+        "input_cost_per_token": "0.00000132",
+        "output_cost_per_token": "0.00000396",
+        "litellm_provider": "tencent",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false,
+        "source": "https://www.tencentcloud.com/document/product/1300/78937"
+      }
+    },
+    {
+      "name": "tencent/deepseek-v4.1-flash",
+      "provider": "tencent",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 384000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 384000,
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "tencent",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://www.tencentcloud.com/document/product/1300/78937"
+      }
+    },
+    {
+      "name": "tencent/glm-5.3-flashx",
+      "provider": "tencent",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000037",
+        "output_cost_per_token": "0.00000125",
+        "litellm_provider": "tencent",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://www.tencentcloud.com/document/product/1300/78937"
+      }
+    },
+    {
+      "name": "tencent/glm-5.3-flash",
+      "provider": "tencent",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.0000005",
+        "litellm_provider": "tencent",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://www.tencentcloud.com/document/product/1300/78937"
+      }
+    },
+    {
+      "name": "tencent/glm-5.3",
+      "provider": "tencent",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000014",
+        "output_cost_per_token": "0.0000044",
+        "litellm_provider": "tencent",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.tencentcloud.com/document/product/1300/78937"
+      }
+    },
+    {
+      "name": "tencent/glm-5.2",
+      "provider": "tencent",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000014",
+        "output_cost_per_token": "0.0000044",
+        "litellm_provider": "tencent",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.tencentcloud.com/document/product/1300/78937"
+      }
+    },
+    {
+      "name": "tencent/kimi-k3",
+      "provider": "tencent",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 1000000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 1000000,
+        "input_cost_per_token": "0.000003",
+        "output_cost_per_token": "0.000015",
+        "litellm_provider": "tencent",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.tencentcloud.com/document/product/1300/78937"
+      }
+    },
+    {
+      "name": "tencent/kimi-k2.8-preview",
+      "provider": "tencent",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 1000000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 1000000,
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.000004",
+        "litellm_provider": "tencent",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.tencentcloud.com/document/product/1300/78937"
+      }
+    },
+    {
+      "name": "tencent/kimi-k2.7-code-highspeed",
+      "provider": "tencent",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 256000,
+        "max_input_tokens": 256000,
+        "max_output_tokens": 256000,
+        "input_cost_per_token": "0.0000019",
+        "output_cost_per_token": "0.000008",
+        "litellm_provider": "tencent",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.tencentcloud.com/document/product/1300/78937"
+      }
+    },
+    {
+      "name": "tencent/kimi-k2.7-code",
+      "provider": "tencent",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 256000,
+        "max_input_tokens": 256000,
+        "max_output_tokens": 256000,
+        "input_cost_per_token": "0.00000095",
+        "output_cost_per_token": "0.000004",
+        "litellm_provider": "tencent",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.tencentcloud.com/document/product/1300/78937"
       }
     },
     {
@@ -41266,7 +41449,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://www.tencentcloud.com/products/tokenhub"
+        "source": "https://www.tencentcloud.com/document/product/1300/78937"
       }
     },
     {
@@ -51417,6 +51600,96 @@ export const aiModels: AIModels = {
         "supports_vision": true,
         "source": "https://ai.google.dev/gemini-api/docs/pricing"
       }
+    },
+    {
+      "name": "azure_ai/claude-fable-5-5",
+      "provider": "azure_ai",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00001",
+        "output_cost_per_token": "0.00005",
+        "litellm_provider": "azure_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://management.azure.com/subscriptions/c873328e-b572-4770-8dff-aaeb6f1f0e79/providers/Microsoft.CognitiveServices/locations/eastus2/models?api-version=2024-10-01"
+      }
+    },
+    {
+      "name": "gemini/gemini-4-argon",
+      "provider": "gemini",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.00001",
+        "litellm_provider": "gemini",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://ai.google.dev/gemini-api/docs/pricing"
+      }
+    },
+    {
+      "name": "vertex_ai/gemini-4-argon",
+      "provider": "vertex_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 1048576,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 1048576,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.00001",
+        "litellm_provider": "vertex_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"
+      }
+    },
+    {
+      "name": "vertex_ai/gemini-4-argon-cyber-permissive",
+      "provider": "vertex_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 1048576,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 1048576,
+        "input_cost_per_token": "0.000004",
+        "output_cost_per_token": "0.00002",
+        "litellm_provider": "vertex_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"
+      }
+    },
+    {
+      "name": "github_copilot/gemini-4-argon",
+      "provider": "github_copilot",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.00001",
+        "litellm_provider": "github_copilot",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://raw.githubusercontent.com/github/docs/main/data/tables/copilot/models-and-pricing.yml"
+      }
     }
   ],
   "embedding": [
@@ -51617,14 +51890,14 @@ export const aiModels: AIModels = {
         "max_tokens": 8191,
         "max_input_tokens": 8191,
         "max_output_tokens": null,
-        "input_cost_per_token": "0.0000001",
+        "input_cost_per_token": "0.00000011",
         "output_cost_per_token": "0",
         "litellm_provider": "azure",
         "mode": "embedding",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule"
+        "source": "https://azure.microsoft.com/en-us/pricing/details/azure-openai/"
       }
     },
     {
@@ -51635,14 +51908,14 @@ export const aiModels: AIModels = {
         "max_tokens": 8192,
         "max_input_tokens": 8192,
         "max_output_tokens": null,
-        "input_cost_per_token": "0.00000013",
+        "input_cost_per_token": "0.000000143",
         "output_cost_per_token": "0",
         "litellm_provider": "azure",
         "mode": "embedding",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure"
+        "source": "https://azure.microsoft.com/en-us/pricing/details/azure-openai/"
       }
     },
     {
@@ -51653,14 +51926,14 @@ export const aiModels: AIModels = {
         "max_tokens": 8192,
         "max_input_tokens": 8192,
         "max_output_tokens": null,
-        "input_cost_per_token": "0.00000002",
+        "input_cost_per_token": "0.000000022",
         "output_cost_per_token": "0",
         "litellm_provider": "azure",
         "mode": "embedding",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure"
+        "source": "https://azure.microsoft.com/en-us/pricing/details/azure-openai/"
       }
     },
     {
@@ -51671,14 +51944,14 @@ export const aiModels: AIModels = {
         "max_tokens": 8192,
         "max_input_tokens": 8192,
         "max_output_tokens": null,
-        "input_cost_per_token": "0.0000001",
+        "input_cost_per_token": "0.00000011",
         "output_cost_per_token": "0",
         "litellm_provider": "azure",
         "mode": "embedding",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure"
+        "source": "https://azure.microsoft.com/en-us/pricing/details/azure-openai/"
       }
     },
     {
@@ -61273,13 +61546,14 @@ export const aiModels: AIModels = {
         "max_tokens": 4097,
         "max_input_tokens": 4097,
         "max_output_tokens": null,
-        "input_cost_per_token": "0.0000015",
-        "output_cost_per_token": "0.000002",
+        "input_cost_per_token": "0.00000165",
+        "output_cost_per_token": "0.0000022",
         "litellm_provider": "azure_text",
         "mode": "completion",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://azure.microsoft.com/en-us/pricing/details/azure-openai/"
       }
     },
     {
@@ -61290,13 +61564,14 @@ export const aiModels: AIModels = {
         "max_tokens": 4097,
         "max_input_tokens": 4097,
         "max_output_tokens": null,
-        "input_cost_per_token": "0.0000015",
-        "output_cost_per_token": "0.000002",
+        "input_cost_per_token": "0.00000165",
+        "output_cost_per_token": "0.0000022",
         "litellm_provider": "azure_text",
         "mode": "completion",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://azure.microsoft.com/en-us/pricing/details/azure-openai/"
       }
     },
     {
@@ -61307,13 +61582,14 @@ export const aiModels: AIModels = {
         "max_tokens": 4097,
         "max_input_tokens": 4097,
         "max_output_tokens": null,
-        "input_cost_per_token": "0.0000015",
-        "output_cost_per_token": "0.000002",
+        "input_cost_per_token": "0.00000165",
+        "output_cost_per_token": "0.0000022",
         "litellm_provider": "azure_text",
         "mode": "completion",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://azure.microsoft.com/en-us/pricing/details/azure-openai/"
       }
     },
     {
@@ -63589,7 +63865,8 @@ export const aiModels: AIModels = {
         "mode": "audio_speech",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://azure.microsoft.com/en-us/pricing/details/azure-openai/"
       }
     },
     {
