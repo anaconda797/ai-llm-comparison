@@ -51602,24 +51602,6 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "azure_ai/claude-fable-5-5",
-      "provider": "azure_ai",
-      "logo": "/logos/azure.svg",
-      "sample_spec": {
-        "max_tokens": 128000,
-        "max_input_tokens": 1000000,
-        "max_output_tokens": 128000,
-        "input_cost_per_token": "0.00001",
-        "output_cost_per_token": "0.00005",
-        "litellm_provider": "azure_ai",
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
-        "supports_vision": true,
-        "source": "https://management.azure.com/subscriptions/c873328e-b572-4770-8dff-aaeb6f1f0e79/providers/Microsoft.CognitiveServices/locations/eastus2/models?api-version=2024-10-01"
-      }
-    },
-    {
       "name": "gemini/gemini-4-argon",
       "provider": "gemini",
       "logo": "/logos/google.svg",
