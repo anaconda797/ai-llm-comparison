@@ -1663,7 +1663,7 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": 64000,
-        "max_input_tokens": 1000000,
+        "max_input_tokens": 200000,
         "max_output_tokens": 64000,
         "input_cost_per_token": "0.000003",
         "output_cost_per_token": "0.000015",
@@ -2013,7 +2013,7 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": 64000,
-        "max_input_tokens": 1000000,
+        "max_input_tokens": 200000,
         "max_output_tokens": 64000,
         "input_cost_per_token": "0.000003",
         "output_cost_per_token": "0.000015",
@@ -12910,6 +12910,23 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "databricks/system.ai.deepseek-v4-flash-0731",
+      "provider": "databricks",
+      "logo": "/logos/databricks.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "databricks",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
       "name": "databricks/databricks-deepseek-v4-pro-0813",
       "provider": "databricks",
       "logo": "/logos/databricks.svg",
@@ -13519,6 +13536,23 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://www.databricks.com/product/pricing/foundation-model-serving"
+      }
+    },
+    {
+      "name": "databricks/system.ai.kimi-k3",
+      "provider": "databricks",
+      "logo": "/logos/databricks.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "databricks",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
       }
     },
     {
@@ -15377,7 +15411,7 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": 64000,
-        "max_input_tokens": 1000000,
+        "max_input_tokens": 200000,
         "max_output_tokens": 64000,
         "input_cost_per_token": "0.000003",
         "output_cost_per_token": "0.000015",
@@ -15421,7 +15455,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-3-2-1b-instruct.md"
       }
     },
     {
@@ -15438,7 +15473,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-3-2-3b-instruct.md"
       }
     },
     {
@@ -17981,13 +18017,14 @@ export const aiModels: AIModels = {
         "max_tokens": 64000,
         "max_input_tokens": 200000,
         "max_output_tokens": 64000,
-        "input_cost_per_token": null,
-        "output_cost_per_token": null,
+        "input_cost_per_token": "0.00001",
+        "output_cost_per_token": "0.00005",
         "litellm_provider": "github_copilot",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://raw.githubusercontent.com/github/docs/main/data/tables/copilot/models-and-pricing.yml"
       }
     },
     {
@@ -17998,13 +18035,14 @@ export const aiModels: AIModels = {
         "max_tokens": 64000,
         "max_input_tokens": 200000,
         "max_output_tokens": 64000,
-        "input_cost_per_token": null,
-        "output_cost_per_token": null,
+        "input_cost_per_token": "0.00001",
+        "output_cost_per_token": "0.00005",
         "litellm_provider": "github_copilot",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://raw.githubusercontent.com/github/docs/main/data/tables/copilot/models-and-pricing.yml"
       }
     },
     {
@@ -18050,13 +18088,14 @@ export const aiModels: AIModels = {
         "max_tokens": 64000,
         "max_input_tokens": 200000,
         "max_output_tokens": 64000,
-        "input_cost_per_token": null,
-        "output_cost_per_token": null,
+        "input_cost_per_token": "0.000005",
+        "output_cost_per_token": "0.000025",
         "litellm_provider": "github_copilot",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://raw.githubusercontent.com/github/docs/main/data/tables/copilot/models-and-pricing.yml"
       }
     },
     {
@@ -18084,14 +18123,14 @@ export const aiModels: AIModels = {
         "max_tokens": 64000,
         "max_input_tokens": 200000,
         "max_output_tokens": 64000,
-        "input_cost_per_token": null,
-        "output_cost_per_token": null,
+        "input_cost_per_token": "0.000005",
+        "output_cost_per_token": "0.000025",
         "litellm_provider": "github_copilot",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november"
+        "source": "https://raw.githubusercontent.com/github/docs/main/data/tables/copilot/models-and-pricing.yml"
       }
     },
     {
@@ -18102,13 +18141,14 @@ export const aiModels: AIModels = {
         "max_tokens": 128000,
         "max_input_tokens": 200000,
         "max_output_tokens": 128000,
-        "input_cost_per_token": null,
-        "output_cost_per_token": null,
+        "input_cost_per_token": "0.000004",
+        "output_cost_per_token": "0.00002",
         "litellm_provider": "github_copilot",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://raw.githubusercontent.com/github/docs/main/data/tables/copilot/models-and-pricing.yml"
       }
     },
     {
@@ -18119,13 +18159,14 @@ export const aiModels: AIModels = {
         "max_tokens": 64000,
         "max_input_tokens": 200000,
         "max_output_tokens": 64000,
-        "input_cost_per_token": null,
-        "output_cost_per_token": null,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.00001",
         "litellm_provider": "github_copilot",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://raw.githubusercontent.com/github/docs/main/data/tables/copilot/models-and-pricing.yml"
       }
     },
     {
@@ -18136,13 +18177,14 @@ export const aiModels: AIModels = {
         "max_tokens": 128000,
         "max_input_tokens": 200000,
         "max_output_tokens": 128000,
-        "input_cost_per_token": null,
-        "output_cost_per_token": null,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.00001",
         "litellm_provider": "github_copilot",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://raw.githubusercontent.com/github/docs/main/data/tables/copilot/models-and-pricing.yml"
       }
     },
     {
@@ -18153,13 +18195,14 @@ export const aiModels: AIModels = {
         "max_tokens": 64000,
         "max_input_tokens": 200000,
         "max_output_tokens": 64000,
-        "input_cost_per_token": null,
-        "output_cost_per_token": null,
+        "input_cost_per_token": "0.00000075",
+        "output_cost_per_token": "0.00000375",
         "litellm_provider": "github_copilot",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://raw.githubusercontent.com/github/docs/main/data/tables/copilot/models-and-pricing.yml"
       }
     },
     {
@@ -18170,13 +18213,14 @@ export const aiModels: AIModels = {
         "max_tokens": 65536,
         "max_input_tokens": 200000,
         "max_output_tokens": 65536,
-        "input_cost_per_token": null,
-        "output_cost_per_token": null,
+        "input_cost_per_token": "0.00000075",
+        "output_cost_per_token": "0.00000375",
         "litellm_provider": "github_copilot",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://raw.githubusercontent.com/github/docs/main/data/tables/copilot/models-and-pricing.yml"
       }
     },
     {
@@ -18425,13 +18469,14 @@ export const aiModels: AIModels = {
         "max_tokens": 128000,
         "max_input_tokens": 272000,
         "max_output_tokens": 128000,
-        "input_cost_per_token": null,
-        "output_cost_per_token": null,
+        "input_cost_per_token": "0.0000025",
+        "output_cost_per_token": "0.000015",
         "litellm_provider": "github_copilot",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://raw.githubusercontent.com/github/docs/main/data/tables/copilot/models-and-pricing.yml"
       }
     },
     {
@@ -18442,13 +18487,14 @@ export const aiModels: AIModels = {
         "max_tokens": 131072,
         "max_input_tokens": 917504,
         "max_output_tokens": 131072,
-        "input_cost_per_token": null,
-        "output_cost_per_token": null,
+        "input_cost_per_token": "0.000003",
+        "output_cost_per_token": "0.000015",
         "litellm_provider": "github_copilot",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://raw.githubusercontent.com/github/docs/main/data/tables/copilot/models-and-pricing.yml"
       }
     },
     {
@@ -19041,7 +19087,7 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": 64000,
-        "max_input_tokens": 1000000,
+        "max_input_tokens": 200000,
         "max_output_tokens": 64000,
         "input_cost_per_token": "0.000003",
         "output_cost_per_token": "0.000015",
@@ -22610,7 +22656,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-3-2-1b-instruct.md"
       }
     },
     {
@@ -22627,7 +22674,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-3-2-3b-instruct.md"
       }
     },
     {
@@ -30386,7 +30434,7 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": 64000,
-        "max_input_tokens": 1000000,
+        "max_input_tokens": 200000,
         "max_output_tokens": 64000,
         "input_cost_per_token": "0.000003",
         "output_cost_per_token": "0.000015",
@@ -30537,7 +30585,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-3-2-1b-instruct.md"
       }
     },
     {
@@ -30554,7 +30603,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-3-2-3b-instruct.md"
       }
     },
     {
@@ -45518,6 +45568,42 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "deepinfra/deepseek-ai/DeepSeek-V4.1-Flash",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.00000014",
+        "output_cost_per_token": "0.00000042",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://deepinfra.com/deepseek-ai/DeepSeek-V4.1-Flash"
+      }
+    },
+    {
+      "name": "deepinfra/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.00000014",
+        "output_cost_per_token": "0.00000042",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://deepinfra.com/deepseek-ai/DeepSeek-V4.1-Flash-1017"
+      }
+    },
+    {
       "name": "deepinfra/openai/gpt-oss-120b-Ultra",
       "provider": "deepinfra",
       "logo": "/logos/deepinfra.svg",
@@ -52550,6 +52636,60 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": true,
         "supports_vision": true,
         "source": "https://raw.githubusercontent.com/github/docs/main/data/tables/copilot/models-and-pricing.yml"
+      }
+    },
+    {
+      "name": "openinfer/@oi/GLM-5.3-Flash",
+      "provider": "openinfer",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 393216,
+        "max_input_tokens": 393216,
+        "max_output_tokens": 393216,
+        "input_cost_per_token": "0.000000195",
+        "output_cost_per_token": "0.00000156",
+        "litellm_provider": "openinfer",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://api.openinfer.ai/v1/models"
+      }
+    },
+    {
+      "name": "openinfer/@oi/Qwen3.5-27B",
+      "provider": "openinfer",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.000000195",
+        "output_cost_per_token": "0.00000156",
+        "litellm_provider": "openinfer",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://api.openinfer.ai/v1/models"
+      }
+    },
+    {
+      "name": "openinfer/@oi/Qwen3.5-9B",
+      "provider": "openinfer",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 100000,
+        "max_input_tokens": 100000,
+        "max_output_tokens": 100000,
+        "input_cost_per_token": "0.000005",
+        "output_cost_per_token": "0.00000015",
+        "litellm_provider": "openinfer",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://api.openinfer.ai/v1/models"
       }
     },
     {
