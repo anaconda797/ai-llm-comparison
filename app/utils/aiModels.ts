@@ -18106,13 +18106,14 @@ export const aiModels: AIModels = {
         "max_tokens": 64000,
         "max_input_tokens": 200000,
         "max_output_tokens": 64000,
-        "input_cost_per_token": null,
-        "output_cost_per_token": null,
+        "input_cost_per_token": "0.00001",
+        "output_cost_per_token": "0.00005",
         "litellm_provider": "github_copilot",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://raw.githubusercontent.com/github/docs/main/data/tables/copilot/models-and-pricing.yml"
       }
     },
     {
@@ -27762,7 +27763,7 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": 16384,
-        "max_input_tokens": 131072,
+        "max_input_tokens": 262144,
         "max_output_tokens": 16384,
         "input_cost_per_token": "0.00000045",
         "output_cost_per_token": "0.0000018",
@@ -47396,7 +47397,7 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": 16000,
-        "max_input_tokens": 128000,
+        "max_input_tokens": 262144,
         "max_output_tokens": 16000,
         "input_cost_per_token": "0.00000045",
         "output_cost_per_token": "0.0000018",
@@ -47405,7 +47406,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrock/current/us-east-1/index.json"
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-qwen-qwen3-coder-480b-a35b-instruct.html"
       }
     },
     {
@@ -51839,9 +51840,9 @@ export const aiModels: AIModels = {
       "provider": "bedrock_converse",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 500000,
-        "max_input_tokens": 500000,
-        "max_output_tokens": 500000,
+        "max_tokens": 524288,
+        "max_input_tokens": 524288,
+        "max_output_tokens": 524288,
         "input_cost_per_token": "0.000002",
         "output_cost_per_token": "0.000006",
         "litellm_provider": "bedrock_converse",
@@ -51849,7 +51850,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://b0.p.awsstatic.com/pricing/2.0/meteredUnitMaps/bedrock/USD/current/bedrock.json"
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-xai-grok-4-7.html"
       }
     },
     {
@@ -51857,9 +51858,9 @@ export const aiModels: AIModels = {
       "provider": "bedrock_converse",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 500000,
-        "max_input_tokens": 500000,
-        "max_output_tokens": 500000,
+        "max_tokens": 524288,
+        "max_input_tokens": 524288,
+        "max_output_tokens": 524288,
         "input_cost_per_token": "0.0000022",
         "output_cost_per_token": "0.0000066",
         "litellm_provider": "bedrock_converse",
@@ -51867,7 +51868,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://b0.p.awsstatic.com/pricing/2.0/meteredUnitMaps/bedrock/USD/current/bedrock.json"
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-xai-grok-4-7.html"
       }
     },
     {
@@ -52379,7 +52380,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/amazon.svg",
       "sample_spec": {
         "max_tokens": 98304,
-        "max_input_tokens": null,
+        "max_input_tokens": 261120,
         "max_output_tokens": 98304,
         "input_cost_per_token": null,
         "output_cost_per_token": "0.0000075",
@@ -52388,7 +52389,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrockFoundationModels/current/index.json"
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-twelvelabs-pegasus-v1-5.html"
       }
     },
     {
@@ -52397,7 +52398,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/amazon.svg",
       "sample_spec": {
         "max_tokens": 98304,
-        "max_input_tokens": null,
+        "max_input_tokens": 261120,
         "max_output_tokens": 98304,
         "input_cost_per_token": null,
         "output_cost_per_token": "0.0000075",
@@ -52406,7 +52407,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrockFoundationModels/current/index.json"
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-twelvelabs-pegasus-v1-5.html"
       }
     },
     {
@@ -52415,7 +52416,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/amazon.svg",
       "sample_spec": {
         "max_tokens": 98304,
-        "max_input_tokens": null,
+        "max_input_tokens": 261120,
         "max_output_tokens": 98304,
         "input_cost_per_token": null,
         "output_cost_per_token": "0.0000075",
@@ -52424,7 +52425,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrockFoundationModels/current/index.json"
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-twelvelabs-pegasus-v1-5.html"
       }
     },
     {
@@ -52870,6 +52871,132 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://tokenfactory.nebius.com/models/catalog/text2text/reflection%2Fbeam"
+      }
+    },
+    {
+      "name": "baseten/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "provider": "baseten",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "baseten",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://inference.baseten.co/v1/models"
+      }
+    },
+    {
+      "name": "baseten/deepseek-ai/DeepSeek-V4.1-Flash-1017-Fast",
+      "provider": "baseten",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.0000006",
+        "output_cost_per_token": "0.0000024",
+        "litellm_provider": "baseten",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://inference.baseten.co/v1/models"
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/deepseek-v4p1-flash-1017",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 393216,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 393216,
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://api.fireworks.ai/v1/serverless/models?format=nested"
+      }
+    },
+    {
+      "name": "github_copilot/claude-sonnet-4.6",
+      "provider": "github_copilot",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 64000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 64000,
+        "input_cost_per_token": "0.000003",
+        "output_cost_per_token": "0.000015",
+        "litellm_provider": "github_copilot",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://raw.githubusercontent.com/github/docs/main/data/tables/copilot/models-and-pricing.yml"
+      }
+    },
+    {
+      "name": "github_copilot/grok-4.5",
+      "provider": "github_copilot",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 500000,
+        "max_input_tokens": 500000,
+        "max_output_tokens": 500000,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000006",
+        "litellm_provider": "github_copilot",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://raw.githubusercontent.com/github/docs/main/data/tables/copilot/models-and-pricing.yml"
+      }
+    },
+    {
+      "name": "github_copilot/grok-4.6",
+      "provider": "github_copilot",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 500000,
+        "max_input_tokens": 500000,
+        "max_output_tokens": 500000,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000006",
+        "litellm_provider": "github_copilot",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://raw.githubusercontent.com/github/docs/main/data/tables/copilot/models-and-pricing.yml"
+      }
+    },
+    {
+      "name": "github_copilot/grok-4.7",
+      "provider": "github_copilot",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 500000,
+        "max_input_tokens": 500000,
+        "max_output_tokens": 500000,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000006",
+        "litellm_provider": "github_copilot",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://raw.githubusercontent.com/github/docs/main/data/tables/copilot/models-and-pricing.yml"
       }
     }
   ],
