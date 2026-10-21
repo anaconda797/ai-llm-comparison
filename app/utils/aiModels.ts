@@ -2634,6 +2634,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "azure/eu/gpt-4o",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.00000275",
+        "output_cost_per_token": "0.000011",
+        "litellm_provider": "azure",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'"
+      }
+    },
+    {
       "name": "azure/eu/gpt-4o-2024-11-20",
       "provider": "azure",
       "logo": "/logos/azure.svg",
@@ -2643,6 +2661,24 @@ export const aiModels: AIModels = {
         "max_output_tokens": 16384,
         "input_cost_per_token": "0.00000275",
         "output_cost_per_token": "0.000011",
+        "litellm_provider": "azure",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'"
+      }
+    },
+    {
+      "name": "azure/eu/gpt-4o-mini",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.000000165",
+        "output_cost_per_token": "0.00000066",
         "litellm_provider": "azure",
         "mode": "chat",
         "supports_function_calling": true,
@@ -2742,6 +2778,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "azure/eu/o1",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 100000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 100000,
+        "input_cost_per_token": "0.0000165",
+        "output_cost_per_token": "0.000066",
+        "litellm_provider": "azure",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'"
+      }
+    },
+    {
       "name": "azure/eu/o1-2024-12-17",
       "provider": "azure",
       "logo": "/logos/azure.svg",
@@ -2773,6 +2827,24 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
+        "supports_vision": false,
+        "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'"
+      }
+    },
+    {
+      "name": "azure/eu/o3-mini",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 100000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 100000,
+        "input_cost_per_token": "0.00000121",
+        "output_cost_per_token": "0.00000484",
+        "litellm_provider": "azure",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'"
       }
@@ -5098,6 +5170,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "azure/us/gpt-4o",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.00000275",
+        "output_cost_per_token": "0.000011",
+        "litellm_provider": "azure",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'"
+      }
+    },
+    {
       "name": "azure/us/gpt-4o-2024-11-20",
       "provider": "azure",
       "logo": "/logos/azure.svg",
@@ -5107,6 +5197,24 @@ export const aiModels: AIModels = {
         "max_output_tokens": 16384,
         "input_cost_per_token": "0.00000275",
         "output_cost_per_token": "0.000011",
+        "litellm_provider": "azure",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'"
+      }
+    },
+    {
+      "name": "azure/us/gpt-4o-mini",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.000000165",
+        "output_cost_per_token": "0.00000066",
         "litellm_provider": "azure",
         "mode": "chat",
         "supports_function_calling": true,
@@ -5206,6 +5314,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "azure/us/o1",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 100000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 100000,
+        "input_cost_per_token": "0.0000165",
+        "output_cost_per_token": "0.000066",
+        "litellm_provider": "azure",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'"
+      }
+    },
+    {
       "name": "azure/us/o1-2024-12-17",
       "provider": "azure",
       "logo": "/logos/azure.svg",
@@ -5242,6 +5368,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "azure/us/o3",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 100000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 100000,
+        "input_cost_per_token": "0.0000022",
+        "output_cost_per_token": "0.0000088",
+        "litellm_provider": "azure",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'"
+      }
+    },
+    {
       "name": "azure/us/o3-2025-04-16",
       "provider": "azure",
       "logo": "/logos/azure.svg",
@@ -5260,6 +5404,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "azure/us/o3-mini",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 100000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 100000,
+        "input_cost_per_token": "0.00000121",
+        "output_cost_per_token": "0.00000484",
+        "litellm_provider": "azure",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'"
+      }
+    },
+    {
       "name": "azure/us/o3-mini-2025-01-31",
       "provider": "azure",
       "logo": "/logos/azure.svg",
@@ -5274,6 +5436,24 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
+        "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'"
+      }
+    },
+    {
+      "name": "azure/us/o4-mini",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 100000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 100000,
+        "input_cost_per_token": "0.00000121",
+        "output_cost_per_token": "0.00000484",
+        "litellm_provider": "azure",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
         "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'"
       }
     },
@@ -15908,7 +16088,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://api.fireworks.ai/v1/serverless/models"
+        "source": "https://api.fireworks.ai/v1/serverless/models?format=nested"
       }
     },
     {
@@ -16394,7 +16574,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://api.fireworks.ai/v1/serverless/models"
+        "source": "https://api.fireworks.ai/v1/serverless/models?format=nested"
       }
     },
     {
@@ -18327,7 +18507,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://raw.githubusercontent.com/github/docs/main/data/tables/copilot/model-deprecation-history.yml"
       }
     },
     {
@@ -18344,7 +18525,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://raw.githubusercontent.com/github/docs/main/data/tables/copilot/model-deprecation-history.yml"
       }
     },
     {
@@ -18463,7 +18645,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://github.blog/changelog/2026-10-19-github-copilot-models-deprecated-on-october-19-2026"
       }
     },
     {
@@ -41462,6 +41645,42 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "volcengine/doubao-seed-2-1-pro-260915",
+      "provider": "volcengine",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 256000,
+        "max_input_tokens": 1024000,
+        "max_output_tokens": 256000,
+        "input_cost_per_token": "0.0000008625",
+        "output_cost_per_token": "0.0000043125",
+        "litellm_provider": "volcengine",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://www.volcengine.com/docs/82379/1544106"
+      }
+    },
+    {
+      "name": "volcengine/doubao-seed-2-1-lite-260915",
+      "provider": "volcengine",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 256000,
+        "max_input_tokens": 1024000,
+        "max_output_tokens": 256000,
+        "input_cost_per_token": "0.000000115",
+        "output_cost_per_token": "0.000000388126",
+        "litellm_provider": "volcengine",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://www.volcengine.com/docs/82379/1544106"
+      }
+    },
+    {
       "name": "volcengine/doubao-seed-2-1-turbo-260628",
       "provider": "volcengine",
       "logo": "/placeholder.svg?height=30&width=30",
@@ -42995,7 +43214,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://docs.fireworks.ai/serverless/pricing"
+        "source": "https://api.fireworks.ai/v1/serverless/models?format=nested"
       }
     },
     {
@@ -43013,7 +43232,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://api.fireworks.ai/v1/serverless/models"
+        "source": "https://api.fireworks.ai/v1/serverless/models?format=nested"
       }
     },
     {
@@ -43067,7 +43286,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://docs.fireworks.ai/serverless/pricing"
+        "source": "https://api.fireworks.ai/v1/serverless/models?format=nested"
       }
     },
     {
@@ -43085,7 +43304,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://api.fireworks.ai/v1/serverless/models"
+        "source": "https://api.fireworks.ai/v1/serverless/models?format=nested"
       }
     },
     {
@@ -48816,6 +49035,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "azure/eu/o3",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 100000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 100000,
+        "input_cost_per_token": "0.0000022",
+        "output_cost_per_token": "0.0000088",
+        "litellm_provider": "azure",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'"
+      }
+    },
+    {
       "name": "azure/eu/o3-2025-04-16",
       "provider": "azure",
       "logo": "/logos/azure.svg",
@@ -48843,6 +49080,24 @@ export const aiModels: AIModels = {
         "max_output_tokens": null,
         "input_cost_per_token": "0.000011",
         "output_cost_per_token": "0.000044",
+        "litellm_provider": "azure",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'"
+      }
+    },
+    {
+      "name": "azure/eu/o4-mini",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 100000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 100000,
+        "input_cost_per_token": "0.00000121",
+        "output_cost_per_token": "0.00000484",
         "litellm_provider": "azure",
         "mode": "chat",
         "supports_function_calling": false,
@@ -53037,6 +53292,60 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://platform.minimax.io/docs/guides/pricing"
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/deepseek-v4p1-flash-1017-us",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 393216,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 393216,
+        "input_cost_per_token": "0.00000045",
+        "output_cost_per_token": "0.0000018",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://docs.fireworks.ai/serverless/us-only-serverless"
+      }
+    },
+    {
+      "name": "wandb/reflection/Beam-1.0-501B-A23B",
+      "provider": "wandb",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1049000,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.000003",
+        "litellm_provider": "wandb",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.coreweave.com/products/coreweave-forge/serverless-inference"
+      }
+    },
+    {
+      "name": "wandb/zai-org/GLM-5.3",
+      "provider": "wandb",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1049000,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000012",
+        "output_cost_per_token": "0.000004",
+        "litellm_provider": "wandb",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.coreweave.com/products/coreweave-forge/serverless-inference"
       }
     }
   ],
