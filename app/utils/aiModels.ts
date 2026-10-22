@@ -43268,7 +43268,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://fireworks.ai/models/fireworks/muse-spark-open"
+        "source": "https://docs.fireworks.ai/serverless/pricing"
       }
     },
     {
@@ -53104,8 +53104,8 @@ export const aiModels: AIModels = {
         "max_tokens": 131072,
         "max_input_tokens": 1048576,
         "max_output_tokens": 131072,
-        "input_cost_per_token": "0.0000013",
-        "output_cost_per_token": "0.0000043",
+        "input_cost_per_token": "0.0000004",
+        "output_cost_per_token": "0.0000012",
         "litellm_provider": "baseten",
         "mode": "chat",
         "supports_function_calling": true,
@@ -53346,6 +53346,24 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://www.coreweave.com/products/coreweave-forge/serverless-inference"
+      }
+    },
+    {
+      "name": "azure_ai/MAI-Code-1.1-Flash",
+      "provider": "azure_ai",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 64000,
+        "max_input_tokens": 256000,
+        "max_output_tokens": 64000,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "azure_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'"
       }
     }
   ],
