@@ -2423,7 +2423,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/azure.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 272000,
+        "max_input_tokens": 128000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.000005",
         "output_cost_per_token": "0.00003",
@@ -4409,7 +4409,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/azure.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 272000,
+        "max_input_tokens": 128000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.000005",
         "output_cost_per_token": "0.00003",
@@ -4570,7 +4570,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/azure.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 272000,
+        "max_input_tokens": 128000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.0000055",
         "output_cost_per_token": "0.000033",
@@ -9169,6 +9169,40 @@ export const aiModels: AIModels = {
         "input_cost_per_token": "0.0000008",
         "output_cost_per_token": "0.000004",
         "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "cerebras/llama-3.1-70b",
+      "provider": "cerebras",
+      "logo": "/logos/cerebras.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000006",
+        "output_cost_per_token": "0.0000006",
+        "litellm_provider": "cerebras",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "cerebras/llama-3.1-8b",
+      "provider": "cerebras",
+      "logo": "/logos/cerebras.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000001",
+        "litellm_provider": "cerebras",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
@@ -23812,6 +23846,24 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://docs.mistral.ai/models/zai-glm-5-3"
+      }
+    },
+    {
+      "name": "mistral/zai-glm-5-3-flash",
+      "provider": "mistral",
+      "logo": "/logos/mistral.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.0000005",
+        "litellm_provider": "mistral",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://docs.mistral.ai/models/zai-glm-5-3-flash"
       }
     },
     {
@@ -53382,6 +53434,708 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'"
+      }
+    },
+    {
+      "name": "opencode_go/claude-haiku-5-5",
+      "provider": "opencode_go",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000010000000000000001",
+        "output_cost_per_token": "0.0000005",
+        "litellm_provider": "opencode_go",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://opencode.ai/v2/docs/console/go/"
+      }
+    },
+    {
+      "name": "opencode_go/gemini-4-argon",
+      "provider": "opencode_go",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.00001",
+        "litellm_provider": "opencode_go",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://opencode.ai/v2/docs/console/go/"
+      }
+    },
+    {
+      "name": "opencode_go/glm-5.3-flash",
+      "provider": "opencode_go",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.0000005",
+        "litellm_provider": "opencode_go",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://opencode.ai/v2/docs/console/go/"
+      }
+    },
+    {
+      "name": "opencode_go/glm-5.3",
+      "provider": "opencode_go",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000014",
+        "output_cost_per_token": "0.0000044",
+        "litellm_provider": "opencode_go",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://opencode.ai/v2/docs/console/go/"
+      }
+    },
+    {
+      "name": "opencode_go/glm-5.2",
+      "provider": "opencode_go",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000014",
+        "output_cost_per_token": "0.0000044",
+        "litellm_provider": "opencode_go",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://opencode.ai/v2/docs/console/go/"
+      }
+    },
+    {
+      "name": "opencode_go/kimi-k3.1-pro",
+      "provider": "opencode_go",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.00001",
+        "litellm_provider": "opencode_go",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://opencode.ai/v2/docs/console/go/"
+      }
+    },
+    {
+      "name": "opencode_go/kimi-k3",
+      "provider": "opencode_go",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.000003",
+        "output_cost_per_token": "0.000015",
+        "litellm_provider": "opencode_go",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://opencode.ai/v2/docs/console/go/"
+      }
+    },
+    {
+      "name": "opencode_go/kimi-k2.7-code",
+      "provider": "opencode_go",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.0000009499999999999999",
+        "output_cost_per_token": "0.000004",
+        "litellm_provider": "opencode_go",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://opencode.ai/v2/docs/console/go/"
+      }
+    },
+    {
+      "name": "opencode_go/longcat-2.0",
+      "provider": "opencode_go",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "opencode_go",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://opencode.ai/v2/docs/console/go/"
+      }
+    },
+    {
+      "name": "opencode_go/deepseek-v4.1-flash",
+      "provider": "opencode_go",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 384000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 384000,
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "opencode_go",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://opencode.ai/v2/docs/console/go/"
+      }
+    },
+    {
+      "name": "opencode_go/deepseek-v4-pro",
+      "provider": "opencode_go",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 384000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 384000,
+        "input_cost_per_token": "0.00000132",
+        "output_cost_per_token": "0.00000396",
+        "litellm_provider": "opencode_go",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://opencode.ai/v2/docs/console/go/"
+      }
+    },
+    {
+      "name": "opencode_go/mimo-v2.6-flash",
+      "provider": "opencode_go",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.00000014",
+        "output_cost_per_token": "0.00000028",
+        "litellm_provider": "opencode_go",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://opencode.ai/v2/docs/console/go/"
+      }
+    },
+    {
+      "name": "opencode_go/mimo-v2.6-pro",
+      "provider": "opencode_go",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.000000435",
+        "output_cost_per_token": "0.00000087",
+        "litellm_provider": "opencode_go",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://opencode.ai/v2/docs/console/go/"
+      }
+    },
+    {
+      "name": "opencode_go/mimo-v2.5",
+      "provider": "opencode_go",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000014",
+        "output_cost_per_token": "0.00000028",
+        "litellm_provider": "opencode_go",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://opencode.ai/v2/docs/console/go/"
+      }
+    },
+    {
+      "name": "opencode_go/mimo-v2.5-pro",
+      "provider": "opencode_go",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000000435",
+        "output_cost_per_token": "0.00000087",
+        "litellm_provider": "opencode_go",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://opencode.ai/v2/docs/console/go/"
+      }
+    },
+    {
+      "name": "opencode_go/minimax-m3.1-flash",
+      "provider": "opencode_go",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 512000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 512000,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.0000006",
+        "litellm_provider": "opencode_go",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://opencode.ai/v2/docs/console/go/"
+      }
+    },
+    {
+      "name": "opencode_go/minimax-m3",
+      "provider": "opencode_go",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "opencode_go",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://opencode.ai/v2/docs/console/go/"
+      }
+    },
+    {
+      "name": "opencode_go/qwen3.8-max",
+      "provider": "opencode_go",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000006",
+        "litellm_provider": "opencode_go",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://opencode.ai/v2/docs/console/go/"
+      }
+    },
+    {
+      "name": "opencode_go/qwen3.8-flash",
+      "provider": "opencode_go",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.00000046999999999999995",
+        "litellm_provider": "opencode_go",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://opencode.ai/v2/docs/console/go/"
+      }
+    },
+    {
+      "name": "opencode_go/qwen3.7-plus",
+      "provider": "opencode_go",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.00000040000000000000003",
+        "output_cost_per_token": "0.0000016000000000000001",
+        "litellm_provider": "opencode_go",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://opencode.ai/v2/docs/console/go/"
+      }
+    },
+    {
+      "name": "opencode_go/hy4-preview",
+      "provider": "opencode_go",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 64000,
+        "max_input_tokens": 1024000,
+        "max_output_tokens": 64000,
+        "input_cost_per_token": "0.000000834",
+        "output_cost_per_token": "0.000002501",
+        "litellm_provider": "opencode_go",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://opencode.ai/v2/docs/console/go/"
+      }
+    },
+    {
+      "name": "opencode_go/hy3",
+      "provider": "opencode_go",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 192000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000014",
+        "output_cost_per_token": "0.00000058",
+        "litellm_provider": "opencode_go",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://opencode.ai/v2/docs/console/go/"
+      }
+    },
+    {
+      "name": "opencode_go/longcat-2.5-preview-free",
+      "provider": "opencode_go",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "opencode_go",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://opencode.ai/v2/docs/console/go/"
+      }
+    },
+    {
+      "name": "opencode_go/step-5-preview",
+      "provider": "opencode_go",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.0000027",
+        "litellm_provider": "opencode_go",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://opencode.ai/v2/docs/console/go/"
+      }
+    },
+    {
+      "name": "opencode_go/beam-free",
+      "provider": "opencode_go",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "opencode_go",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://opencode.ai/v2/docs/console/go/"
+      }
+    },
+    {
+      "name": "bedrock/claude_platform/claude-fable-5",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00001",
+        "output_cost_per_token": "0.00005",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://platform.claude.com/docs/en/about-claude/pricing#claude-platform-on-aws-pricing"
+      }
+    },
+    {
+      "name": "bedrock/claude_platform/claude-fable-5-1",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00001",
+        "output_cost_per_token": "0.00005",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://platform.claude.com/docs/en/about-claude/pricing#claude-platform-on-aws-pricing"
+      }
+    },
+    {
+      "name": "bedrock/claude_platform/claude-haiku-4-5",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 64000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 64000,
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.000005",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://platform.claude.com/docs/en/about-claude/pricing#claude-platform-on-aws-pricing"
+      }
+    },
+    {
+      "name": "bedrock/claude_platform/claude-haiku-5-5",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000005",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://platform.claude.com/docs/en/about-claude/pricing#claude-platform-on-aws-pricing"
+      }
+    },
+    {
+      "name": "bedrock/claude_platform/claude-opus-4-5",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 64000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 64000,
+        "input_cost_per_token": "0.000005",
+        "output_cost_per_token": "0.000025",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://platform.claude.com/docs/en/about-claude/pricing#claude-platform-on-aws-pricing"
+      }
+    },
+    {
+      "name": "bedrock/claude_platform/claude-opus-4-6",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000005",
+        "output_cost_per_token": "0.000025",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://platform.claude.com/docs/en/about-claude/pricing#claude-platform-on-aws-pricing"
+      }
+    },
+    {
+      "name": "bedrock/claude_platform/claude-opus-4-7",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000005",
+        "output_cost_per_token": "0.000025",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://platform.claude.com/docs/en/about-claude/pricing#claude-platform-on-aws-pricing"
+      }
+    },
+    {
+      "name": "bedrock/claude_platform/claude-opus-4-8",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000005",
+        "output_cost_per_token": "0.000025",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://platform.claude.com/docs/en/about-claude/pricing#claude-platform-on-aws-pricing"
+      }
+    },
+    {
+      "name": "bedrock/claude_platform/claude-opus-5",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000005",
+        "output_cost_per_token": "0.000025",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://platform.claude.com/docs/en/about-claude/pricing#claude-platform-on-aws-pricing"
+      }
+    },
+    {
+      "name": "bedrock/claude_platform/claude-opus-5-5",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000004",
+        "output_cost_per_token": "0.00002",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://platform.claude.com/docs/en/about-claude/pricing#claude-platform-on-aws-pricing"
+      }
+    },
+    {
+      "name": "bedrock/claude_platform/claude-sonnet-4-5",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 64000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 64000,
+        "input_cost_per_token": "0.000003",
+        "output_cost_per_token": "0.000015",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://platform.claude.com/docs/en/about-claude/pricing#claude-platform-on-aws-pricing"
+      }
+    },
+    {
+      "name": "bedrock/claude_platform/claude-sonnet-4-6",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000003",
+        "output_cost_per_token": "0.000015",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://platform.claude.com/docs/en/about-claude/pricing#claude-platform-on-aws-pricing"
+      }
+    },
+    {
+      "name": "bedrock/claude_platform/claude-sonnet-5",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.00001",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://platform.claude.com/docs/en/about-claude/pricing#claude-platform-on-aws-pricing"
+      }
+    },
+    {
+      "name": "bedrock/claude_platform/claude-sonnet-5-5",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.00001",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://platform.claude.com/docs/en/about-claude/pricing#claude-platform-on-aws-pricing"
       }
     }
   ],
