@@ -24602,6 +24602,150 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "morph/morph-kimik3",
+      "provider": "morph",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 1048576,
+        "input_cost_per_token": "0.0000025",
+        "output_cost_per_token": "0.000014",
+        "litellm_provider": "morph",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://www.morphllm.com/pricing"
+      }
+    },
+    {
+      "name": "morph/morph-kimik3-fast",
+      "provider": "morph",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 1048576,
+        "input_cost_per_token": "0.000006",
+        "output_cost_per_token": "0.0000225",
+        "litellm_provider": "morph",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://www.morphllm.com/pricing"
+      }
+    },
+    {
+      "name": "morph/morph-glm53-744b",
+      "provider": "morph",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 1048576,
+        "input_cost_per_token": "0.00000119",
+        "output_cost_per_token": "0.000006",
+        "litellm_provider": "morph",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false,
+        "source": "https://www.morphllm.com/pricing"
+      }
+    },
+    {
+      "name": "morph/morph-glm53flash",
+      "provider": "morph",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 1048576,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000007",
+        "litellm_provider": "morph",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://www.morphllm.com/pricing"
+      }
+    },
+    {
+      "name": "morph/morph-dsv41flash",
+      "provider": "morph",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 1048576,
+        "input_cost_per_token": "0.00000012",
+        "output_cost_per_token": "0.0000008",
+        "litellm_provider": "morph",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://www.morphllm.com/pricing"
+      }
+    },
+    {
+      "name": "morph/morph-dsv41flash-1017",
+      "provider": "morph",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 1048576,
+        "input_cost_per_token": "0.00000012",
+        "output_cost_per_token": "0.0000008",
+        "litellm_provider": "morph",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://www.morphllm.com/pricing"
+      }
+    },
+    {
+      "name": "morph/morph-dsv41flash-abliterated",
+      "provider": "morph",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 1048576,
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "morph",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://www.morphllm.com/pricing"
+      }
+    },
+    {
+      "name": "morph/morph-dsv4flash",
+      "provider": "morph",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 1048576,
+        "input_cost_per_token": "0.000000141953125",
+        "output_cost_per_token": "0.000000399625",
+        "litellm_provider": "morph",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false,
+        "source": "https://www.morphllm.com/pricing"
+      }
+    },
+    {
       "name": "morph/morph-v3-fast",
       "provider": "morph",
       "logo": "/placeholder.svg?height=30&width=30",
@@ -41252,7 +41396,7 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": null,
-        "max_input_tokens": 1050000,
+        "max_input_tokens": 922000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.0000044",
         "output_cost_per_token": "0.000022",
@@ -41270,7 +41414,7 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": null,
-        "max_input_tokens": 1050000,
+        "max_input_tokens": 922000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.000004",
         "output_cost_per_token": "0.00002",
@@ -41288,7 +41432,7 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": null,
-        "max_input_tokens": 1050000,
+        "max_input_tokens": 922000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.0000022",
         "output_cost_per_token": "0.0000132",
@@ -41306,7 +41450,7 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": null,
-        "max_input_tokens": 1050000,
+        "max_input_tokens": 922000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.000002",
         "output_cost_per_token": "0.000012",
@@ -41324,7 +41468,7 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": null,
-        "max_input_tokens": 1050000,
+        "max_input_tokens": 922000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000022",
         "output_cost_per_token": "0.00000132",
@@ -41342,7 +41486,7 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": null,
-        "max_input_tokens": 1050000,
+        "max_input_tokens": 922000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000275",
         "output_cost_per_token": "0.0000165",
@@ -41360,7 +41504,7 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": null,
-        "max_input_tokens": 1050000,
+        "max_input_tokens": 922000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.0000025",
         "output_cost_per_token": "0.000015",
@@ -41378,7 +41522,7 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": null,
-        "max_input_tokens": 1050000,
+        "max_input_tokens": 922000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.0000055",
         "output_cost_per_token": "0.000033",
@@ -41396,7 +41540,7 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": null,
-        "max_input_tokens": 1050000,
+        "max_input_tokens": 922000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.000005",
         "output_cost_per_token": "0.00003",
@@ -41414,7 +41558,7 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": null,
-        "max_input_tokens": 1050000,
+        "max_input_tokens": 922000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.0000002",
         "output_cost_per_token": "0.0000012",
@@ -41432,7 +41576,7 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": null,
-        "max_input_tokens": 1050000,
+        "max_input_tokens": 922000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.000011",
         "output_cost_per_token": "0.000055",
@@ -41450,7 +41594,7 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": null,
-        "max_input_tokens": 1050000,
+        "max_input_tokens": 922000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.0000022",
         "output_cost_per_token": "0.000011",
@@ -41468,7 +41612,7 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": null,
-        "max_input_tokens": 1050000,
+        "max_input_tokens": 922000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000011",
         "output_cost_per_token": "0.00000055",
@@ -41486,7 +41630,7 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": null,
-        "max_input_tokens": 1050000,
+        "max_input_tokens": 922000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00001",
         "output_cost_per_token": "0.00005",
@@ -41504,7 +41648,7 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": null,
-        "max_input_tokens": 1050000,
+        "max_input_tokens": 922000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.000002",
         "output_cost_per_token": "0.00001",
@@ -41522,7 +41666,7 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": null,
-        "max_input_tokens": 1050000,
+        "max_input_tokens": 922000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.000002",
         "output_cost_per_token": "0.00001",
@@ -41540,7 +41684,7 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": null,
-        "max_input_tokens": 1050000,
+        "max_input_tokens": 922000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.0000001",
         "output_cost_per_token": "0.0000005",
@@ -41558,7 +41702,7 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": null,
-        "max_input_tokens": 1050000,
+        "max_input_tokens": 922000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.0000001",
         "output_cost_per_token": "0.0000005",
