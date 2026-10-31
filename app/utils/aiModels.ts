@@ -3434,7 +3434,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://azure.microsoft.com/en-us/pricing/details/cognitive-services/openai-service/"
       }
     },
     {
@@ -3627,7 +3628,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://azure.microsoft.com/en-us/pricing/details/cognitive-services/openai-service/"
       }
     },
     {
@@ -4310,7 +4312,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'"
+        "source": "https://azure.microsoft.com/en-us/pricing/details/cognitive-services/openai-service/"
       }
     },
     {
@@ -4328,7 +4330,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'"
+        "source": "https://azure.microsoft.com/en-us/pricing/details/cognitive-services/openai-service/"
       }
     },
     {
@@ -5168,7 +5170,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://azure.microsoft.com/en-us/pricing/details/cognitive-services/openai-service/"
       }
     },
     {
@@ -5203,7 +5206,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://azure.microsoft.com/en-us/pricing/details/cognitive-services/openai-service/"
       }
     },
     {
@@ -5238,7 +5242,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://azure.microsoft.com/en-us/pricing/details/cognitive-services/openai-service/"
       }
     },
     {
@@ -15668,6 +15673,24 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
+      }
+    },
+    {
+      "name": "eu.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock_converse",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 64000,
+        "input_cost_per_token": "0.0000011",
+        "output_cost_per_token": "0.0000055",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://aws.amazon.com/bedrock/pricing/"
       }
     },
     {
@@ -51936,6 +51959,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "aiand/deepseek-ai/deepseek-v4.1-flash-1017",
+      "provider": "aiand",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 384000,
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.0000006",
+        "litellm_provider": "aiand",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://api.aiand.com/v1/models"
+      }
+    },
+    {
       "name": "aiand/google/gemma-4-31b-it",
       "provider": "aiand",
       "logo": "/placeholder.svg?height=30&width=30",
@@ -51945,6 +51986,24 @@ export const aiModels: AIModels = {
         "max_output_tokens": 32768,
         "input_cost_per_token": "0.0000002",
         "output_cost_per_token": "0.0000005",
+        "litellm_provider": "aiand",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://api.aiand.com/v1/models"
+      }
+    },
+    {
+      "name": "aiand/meta/muse-spark-open",
+      "provider": "aiand",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 943718,
+        "input_cost_per_token": "0.00000125",
+        "output_cost_per_token": "0.00000425",
         "litellm_provider": "aiand",
         "mode": "chat",
         "supports_function_calling": true,
@@ -57623,6 +57682,24 @@ export const aiModels: AIModels = {
         "supports_vision": true,
         "source": "https://docs.fireworks.ai/serverless/pricing"
       }
+    },
+    {
+      "name": "gpt-6-rosalind",
+      "provider": "openai",
+      "logo": "/logos/openai.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 922000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000015",
+        "output_cost_per_token": "0.000075",
+        "litellm_provider": "openai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/pricing"
+      }
     }
   ],
   "embedding": [
@@ -58590,7 +58667,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://ai.google.dev/gemini-api/docs/embeddings#model-versions"
+        "source": "https://ai.google.dev/gemini-api/docs/pricing"
       }
     },
     {
