@@ -8951,14 +8951,15 @@ export const aiModels: AIModels = {
       "sample_spec": {
         "max_tokens": null,
         "max_input_tokens": 8000,
-        "max_output_tokens": 2048,
+        "max_output_tokens": 8192,
         "input_cost_per_token": "0.00000265",
         "output_cost_per_token": "0.0000035",
         "litellm_provider": "bedrock",
         "mode": "chat",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-3-70b-instruct.md"
       }
     },
     {
@@ -8968,14 +8969,15 @@ export const aiModels: AIModels = {
       "sample_spec": {
         "max_tokens": null,
         "max_input_tokens": 8000,
-        "max_output_tokens": 2048,
+        "max_output_tokens": 8192,
         "input_cost_per_token": "0.0000003",
         "output_cost_per_token": "0.0000006",
         "litellm_provider": "bedrock",
         "mode": "chat",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-3-8b-instruct.md"
       }
     },
     {
@@ -21287,6 +21289,42 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
+      }
+    },
+    {
+      "name": "hostinger_router/gpt-5.2",
+      "provider": "hostinger_router",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000021",
+        "output_cost_per_token": "0.0000168",
+        "litellm_provider": "hostinger_router",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://router.hostinger.com/v1/models"
+      }
+    },
+    {
+      "name": "hostinger_router/claude-sonnet-5",
+      "provider": "hostinger_router",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000264",
+        "output_cost_per_token": "0.0000132",
+        "litellm_provider": "hostinger_router",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://router.hostinger.com/v1/models"
       }
     },
     {
@@ -57700,6 +57738,24 @@ export const aiModels: AIModels = {
         "supports_vision": true,
         "source": "https://developers.openai.com/api/docs/pricing"
       }
+    },
+    {
+      "name": "gpt-6-astra-law",
+      "provider": "openai",
+      "logo": "/logos/openai.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 922000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00001",
+        "output_cost_per_token": "0.00005",
+        "litellm_provider": "openai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/pricing"
+      }
     }
   ],
   "embedding": [
@@ -58823,6 +58879,42 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false
+      }
+    },
+    {
+      "name": "hostinger_router/text-embedding-3-large",
+      "provider": "hostinger_router",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 8191,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000001716",
+        "output_cost_per_token": "0",
+        "litellm_provider": "hostinger_router",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://router.hostinger.com/v1/models"
+      }
+    },
+    {
+      "name": "hostinger_router/text-embedding-3-small",
+      "provider": "hostinger_router",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 8191,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000003",
+        "output_cost_per_token": "0",
+        "litellm_provider": "hostinger_router",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://router.hostinger.com/v1/models"
       }
     },
     {
