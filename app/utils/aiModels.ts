@@ -7037,7 +7037,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/amazon.svg",
       "sample_spec": {
         "max_tokens": null,
-        "max_input_tokens": 163840,
+        "max_input_tokens": 156000,
         "max_output_tokens": 8000,
         "input_cost_per_token": "0.00000074",
         "output_cost_per_token": "0.00000222",
@@ -7046,7 +7046,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrock/current/index.json"
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-deepseek-deepseek-v3-2.md"
       }
     },
     {
@@ -7217,7 +7217,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/amazon.svg",
       "sample_spec": {
         "max_tokens": null,
-        "max_input_tokens": 163840,
+        "max_input_tokens": 156000,
         "max_output_tokens": 8000,
         "input_cost_per_token": "0.00000074",
         "output_cost_per_token": "0.00000222",
@@ -7226,7 +7226,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrock/current/index.json"
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-deepseek-deepseek-v3-2.md"
       }
     },
     {
@@ -7343,7 +7343,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/amazon.svg",
       "sample_spec": {
         "max_tokens": null,
-        "max_input_tokens": 163840,
+        "max_input_tokens": 156000,
         "max_output_tokens": 8000,
         "input_cost_per_token": "0.00000074",
         "output_cost_per_token": "0.00000222",
@@ -7352,7 +7352,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-deepseek-deepseek-v3-2.html"
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-deepseek-deepseek-v3-2.md"
       }
     },
     {
@@ -7469,7 +7469,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/amazon.svg",
       "sample_spec": {
         "max_tokens": null,
-        "max_input_tokens": 163840,
+        "max_input_tokens": 156000,
         "max_output_tokens": 8000,
         "input_cost_per_token": "0.00000074",
         "output_cost_per_token": "0.00000222",
@@ -7478,7 +7478,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrock/current/index.json"
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-deepseek-deepseek-v3-2.md"
       }
     },
     {
@@ -8107,7 +8107,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/amazon.svg",
       "sample_spec": {
         "max_tokens": null,
-        "max_input_tokens": 163840,
+        "max_input_tokens": 156000,
         "max_output_tokens": 8000,
         "input_cost_per_token": "0.00000074",
         "output_cost_per_token": "0.00000222",
@@ -8116,7 +8116,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrock/current/index.json"
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-deepseek-deepseek-v3-2.md"
       }
     },
     {
@@ -8458,7 +8458,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/amazon.svg",
       "sample_spec": {
         "max_tokens": null,
-        "max_input_tokens": 163840,
+        "max_input_tokens": 156000,
         "max_output_tokens": 8000,
         "input_cost_per_token": "0.00000062",
         "output_cost_per_token": "0.00000185",
@@ -8467,7 +8467,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrock/current/index.json"
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-deepseek-deepseek-v3-2.md"
       }
     },
     {
@@ -8566,7 +8566,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/amazon.svg",
       "sample_spec": {
         "max_tokens": null,
-        "max_input_tokens": 163840,
+        "max_input_tokens": 156000,
         "max_output_tokens": 8000,
         "input_cost_per_token": "0.00000062",
         "output_cost_per_token": "0.00000185",
@@ -8575,7 +8575,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrock/current/index.json"
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-deepseek-deepseek-v3-2.md"
       }
     },
     {
@@ -9229,7 +9229,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/amazon.svg",
       "sample_spec": {
         "max_tokens": null,
-        "max_input_tokens": 163840,
+        "max_input_tokens": 156000,
         "max_output_tokens": 8000,
         "input_cost_per_token": "0.00000062",
         "output_cost_per_token": "0.00000185",
@@ -9238,7 +9238,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrock/current/index.json"
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-deepseek-deepseek-v3-2.md"
       }
     },
     {
@@ -15329,7 +15329,7 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": null,
-        "max_input_tokens": 164000,
+        "max_input_tokens": 156000,
         "max_output_tokens": 8000,
         "input_cost_per_token": "0.00000062",
         "output_cost_per_token": "0.00000185",
@@ -15338,7 +15338,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrock/current/us-east-1/index.json"
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-deepseek-deepseek-v3-2.md"
       }
     },
     {
@@ -34760,7 +34760,7 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": null,
-        "max_input_tokens": 131000,
+        "max_input_tokens": 128000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000022",
         "output_cost_per_token": "0.00000022",
@@ -34769,7 +34769,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://wandb.ai/site/pricing/tokens/"
+        "source": "https://www.coreweave.com/products/coreweave-forge/serverless-inference"
       }
     },
     {
@@ -34778,7 +34778,7 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": null,
-        "max_input_tokens": 161000,
+        "max_input_tokens": 128000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000055",
         "output_cost_per_token": "0.00000165",
@@ -34787,7 +34787,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://wandb.ai/site/pricing/tokens/"
+        "source": "https://www.coreweave.com/products/coreweave-forge/serverless-inference"
       }
     },
     {
@@ -69075,6 +69075,24 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://deepgram.com/pricing"
+      }
+    },
+    {
+      "name": "deepgram/streaming/nova-3-medical",
+      "provider": "deepgram",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "deepgram",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.businesswire.com/news/home/20250303470439/en"
       }
     },
     {
