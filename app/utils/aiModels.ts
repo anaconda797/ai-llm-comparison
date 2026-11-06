@@ -2237,7 +2237,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/claude-models"
+        "source": "https://learn.microsoft.com/en-us/azure/foundry/concepts/model-lifecycle-retirement"
       }
     },
     {
@@ -17575,7 +17575,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://ai.google.dev/gemini-api/docs/pricing"
+        "source": "https://ai.google.dev/gemini-api/docs/deprecations"
       }
     },
     {
@@ -23681,7 +23681,7 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false,
+        "supports_vision": true,
         "source": "https://docs.mistral.ai/models/deepseek-v4-flash-1017"
       }
     },
@@ -25472,6 +25472,24 @@ export const aiModels: AIModels = {
         "max_output_tokens": 262144,
         "input_cost_per_token": "0.00000095",
         "output_cost_per_token": "0.000004",
+        "litellm_provider": "nebius",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://tokenfactory.nebius.com/api/public/models_info"
+      }
+    },
+    {
+      "name": "nebius/moonshotai/Kimi-K3.1-Pro",
+      "provider": "nebius",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.00001",
         "litellm_provider": "nebius",
         "mode": "chat",
         "supports_function_calling": true,
@@ -46462,7 +46480,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/google.svg",
       "sample_spec": {
         "max_tokens": null,
-        "max_input_tokens": 1048576,
+        "max_input_tokens": 131072,
         "max_output_tokens": 65536,
         "input_cost_per_token": "0.0000015",
         "output_cost_per_token": "0.000009",
@@ -46471,7 +46489,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://ai.google.dev/gemini-api/docs/pricing"
+        "source": "https://ai.google.dev/gemini-api/docs/models/gemini-omni-flash"
       }
     },
     {
@@ -52911,6 +52929,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "us-gov.xai.grok-4.7",
+      "provider": "bedrock_converse",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 524288,
+        "max_output_tokens": 524288,
+        "input_cost_per_token": "0.00000264",
+        "output_cost_per_token": "0.00000792",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrock/current/us-gov-east-1/index.json"
+      }
+    },
+    {
       "name": "baseten/deepseek-ai/DeepSeek-V4.1-Flash-Fast",
       "provider": "baseten",
       "logo": "/placeholder.svg?height=30&width=30",
@@ -53801,7 +53837,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/claude-models"
+        "source": "https://learn.microsoft.com/en-us/azure/foundry/concepts/model-lifecycle-retirement"
       }
     },
     {
@@ -56980,6 +57016,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "gpt-6-cyber",
+      "provider": "openai",
+      "logo": "/logos/openai.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 922000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00002",
+        "output_cost_per_token": "0.0001",
+        "litellm_provider": "openai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/models/gpt-6-cyber"
+      }
+    },
+    {
       "name": "gpt-6-astra-law",
       "provider": "openai",
       "logo": "/logos/openai.svg",
@@ -57364,7 +57418,7 @@ export const aiModels: AIModels = {
       "sample_spec": {
         "max_tokens": null,
         "max_input_tokens": 202745,
-        "max_output_tokens": null,
+        "max_output_tokens": 128000,
         "input_cost_per_token": "0.000000825",
         "output_cost_per_token": "0.000003301",
         "litellm_provider": "empiriolabs",
@@ -57553,6 +57607,24 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://empiriolabs.ai/models/kimi-k3"
+      }
+    },
+    {
+      "name": "empiriolabs/kimi-k3-1-pro",
+      "provider": "empiriolabs",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.00001",
+        "litellm_provider": "empiriolabs",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://empiriolabs.ai/models/kimi-k3-1-pro"
       }
     },
     {
@@ -59608,6 +59680,42 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "gmi/XiaomiMiMo/MiMo-V2.6-Flash",
+      "provider": "gmi",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1050000,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000000112",
+        "output_cost_per_token": "0.000000224",
+        "litellm_provider": "gmi",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://ie-api.gmicloud.ai/v1/artifact/get_public_artifacts"
+      }
+    },
+    {
+      "name": "gmi/XiaomiMiMo/MiMo-V2.6-Pro",
+      "provider": "gmi",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1050000,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000000348",
+        "output_cost_per_token": "0.000000696",
+        "litellm_provider": "gmi",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://ie-api.gmicloud.ai/v1/artifact/get_public_artifacts"
+      }
+    },
+    {
       "name": "gmi/deepseek-ai/DeepSeek-Prover-V2-671B",
       "provider": "gmi",
       "logo": "/placeholder.svg?height=30&width=30",
@@ -59878,6 +59986,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "gmi/deepseek-ai/DeepSeek-V4.1-Flash",
+      "provider": "gmi",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1048575,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000018",
+        "output_cost_per_token": "0.00000072",
+        "litellm_provider": "gmi",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://ie-api.gmicloud.ai/v1/artifact/get_public_artifacts"
+      }
+    },
+    {
       "name": "gmi/deepseek-ai/deepseek-v4-flash-vision-exp",
       "provider": "gmi",
       "logo": "/placeholder.svg?height=30&width=30",
@@ -59887,6 +60013,42 @@ export const aiModels: AIModels = {
         "max_output_tokens": null,
         "input_cost_per_token": "0.00000044",
         "output_cost_per_token": "0.00000132",
+        "litellm_provider": "gmi",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://ie-api.gmicloud.ai/v1/artifact/get_public_artifacts"
+      }
+    },
+    {
+      "name": "gmi/deepseek-ai/deepseek-v4.1-flash-1017",
+      "provider": "gmi",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1048575,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000018",
+        "output_cost_per_token": "0.00000072",
+        "litellm_provider": "gmi",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://ie-api.gmicloud.ai/v1/artifact/get_public_artifacts"
+      }
+    },
+    {
+      "name": "gmi/gmicloud/Ripple-65B-Preview",
+      "provider": "gmi",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000006",
         "litellm_provider": "gmi",
         "mode": "chat",
         "supports_function_calling": false,
@@ -60544,6 +60706,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "gmi/openai/gpt-oss-20b",
+      "provider": "gmi",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 131072,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000004",
+        "output_cost_per_token": "0.00000015",
+        "litellm_provider": "gmi",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://ie-api.gmicloud.ai/v1/artifact/get_public_artifacts"
+      }
+    },
+    {
       "name": "gmi/stepfun-ai/Step-3.7-Flash",
       "provider": "gmi",
       "logo": "/placeholder.svg?height=30&width=30",
@@ -60625,6 +60805,24 @@ export const aiModels: AIModels = {
         "max_output_tokens": null,
         "input_cost_per_token": "0.00000018",
         "output_cost_per_token": "0.0000006",
+        "litellm_provider": "gmi",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://ie-api.gmicloud.ai/v1/artifact/get_public_artifacts"
+      }
+    },
+    {
+      "name": "gmi/tencent/hy4",
+      "provider": "gmi",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000000417",
+        "output_cost_per_token": "0.0000012505",
         "litellm_provider": "gmi",
         "mode": "chat",
         "supports_function_calling": false,
@@ -61027,6 +61225,60 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://api.together.ai/v1/models"
+      }
+    },
+    {
+      "name": "vertex_ai/gemini-omni-1.2-flash",
+      "provider": "vertex_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 260640,
+        "input_cost_per_token": "0.0000015",
+        "output_cost_per_token": "0.000009",
+        "litellm_provider": "vertex_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"
+      }
+    },
+    {
+      "name": "gemini/gemini-omni-1.2-flash",
+      "provider": "gemini",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.0000015",
+        "output_cost_per_token": "0.000009",
+        "litellm_provider": "gemini",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://ai.google.dev/gemini-api/docs/pricing"
+      }
+    },
+    {
+      "name": "databricks/databricks-kimi-k3-1-pro",
+      "provider": "databricks",
+      "logo": "/logos/databricks.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 1048576,
+        "input_cost_per_token": "0.00000199997",
+        "output_cost_per_token": "0.00000999999",
+        "litellm_provider": "databricks",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://www.databricks.com/product/pricing/foundation-model-serving"
       }
     }
   ],
