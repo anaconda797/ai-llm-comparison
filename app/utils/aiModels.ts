@@ -6208,8 +6208,8 @@ export const aiModels: AIModels = {
         "max_tokens": null,
         "max_input_tokens": 8192,
         "max_output_tokens": 8192,
-        "input_cost_per_token": "0.0032",
-        "output_cost_per_token": "0.00971",
+        "input_cost_per_token": "0.0000032",
+        "output_cost_per_token": "0.00000971",
         "litellm_provider": "azure_ai",
         "mode": "chat",
         "supports_function_calling": false,
@@ -16139,7 +16139,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://api.fireworks.ai/v1/serverless/models"
+        "source": "https://api.fireworks.ai/v1/serverless/models?format=nested"
       }
     },
     {
@@ -16391,7 +16391,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://docs.fireworks.ai/serverless/pricing"
+        "source": "https://docs.fireworks.ai/changelog.md"
       }
     },
     {
@@ -16427,7 +16427,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://docs.fireworks.ai/serverless/pricing"
+        "source": "https://docs.fireworks.ai/changelog.md"
       }
     },
     {
@@ -17485,7 +17485,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://ai.google.dev/gemini-api/docs/pricing"
+        "source": "https://ai.google.dev/gemini-api/docs/deprecations"
       }
     },
     {
@@ -17503,7 +17503,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://ai.google.dev/gemini-api/docs/pricing"
+        "source": "https://ai.google.dev/gemini-api/docs/deprecations"
       }
     },
     {
@@ -17539,7 +17539,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://ai.google.dev/gemini-api/docs/pricing"
+        "source": "https://ai.google.dev/gemini-api/docs/deprecations"
       }
     },
     {
@@ -17935,7 +17935,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://ai.google.dev/gemini-api/docs/pricing"
+        "source": "https://ai.google.dev/gemini-api/docs/deprecations"
       }
     },
     {
@@ -34283,8 +34283,8 @@ export const aiModels: AIModels = {
         "max_tokens": null,
         "max_input_tokens": 128000,
         "max_output_tokens": 128000,
-        "input_cost_per_token": "0.00000055",
-        "output_cost_per_token": "0.00000165",
+        "input_cost_per_token": "0.0000005",
+        "output_cost_per_token": "0.0000015",
         "litellm_provider": "wandb",
         "mode": "chat",
         "supports_function_calling": false,
@@ -34389,8 +34389,8 @@ export const aiModels: AIModels = {
         "max_tokens": null,
         "max_input_tokens": 8192,
         "max_output_tokens": 8192,
-        "input_cost_per_token": "0.0005",
-        "output_cost_per_token": "0.002",
+        "input_cost_per_token": "0.0000018",
+        "output_cost_per_token": "0.0000018",
         "litellm_provider": "watsonx",
         "mode": "chat",
         "supports_function_calling": false,
@@ -38955,7 +38955,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://docs.fireworks.ai/serverless/pricing"
+        "source": "https://docs.fireworks.ai/changelog.md"
       }
     },
     {
@@ -38973,7 +38973,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://docs.fireworks.ai/serverless/pricing"
+        "source": "https://docs.fireworks.ai/changelog.md"
       }
     },
     {
@@ -43109,6 +43109,42 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "tencent/hy4",
+      "provider": "tencent",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 960000,
+        "max_output_tokens": 64000,
+        "input_cost_per_token": "0.000000834",
+        "output_cost_per_token": "0.000002501",
+        "litellm_provider": "tencent",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://www.tencentcloud.com/document/product/1300/78937"
+      }
+    },
+    {
+      "name": "tencent/hy4-preview",
+      "provider": "tencent",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 960000,
+        "max_output_tokens": 64000,
+        "input_cost_per_token": "0.000000834",
+        "output_cost_per_token": "0.000002501",
+        "litellm_provider": "tencent",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.tencentcloud.com/document/product/1300/78937"
+      }
+    },
+    {
       "name": "tencent/minimax-m3",
       "provider": "tencent",
       "logo": "/placeholder.svg?height=30&width=30",
@@ -43645,7 +43681,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://docs.fireworks.ai/serverless/pricing"
+        "source": "https://docs.fireworks.ai/changelog.md"
       }
     },
     {
@@ -43663,7 +43699,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://docs.fireworks.ai/serverless/pricing"
+        "source": "https://docs.fireworks.ai/changelog.md"
       }
     },
     {
@@ -43825,7 +43861,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://docs.fireworks.ai/serverless/pricing"
+        "source": "https://api.fireworks.ai/v1/serverless/models?format=nested"
       }
     },
     {
@@ -43879,7 +43915,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://api.fireworks.ai/v1/serverless/models"
+        "source": "https://api.fireworks.ai/v1/serverless/models?format=nested"
       }
     },
     {
@@ -43897,7 +43933,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://api.fireworks.ai/v1/serverless/models"
+        "source": "https://api.fireworks.ai/v1/serverless/models?format=nested"
       }
     },
     {
@@ -43915,7 +43951,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://docs.fireworks.ai/serverless/pricing"
+        "source": "https://docs.fireworks.ai/changelog.md"
       }
     },
     {
@@ -44881,13 +44917,13 @@ export const aiModels: AIModels = {
         "max_input_tokens": 262000,
         "max_output_tokens": 262144,
         "input_cost_per_token": "0.00000013",
-        "output_cost_per_token": "0.00000028",
+        "output_cost_per_token": "0.00000027",
         "litellm_provider": "wandb",
         "mode": "chat",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://wandb.ai/site/pricing/tokens/"
+        "source": "https://www.coreweave.com/products/coreweave-forge/serverless-inference"
       }
     },
     {
@@ -45006,14 +45042,14 @@ export const aiModels: AIModels = {
         "max_tokens": null,
         "max_input_tokens": 262000,
         "max_output_tokens": 262144,
-        "input_cost_per_token": "0.00000071",
-        "output_cost_per_token": "0.0000035",
+        "input_cost_per_token": "0.0000006",
+        "output_cost_per_token": "0.000003",
         "litellm_provider": "wandb",
         "mode": "chat",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://wandb.ai/site/pricing/tokens/"
+        "source": "https://www.coreweave.com/products/coreweave-forge/serverless-inference"
       }
     },
     {
@@ -45114,14 +45150,14 @@ export const aiModels: AIModels = {
         "max_tokens": null,
         "max_input_tokens": 262000,
         "max_output_tokens": 262144,
-        "input_cost_per_token": "0.00000025",
-        "output_cost_per_token": "0.00000125",
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.00000089",
         "litellm_provider": "wandb",
         "mode": "chat",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://wandb.ai/site/pricing/tokens/"
+        "source": "https://www.coreweave.com/products/coreweave-forge/serverless-inference"
       }
     },
     {
@@ -45204,14 +45240,14 @@ export const aiModels: AIModels = {
         "max_tokens": null,
         "max_input_tokens": 131000,
         "max_output_tokens": null,
-        "input_cost_per_token": "0.0000001",
+        "input_cost_per_token": "0.00000006",
         "output_cost_per_token": "0.00000015",
         "litellm_provider": "wandb",
         "mode": "chat",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://wandb.ai/site/pricing/tokens/"
+        "source": "https://www.coreweave.com/products/coreweave-forge/serverless-inference"
       }
     },
     {
@@ -45222,7 +45258,7 @@ export const aiModels: AIModels = {
         "max_tokens": null,
         "max_input_tokens": 262000,
         "max_output_tokens": 262144,
-        "input_cost_per_token": "0.00000076",
+        "input_cost_per_token": "0.00000062",
         "output_cost_per_token": "0.00000242",
         "litellm_provider": "wandb",
         "mode": "chat",
@@ -46921,7 +46957,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://api.fireworks.ai/v1/serverless/models"
+        "source": "https://api.fireworks.ai/v1/serverless/models?format=nested"
       }
     },
     {
@@ -46939,7 +46975,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://docs.fireworks.ai/serverless/pricing"
+        "source": "https://docs.fireworks.ai/changelog.md"
       }
     },
     {
@@ -46975,7 +47011,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://docs.fireworks.ai/serverless/pricing"
+        "source": "https://docs.fireworks.ai/changelog.md"
       }
     },
     {
@@ -51460,14 +51496,14 @@ export const aiModels: AIModels = {
         "max_tokens": null,
         "max_input_tokens": 1049000,
         "max_output_tokens": 1048576,
-        "input_cost_per_token": "0.0000002",
+        "input_cost_per_token": "0.00000013",
         "output_cost_per_token": "0.00000065",
         "litellm_provider": "wandb",
         "mode": "chat",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://wandb.ai/site/pricing/tokens/"
+        "source": "https://www.coreweave.com/products/coreweave-forge/serverless-inference"
       }
     },
     {
@@ -51496,14 +51532,14 @@ export const aiModels: AIModels = {
         "max_tokens": null,
         "max_input_tokens": 1049000,
         "max_output_tokens": null,
-        "input_cost_per_token": "0.00000015",
-        "output_cost_per_token": "0.0000005",
+        "input_cost_per_token": "0.00000012",
+        "output_cost_per_token": "0.00000038",
         "litellm_provider": "wandb",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://docs.wandb.ai/inference/models.md"
+        "source": "https://www.coreweave.com/products/coreweave-forge/serverless-inference"
       }
     },
     {
@@ -52223,7 +52259,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://api.fireworks.ai/v1/serverless/models"
+        "source": "https://api.fireworks.ai/v1/serverless/models?format=nested"
       }
     },
     {
@@ -53884,8 +53920,8 @@ export const aiModels: AIModels = {
         "max_tokens": null,
         "max_input_tokens": 1049000,
         "max_output_tokens": 943718,
-        "input_cost_per_token": "0.00000025",
-        "output_cost_per_token": "0.0000015",
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.0000005",
         "litellm_provider": "wandb",
         "mode": "chat",
         "supports_function_calling": true,
@@ -54107,7 +54143,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://platform.minimax.io/docs/guides/pricing"
+        "source": "https://api.fireworks.ai/v1/serverless/models?format=nested"
       }
     },
     {
@@ -54136,8 +54172,8 @@ export const aiModels: AIModels = {
         "max_tokens": null,
         "max_input_tokens": 1049000,
         "max_output_tokens": null,
-        "input_cost_per_token": "0.000001",
-        "output_cost_per_token": "0.000003",
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.000001",
         "litellm_provider": "wandb",
         "mode": "chat",
         "supports_function_calling": true,
@@ -54154,8 +54190,8 @@ export const aiModels: AIModels = {
         "max_tokens": null,
         "max_input_tokens": 1049000,
         "max_output_tokens": null,
-        "input_cost_per_token": "0.0000012",
-        "output_cost_per_token": "0.000004",
+        "input_cost_per_token": "0.00000075",
+        "output_cost_per_token": "0.000003",
         "litellm_provider": "wandb",
         "mode": "chat",
         "supports_function_calling": true,
@@ -57149,11 +57185,11 @@ export const aiModels: AIModels = {
         "max_tokens": null,
         "max_input_tokens": 1000000,
         "max_output_tokens": 393216,
-        "input_cost_per_token": "0.0000003",
-        "output_cost_per_token": "0.0000012",
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000008",
         "litellm_provider": "empiriolabs",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://empiriolabs.ai/models/deepseek-v4-1-flash-1017"
@@ -57171,7 +57207,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.000001272",
         "litellm_provider": "empiriolabs",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://empiriolabs.ai/models/deepseek-v4-flash-0731"
@@ -57189,7 +57225,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00000132",
         "litellm_provider": "empiriolabs",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://empiriolabs.ai/models/deepseek-v4-flash-0731"
@@ -57207,7 +57243,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000033",
         "litellm_provider": "empiriolabs",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://empiriolabs.ai/models/deepseek-v4-pro"
@@ -57225,7 +57261,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00000396",
         "litellm_provider": "empiriolabs",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://empiriolabs.ai/models/deepseek-v4-pro-0813"
@@ -57243,7 +57279,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000048",
         "litellm_provider": "empiriolabs",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://empiriolabs.ai/models/deepseek-v4-pro"
@@ -57261,7 +57297,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.000003301",
         "litellm_provider": "empiriolabs",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://empiriolabs.ai/models/deepseek-v4-pro"
@@ -57279,7 +57315,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000048",
         "litellm_provider": "empiriolabs",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://empiriolabs.ai/models/deepseek-v4-pro"
@@ -57459,7 +57495,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.000003851",
         "litellm_provider": "empiriolabs",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://empiriolabs.ai/models/glm-5-2"
@@ -57477,7 +57513,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000044",
         "litellm_provider": "empiriolabs",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://empiriolabs.ai/models/glm-5-2"
@@ -57531,7 +57567,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000037131",
         "litellm_provider": "empiriolabs",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://empiriolabs.ai/models/kimi-k2-6"
@@ -57549,7 +57585,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.000004",
         "litellm_provider": "empiriolabs",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://empiriolabs.ai/models/kimi-k2-7-code"
@@ -57567,7 +57603,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.000008",
         "litellm_provider": "empiriolabs",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://empiriolabs.ai/models/kimi-k2-7-code-highspeed"
@@ -57585,7 +57621,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000037131",
         "litellm_provider": "empiriolabs",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://empiriolabs.ai/models/kimi-k2-7-code"
@@ -57603,7 +57639,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.000015",
         "litellm_provider": "empiriolabs",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://empiriolabs.ai/models/kimi-k3"
@@ -57639,7 +57675,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00000028",
         "litellm_provider": "empiriolabs",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://empiriolabs.ai/models/mimo-v2-6-flash"
@@ -57657,7 +57693,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00000087",
         "litellm_provider": "empiriolabs",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://empiriolabs.ai/models/mimo-v2-6-pro"
@@ -57675,7 +57711,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000087",
         "litellm_provider": "empiriolabs",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://empiriolabs.ai/models/mimo-v2-6-pro-ultraspeed"
@@ -57783,7 +57819,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000006",
         "litellm_provider": "empiriolabs",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://empiriolabs.ai/models/mistral-small-4"
@@ -57801,7 +57837,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000008",
         "litellm_provider": "empiriolabs",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://empiriolabs.ai/models/muse-glimmer-30b"
@@ -57873,7 +57909,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00000028",
         "litellm_provider": "empiriolabs",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://empiriolabs.ai/models/nova-lite-1-0"
@@ -57891,7 +57927,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00000316",
         "litellm_provider": "empiriolabs",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://empiriolabs.ai/models/nova-lite-2"
@@ -57909,7 +57945,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00000016",
         "litellm_provider": "empiriolabs",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://empiriolabs.ai/models/nova-micro-1-0"
@@ -57927,7 +57963,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000096",
         "litellm_provider": "empiriolabs",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://empiriolabs.ai/models/nova-pro-1-0"
@@ -58053,7 +58089,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.000000917",
         "litellm_provider": "empiriolabs",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://empiriolabs.ai/models/qwen3-5-122b-a10b"
@@ -58071,7 +58107,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.000000688",
         "litellm_provider": "empiriolabs",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://empiriolabs.ai/models/qwen3-5-27b"
@@ -58089,7 +58125,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.000000459",
         "litellm_provider": "empiriolabs",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://empiriolabs.ai/models/qwen3-5-35b-a3b"
@@ -58107,7 +58143,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.000001032",
         "litellm_provider": "empiriolabs",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://empiriolabs.ai/models/qwen3-5-397b-a17b"
@@ -58161,7 +58197,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.000000368",
         "litellm_provider": "empiriolabs",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://empiriolabs.ai/models/qwen3-5-flash"
@@ -58179,7 +58215,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.000000287",
         "litellm_provider": "empiriolabs",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://empiriolabs.ai/models/qwen3-5-flash"
@@ -58197,7 +58233,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000044",
         "litellm_provider": "empiriolabs",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://empiriolabs.ai/models/qwen3-5-omni-flash"
@@ -58215,7 +58251,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000166",
         "litellm_provider": "empiriolabs",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://empiriolabs.ai/models/qwen3-5-omni-plus"
@@ -58233,7 +58269,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00000221",
         "litellm_provider": "empiriolabs",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://empiriolabs.ai/models/qwen3-5-plus"
@@ -58251,7 +58287,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.000000688",
         "litellm_provider": "empiriolabs",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://empiriolabs.ai/models/qwen3-5-plus"
@@ -58269,7 +58305,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.000002475384",
         "litellm_provider": "empiriolabs",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://empiriolabs.ai/models/qwen3-6-27b"
@@ -58287,7 +58323,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00000042",
         "litellm_provider": "empiriolabs",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://empiriolabs.ai/models/qwen3-6-35b-a3b"
@@ -58305,7 +58341,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000015",
         "litellm_provider": "empiriolabs",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://empiriolabs.ai/models/qwen3-6-flash"
@@ -58323,7 +58359,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00000099",
         "litellm_provider": "empiriolabs",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://empiriolabs.ai/models/qwen3-6-flash"
@@ -58341,7 +58377,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.000003",
         "litellm_provider": "empiriolabs",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://empiriolabs.ai/models/qwen3-6-plus"
@@ -58359,7 +58395,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.000001651",
         "litellm_provider": "empiriolabs",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://empiriolabs.ai/models/qwen3-6-plus"
@@ -58377,7 +58413,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00000013",
         "litellm_provider": "empiriolabs",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://empiriolabs.ai/models/qwen3-7-flash"
@@ -58395,7 +58431,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00000011",
         "litellm_provider": "empiriolabs",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://empiriolabs.ai/models/qwen3-7-flash"
@@ -58413,7 +58449,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000075",
         "litellm_provider": "empiriolabs",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://empiriolabs.ai/models/qwen3-7-max"
@@ -58431,7 +58467,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.000004951",
         "litellm_provider": "empiriolabs",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://empiriolabs.ai/models/qwen3-7-max"
@@ -58449,7 +58485,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000016",
         "litellm_provider": "empiriolabs",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://empiriolabs.ai/models/qwen3-7-plus"
@@ -58467,7 +58503,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.000001101",
         "litellm_provider": "empiriolabs",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://empiriolabs.ai/models/qwen3-7-plus"
@@ -58503,7 +58539,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00000047",
         "litellm_provider": "empiriolabs",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://empiriolabs.ai/models/qwen3-8-flash"
@@ -58521,7 +58557,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.000006",
         "litellm_provider": "empiriolabs",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://empiriolabs.ai/models/qwen3-8-max"
@@ -58539,7 +58575,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.000006",
         "litellm_provider": "empiriolabs",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://empiriolabs.ai/models/qwen3-8-max-0902"
@@ -58557,7 +58593,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.000004951",
         "litellm_provider": "empiriolabs",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://empiriolabs.ai/models/qwen3-8-max"
@@ -58575,7 +58611,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00000094",
         "litellm_provider": "empiriolabs",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://empiriolabs.ai/models/qwen3-8-omni-flash"
@@ -58593,7 +58629,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000024",
         "litellm_provider": "empiriolabs",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://empiriolabs.ai/models/seed-2-0-code"
@@ -58611,7 +58647,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000025",
         "litellm_provider": "empiriolabs",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://empiriolabs.ai/models/seed-2-0-lite"
@@ -58629,7 +58665,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000005",
         "litellm_provider": "empiriolabs",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://empiriolabs.ai/models/seed-2-0-mini"
@@ -58647,7 +58683,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00000379",
         "litellm_provider": "empiriolabs",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://empiriolabs.ai/models/seed-2-0-pro"
@@ -58665,7 +58701,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00000313",
         "litellm_provider": "empiriolabs",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://empiriolabs.ai/models/seed-2-1-turbo"
@@ -61072,7 +61108,7 @@ export const aiModels: AIModels = {
       "sample_spec": {
         "max_tokens": null,
         "max_input_tokens": 1000000,
-        "max_output_tokens": 262144,
+        "max_output_tokens": 1048576,
         "input_cost_per_token": "0.000002",
         "output_cost_per_token": "0.00001",
         "litellm_provider": "baseten",
@@ -61279,6 +61315,96 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://www.databricks.com/product/pricing/foundation-model-serving"
+      }
+    },
+    {
+      "name": "moonshotai.kimi-k3.1",
+      "provider": "bedrock_converse",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 868928,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000044",
+        "output_cost_per_token": "0.000022",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-moonshot-ai-kimi-k3-1-highspeed.md"
+      }
+    },
+    {
+      "name": "us.moonshotai.kimi-k3.1",
+      "provider": "bedrock_converse",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 868928,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000044",
+        "output_cost_per_token": "0.000022",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-moonshot-ai-kimi-k3-1-highspeed.md"
+      }
+    },
+    {
+      "name": "global.moonshotai.kimi-k3.1",
+      "provider": "bedrock_converse",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 868928,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.000004",
+        "output_cost_per_token": "0.00002",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-moonshot-ai-kimi-k3-1-highspeed.md"
+      }
+    },
+    {
+      "name": "in.moonshotai.kimi-k3.1",
+      "provider": "bedrock_converse",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 868928,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000044",
+        "output_cost_per_token": "0.000022",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-moonshot-ai-kimi-k3-1-highspeed.md"
+      }
+    },
+    {
+      "name": "wandb/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "provider": "wandb",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1049000,
+        "max_output_tokens": 1048576,
+        "input_cost_per_token": "0.00000013",
+        "output_cost_per_token": "0.00000065",
+        "litellm_provider": "wandb",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://www.coreweave.com/products/coreweave-forge/serverless-inference"
       }
     }
   ],
@@ -63786,7 +63912,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://api.fireworks.ai/v1/serverless/models"
+        "source": "https://api.fireworks.ai/v1/serverless/models?format=nested"
       }
     },
     {
@@ -69269,7 +69395,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://ai.google.dev/gemini-api/docs/pricing"
+        "source": "https://ai.google.dev/gemini-api/docs/deprecations"
       }
     },
     {
@@ -71124,7 +71250,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://docs.x.ai/docs/models"
+        "source": "https://docs.x.ai/developers/migration/imagine-image-quality-nov-2"
       }
     },
     {
@@ -72131,7 +72257,8 @@ export const aiModels: AIModels = {
         "mode": "audio_transcription",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://management.azure.com/subscriptions/a88257a5-3323-4ef9-95bf-5681a46c9624/providers/Microsoft.CognitiveServices/locations/eastus/models?api-version=2024-10-01"
       }
     },
     {
@@ -73889,7 +74016,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'"
+        "source": "https://management.azure.com/subscriptions/a88257a5-3323-4ef9-95bf-5681a46c9624/providers/Microsoft.CognitiveServices/locations/eastus/models?api-version=2024-10-01"
       }
     }
   ],
@@ -73961,7 +74088,8 @@ export const aiModels: AIModels = {
         "mode": "audio_speech",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule"
       }
     },
     {
@@ -73979,7 +74107,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://azure.microsoft.com/en-us/pricing/details/azure-openai/"
+        "source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule"
       }
     },
     {
