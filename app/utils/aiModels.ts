@@ -4438,7 +4438,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://azure.microsoft.com/en-us/pricing/details/cognitive-services/openai-service/"
+        "source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule"
       }
     },
     {
@@ -24259,6 +24259,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "moonshot/kimi-k3.1-pro-highspeed",
+      "provider": "moonshot",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 1048576,
+        "input_cost_per_token": "0.000004",
+        "output_cost_per_token": "0.00002",
+        "litellm_provider": "moonshot",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://platform.kimi.ai/docs/pricing/chat"
+      }
+    },
+    {
       "name": "moonshot/kimi-k3",
       "provider": "moonshot",
       "logo": "/placeholder.svg?height=30&width=30",
@@ -29962,8 +29980,8 @@ export const aiModels: AIModels = {
         "max_tokens": null,
         "max_input_tokens": 1000000,
         "max_output_tokens": 1000000,
-        "input_cost_per_token": "0.0000015",
-        "output_cost_per_token": "0.0000045",
+        "input_cost_per_token": "0.0000025",
+        "output_cost_per_token": "0.0000075",
         "litellm_provider": "together_ai",
         "mode": "chat",
         "supports_function_calling": false,
@@ -49074,6 +49092,24 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://api.together.ai/v1/models"
+      }
+    },
+    {
+      "name": "together_ai/essentialai/rnj-1-instruct",
+      "provider": "together_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.00000015",
+        "litellm_provider": "together_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.together.ai/models/rnj-1-instruct"
       }
     },
     {
