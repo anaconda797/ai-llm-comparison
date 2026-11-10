@@ -16557,42 +16557,6 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "friendliai/deepseek-ai/DeepSeek-V3.2",
-      "provider": "friendliai",
-      "logo": "/logos/friendliai.svg",
-      "sample_spec": {
-        "max_tokens": null,
-        "max_input_tokens": 163840,
-        "max_output_tokens": 163840,
-        "input_cost_per_token": "0.0000005",
-        "output_cost_per_token": "0.0000015",
-        "litellm_provider": "friendliai",
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": true,
-        "supports_vision": false,
-        "source": "https://api.friendli.ai/serverless/v1/models"
-      }
-    },
-    {
-      "name": "friendliai/MiniMaxAI/MiniMax-M2.5",
-      "provider": "friendliai",
-      "logo": "/logos/friendliai.svg",
-      "sample_spec": {
-        "max_tokens": null,
-        "max_input_tokens": 196608,
-        "max_output_tokens": 196608,
-        "input_cost_per_token": "0.0000003",
-        "output_cost_per_token": "0.0000012",
-        "litellm_provider": "friendliai",
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": true,
-        "supports_vision": false,
-        "source": "https://api.friendli.ai/serverless/v1/models"
-      }
-    },
-    {
       "name": "friendliai/zai-org/GLM-5.1",
       "provider": "friendliai",
       "logo": "/logos/friendliai.svg",
@@ -23071,6 +23035,24 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true
+      }
+    },
+    {
+      "name": "minimax/MiniMax-M3.1-Flash",
+      "provider": "minimax",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.0000006",
+        "litellm_provider": "minimax",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://platform.minimax.io/docs/guides/pricing-paygo"
       }
     },
     {
@@ -32958,6 +32940,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "vertex_ai/claude-fable-5-2",
+      "provider": "vertex_ai-anthropic_models",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000008",
+        "output_cost_per_token": "0.00004",
+        "litellm_provider": "vertex_ai-anthropic_models",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"
+      }
+    },
+    {
       "name": "vertex_ai/claude-fable-5@default",
       "provider": "vertex_ai-anthropic_models",
       "logo": "/logos/google.svg",
@@ -32985,6 +32985,24 @@ export const aiModels: AIModels = {
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00001",
         "output_cost_per_token": "0.00005",
+        "litellm_provider": "vertex_ai-anthropic_models",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"
+      }
+    },
+    {
+      "name": "vertex_ai/claude-fable-5-2@default",
+      "provider": "vertex_ai-anthropic_models",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000008",
+        "output_cost_per_token": "0.00004",
         "litellm_provider": "vertex_ai-anthropic_models",
         "mode": "chat",
         "supports_function_calling": true,
@@ -46230,7 +46248,7 @@ export const aiModels: AIModels = {
         "max_tokens": null,
         "max_input_tokens": 262144,
         "max_output_tokens": 262144,
-        "input_cost_per_token": "0.000000085",
+        "input_cost_per_token": "0.000000075",
         "output_cost_per_token": "0.0000004",
         "litellm_provider": "deepinfra",
         "mode": "chat",
@@ -47966,6 +47984,23 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "bedrock/us-gov-west-1/anthropic.claude-fable-5-2",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000096",
+        "output_cost_per_token": "0.000048",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
       "name": "bedrock/us-gov-east-1/nvidia.nemotron-nano-3-30b",
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
@@ -48153,6 +48188,23 @@ export const aiModels: AIModels = {
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.000012",
         "output_cost_per_token": "0.00006",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "bedrock/us-gov-east-1/anthropic.claude-fable-5-2",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000096",
+        "output_cost_per_token": "0.000048",
         "litellm_provider": "bedrock",
         "mode": "chat",
         "supports_function_calling": true,
@@ -57102,7 +57154,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://developers.openai.com/api/docs/models/gpt-6-cyber"
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -61433,14 +61485,338 @@ export const aiModels: AIModels = {
         "max_tokens": null,
         "max_input_tokens": 1049000,
         "max_output_tokens": 1048576,
-        "input_cost_per_token": "0.00000013",
-        "output_cost_per_token": "0.00000065",
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.0000012",
         "litellm_provider": "wandb",
         "mode": "chat",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://www.coreweave.com/products/coreweave-forge/serverless-inference"
+      }
+    },
+    {
+      "name": "anthropic.claude-fable-5-2",
+      "provider": "bedrock_converse",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000008",
+        "output_cost_per_token": "0.00004",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrockFoundationModels/current/index.json"
+      }
+    },
+    {
+      "name": "anthropic.claude-mythos-5-2",
+      "provider": "bedrock_converse",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000008",
+        "output_cost_per_token": "0.00004",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrockFoundationModels/current/index.json"
+      }
+    },
+    {
+      "name": "eu.anthropic.claude-fable-5-2",
+      "provider": "bedrock_converse",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000088",
+        "output_cost_per_token": "0.000044",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrockFoundationModels/current/index.json"
+      }
+    },
+    {
+      "name": "eu.anthropic.claude-mythos-5-2",
+      "provider": "bedrock_converse",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000088",
+        "output_cost_per_token": "0.000044",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrockFoundationModels/current/index.json"
+      }
+    },
+    {
+      "name": "global.anthropic.claude-fable-5-2",
+      "provider": "bedrock_converse",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000008",
+        "output_cost_per_token": "0.00004",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrockFoundationModels/current/index.json"
+      }
+    },
+    {
+      "name": "global.anthropic.claude-mythos-5-2",
+      "provider": "bedrock_converse",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000008",
+        "output_cost_per_token": "0.00004",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrockFoundationModels/current/index.json"
+      }
+    },
+    {
+      "name": "us-gov.anthropic.claude-fable-5-2",
+      "provider": "bedrock_converse",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000096",
+        "output_cost_per_token": "0.000048",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrockFoundationModels/current/index.json"
+      }
+    },
+    {
+      "name": "us-gov.anthropic.claude-mythos-5-2",
+      "provider": "bedrock_converse",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000096",
+        "output_cost_per_token": "0.000048",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrockFoundationModels/current/index.json"
+      }
+    },
+    {
+      "name": "us.anthropic.claude-fable-5-2",
+      "provider": "bedrock_converse",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000088",
+        "output_cost_per_token": "0.000044",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrockFoundationModels/current/index.json"
+      }
+    },
+    {
+      "name": "us.anthropic.claude-mythos-5-2",
+      "provider": "bedrock_converse",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000088",
+        "output_cost_per_token": "0.000044",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrockFoundationModels/current/index.json"
+      }
+    },
+    {
+      "name": "claude-fable-5-2",
+      "provider": "anthropic",
+      "logo": "/logos/anthropic.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000008",
+        "output_cost_per_token": "0.00004",
+        "litellm_provider": "anthropic",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://platform.claude.com/docs/en/about-claude/pricing"
+      }
+    },
+    {
+      "name": "bedrock/claude_platform/claude-fable-5-2",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000008",
+        "output_cost_per_token": "0.00004",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://platform.claude.com/docs/en/about-claude/pricing#claude-platform-on-aws-pricing"
+      }
+    },
+    {
+      "name": "azure_ai/claude-fable-5-2",
+      "provider": "azure_ai",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000008",
+        "output_cost_per_token": "0.00004",
+        "litellm_provider": "azure_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://platform.claude.com/docs/en/about-claude/pricing"
+      }
+    },
+    {
+      "name": "azure_ai/claude-fable-5-2-fast",
+      "provider": "azure_ai",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000016",
+        "output_cost_per_token": "0.00008",
+        "litellm_provider": "azure_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://platform.claude.com/docs/en/about-claude/pricing"
+      }
+    },
+    {
+      "name": "bedrock/us-gov-east-1/anthropic.claude-mythos-5-2",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000096",
+        "output_cost_per_token": "0.000048",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrockFoundationModels/current/index.json"
+      }
+    },
+    {
+      "name": "bedrock/us-gov-west-1/anthropic.claude-mythos-5-2",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000096",
+        "output_cost_per_token": "0.000048",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrockFoundationModels/current/index.json"
+      }
+    },
+    {
+      "name": "github_copilot/claude-fable-5.2",
+      "provider": "github_copilot",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 64000,
+        "input_cost_per_token": "0.000008",
+        "output_cost_per_token": "0.00004",
+        "litellm_provider": "github_copilot",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://raw.githubusercontent.com/github/docs/main/data/tables/copilot/models-and-pricing.yml"
+      }
+    },
+    {
+      "name": "together_ai/elorian-labs/glimpse-1.0",
+      "provider": "together_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.0000006",
+        "output_cost_per_token": "0.000003",
+        "litellm_provider": "together_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://api.together.ai/v1/models"
       }
     }
   ],
