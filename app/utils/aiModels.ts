@@ -13508,7 +13508,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/databricks.svg",
       "sample_spec": {
         "max_tokens": null,
-        "max_input_tokens": 200000,
+        "max_input_tokens": 128000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000015001",
         "output_cost_per_token": "0.00000045003",
@@ -16126,6 +16126,24 @@ export const aiModels: AIModels = {
     },
     {
       "name": "fireworks_ai/accounts/fireworks/models/minimax-m3",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 512000,
+        "max_output_tokens": 512000,
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://api.fireworks.ai/v1/serverless/models?format=nested"
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/routers/minimax-latest",
       "provider": "fireworks_ai",
       "logo": "/logos/fireworks ai.svg",
       "sample_spec": {
@@ -22702,6 +22720,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "meta/muse-ember-1.0",
+      "provider": "meta",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 524288,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000005",
+        "litellm_provider": "meta",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://dev.meta.ai/docs/pricing-rate-limits"
+      }
+    },
+    {
       "name": "meta/muse-spark-1.1",
       "provider": "meta",
       "logo": "/placeholder.svg?height=30&width=30",
@@ -28279,7 +28315,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://replicate.com/meta/llama-2-13b"
       }
     },
     {
@@ -28296,7 +28333,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://replicate.com/meta/llama-2-13b-chat"
       }
     },
     {
@@ -28313,7 +28351,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://replicate.com/meta/llama-2-70b"
       }
     },
     {
@@ -28330,7 +28369,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://replicate.com/meta/llama-2-70b-chat"
       }
     },
     {
@@ -28347,7 +28387,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://replicate.com/meta/llama-2-7b"
       }
     },
     {
@@ -28364,7 +28405,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://replicate.com/meta/llama-2-7b-chat"
       }
     },
     {
@@ -28466,7 +28508,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://replicate.com/mistralai/mistral-7b-v0.1"
       }
     },
     {
@@ -28500,7 +28543,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://replicate.com/openai/gpt-5"
       }
     },
     {
@@ -28517,7 +28561,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://replicate.com/openai/gpt-oss-20b"
       }
     },
     {
@@ -28534,7 +28579,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://replicate.com/anthropic/claude-4.5-haiku"
       }
     },
     {
@@ -28551,7 +28597,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://replicate.com/ibm-granite/granite-3.3-8b-instruct"
       }
     },
     {
@@ -28568,7 +28615,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://replicate.com/openai/gpt-4o"
       }
     },
     {
@@ -28636,7 +28684,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://replicate.com/openai/gpt-4o-mini"
       }
     },
     {
@@ -28653,7 +28702,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://replicate.com/qwen/qwen3-235b-a22b-instruct-2507"
       }
     },
     {
@@ -28687,7 +28737,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://replicate.com/deepseek-ai/deepseek-v3"
       }
     },
     {
@@ -28755,7 +28806,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://replicate.com/google/gemini-3-pro"
       }
     },
     {
@@ -28772,7 +28824,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://replicate.com/anthropic/claude-4.5-sonnet"
       }
     },
     {
@@ -28789,7 +28842,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://replicate.com/openai/gpt-4.1"
       }
     },
     {
@@ -28823,7 +28877,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://replicate.com/openai/gpt-4.1-mini"
       }
     },
     {
@@ -28840,7 +28895,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": true,
+        "source": "https://replicate.com/openai/gpt-5-nano"
       }
     },
     {
@@ -28857,7 +28913,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://replicate.com/openai/gpt-5-mini"
       }
     },
     {
@@ -28874,7 +28931,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://replicate.com/google/gemini-2.5-flash"
       }
     },
     {
@@ -28891,7 +28949,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://replicate.com/openai/gpt-oss-120b"
       }
     },
     {
@@ -28908,7 +28967,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://replicate.com/deepseek-ai/deepseek-v3.1"
       }
     },
     {
@@ -28942,7 +29002,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://replicate.com/deepseek-ai/deepseek-r1"
       }
     },
     {
@@ -32958,6 +33019,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "vertex_ai/claude-mythos-5-2",
+      "provider": "vertex_ai-anthropic_models",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000008",
+        "output_cost_per_token": "0.00004",
+        "litellm_provider": "vertex_ai-anthropic_models",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://platform.claude.com/docs/en/models/mythos-5-2/overview"
+      }
+    },
+    {
       "name": "vertex_ai/claude-fable-5@default",
       "provider": "vertex_ai-anthropic_models",
       "logo": "/logos/google.svg",
@@ -33009,6 +33088,24 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"
+      }
+    },
+    {
+      "name": "vertex_ai/claude-mythos-5-2@default",
+      "provider": "vertex_ai-anthropic_models",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000008",
+        "output_cost_per_token": "0.00004",
+        "litellm_provider": "vertex_ai-anthropic_models",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://platform.claude.com/docs/en/models/mythos-5-2/overview"
       }
     },
     {
@@ -43152,8 +43249,8 @@ export const aiModels: AIModels = {
         "max_tokens": null,
         "max_input_tokens": 960000,
         "max_output_tokens": 64000,
-        "input_cost_per_token": "0.000000834",
-        "output_cost_per_token": "0.000002501",
+        "input_cost_per_token": "0.000000417",
+        "output_cost_per_token": "0.0000012505",
         "litellm_provider": "tencent",
         "mode": "chat",
         "supports_function_calling": true,
@@ -43170,8 +43267,8 @@ export const aiModels: AIModels = {
         "max_tokens": null,
         "max_input_tokens": 960000,
         "max_output_tokens": 64000,
-        "input_cost_per_token": "0.000000834",
-        "output_cost_per_token": "0.000002501",
+        "input_cost_per_token": "0.000000417",
+        "output_cost_per_token": "0.0000012505",
         "litellm_provider": "tencent",
         "mode": "chat",
         "supports_function_calling": true,
@@ -43469,6 +43566,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "claude-mythos-5-2",
+      "provider": "anthropic",
+      "logo": "/logos/anthropic.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000008",
+        "output_cost_per_token": "0.00004",
+        "litellm_provider": "anthropic",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://platform.claude.com/docs/en/about-claude/pricing"
+      }
+    },
+    {
       "name": "claude-mythos-preview",
       "provider": "anthropic",
       "logo": "/logos/anthropic.svg",
@@ -43536,7 +43651,7 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false,
+        "supports_vision": true,
         "source": "https://docs.mistral.ai/models/model-cards/leanstral-1-5"
       }
     },
@@ -43628,6 +43743,24 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://api.fireworks.ai/v1/serverless/models"
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/routers/kimi-latest",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.000003",
+        "output_cost_per_token": "0.000015",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://api.fireworks.ai/v1/serverless/models?format=nested"
       }
     },
     {
@@ -43955,6 +44088,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "fireworks_ai/accounts/fireworks/routers/qwen-max-latest",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 262144,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000006",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://api.fireworks.ai/v1/serverless/models?format=nested"
+      }
+    },
+    {
       "name": "fireworks_ai/accounts/fireworks/routers/glm-5p2-fast",
       "provider": "fireworks_ai",
       "logo": "/logos/fireworks ai.svg",
@@ -44006,6 +44157,24 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://api.fireworks.ai/v1/serverless/models"
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/routers/kimi-fast-latest",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000045",
+        "output_cost_per_token": "0.0000225",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://api.fireworks.ai/v1/serverless/models?format=nested"
       }
     },
     {
@@ -46812,7 +46981,7 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false,
+        "supports_vision": true,
         "source": "https://docs.mistral.ai/models/model-cards/leanstral-1-5"
       }
     },
@@ -46832,6 +47001,24 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://api.fireworks.ai/v1/serverless/models"
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/routers/glm-latest",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000014",
+        "output_cost_per_token": "0.0000044",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://api.fireworks.ai/v1/serverless/models?format=nested"
       }
     },
     {
@@ -46904,6 +47091,24 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://api.fireworks.ai/v1/serverless/models"
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/routers/glm-fast-latest",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 1048576,
+        "input_cost_per_token": "0.0000021",
+        "output_cost_per_token": "0.0000066",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://api.fireworks.ai/v1/serverless/models?format=nested"
       }
     },
     {
@@ -46980,6 +47185,24 @@ export const aiModels: AIModels = {
     },
     {
       "name": "fireworks_ai/accounts/fireworks/models/glm-5p3-flash",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 1048576,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.0000005",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://api.fireworks.ai/v1/serverless/models?format=nested"
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/routers/glm-flash-latest",
       "provider": "fireworks_ai",
       "logo": "/logos/fireworks ai.svg",
       "sample_spec": {
@@ -47997,7 +48220,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrockFoundationModels/current/index.json"
       }
     },
     {
@@ -48209,7 +48433,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrockFoundationModels/current/index.json"
       }
     },
     {
@@ -54110,6 +54335,24 @@ export const aiModels: AIModels = {
     },
     {
       "name": "fireworks_ai/accounts/fireworks/models/deepseek-v4p1-flash-1017",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 393216,
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://api.fireworks.ai/v1/serverless/models?format=nested"
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/routers/deepseek-flash-latest",
       "provider": "fireworks_ai",
       "logo": "/logos/fireworks ai.svg",
       "sample_spec": {
@@ -61712,6 +61955,42 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "azure_ai/claude-mythos-5-2",
+      "provider": "azure_ai",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000008",
+        "output_cost_per_token": "0.00004",
+        "litellm_provider": "azure_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://platform.claude.com/docs/en/about-claude/pricing"
+      }
+    },
+    {
+      "name": "azure_ai/claude-mythos-5-2-fast",
+      "provider": "azure_ai",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000016",
+        "output_cost_per_token": "0.00008",
+        "litellm_provider": "azure_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://platform.claude.com/docs/en/about-claude/pricing"
+      }
+    },
+    {
       "name": "azure_ai/claude-fable-5-2",
       "provider": "azure_ai",
       "logo": "/logos/azure.svg",
@@ -61817,6 +62096,870 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://api.together.ai/v1/models"
+      }
+    },
+    {
+      "name": "gemini/gemini-4-carbon",
+      "provider": "gemini",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 1048576,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.00001",
+        "litellm_provider": "gemini",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://aistudio.google.com/docs/pricing#gemini-4-carbon"
+      }
+    },
+    {
+      "name": "vertex_ai/gemini-4-carbon",
+      "provider": "vertex_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 1048576,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.00001",
+        "litellm_provider": "vertex_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"
+      }
+    },
+    {
+      "name": "vertex_ai/gemini-4-carbon-cyber-permissive",
+      "provider": "vertex_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 1048576,
+        "input_cost_per_token": "0.000004",
+        "output_cost_per_token": "0.00002",
+        "litellm_provider": "vertex_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"
+      }
+    },
+    {
+      "name": "github_copilot/gemini-4-carbon",
+      "provider": "github_copilot",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.00001",
+        "litellm_provider": "github_copilot",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://github.blog/changelog/2026-11-09-gemini-4-carbon-in-github-copilot"
+      }
+    },
+    {
+      "name": "replicate/anthropic/claude-fable-5",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00001",
+        "output_cost_per_token": "0.00005",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://replicate.com/anthropic/claude-fable-5"
+      }
+    },
+    {
+      "name": "replicate/anthropic/claude-fable-5.2",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000008",
+        "output_cost_per_token": "0.00004",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://replicate.com/anthropic/claude-fable-5.2"
+      }
+    },
+    {
+      "name": "replicate/anthropic/claude-opus-4.6",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000005",
+        "output_cost_per_token": "0.000025",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://replicate.com/anthropic/claude-opus-4.6"
+      }
+    },
+    {
+      "name": "replicate/anthropic/claude-opus-4.7",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000005",
+        "output_cost_per_token": "0.000025",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://replicate.com/anthropic/claude-opus-4.7"
+      }
+    },
+    {
+      "name": "replicate/anthropic/claude-opus-5.5",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000004",
+        "output_cost_per_token": "0.00002",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://replicate.com/anthropic/claude-opus-5.5"
+      }
+    },
+    {
+      "name": "replicate/anthropic/claude-sonnet-4.6",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000003",
+        "output_cost_per_token": "0.000015",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://replicate.com/anthropic/claude-sonnet-4.6"
+      }
+    },
+    {
+      "name": "replicate/anthropic/claude-sonnet-5",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.00001",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://replicate.com/anthropic/claude-sonnet-5"
+      }
+    },
+    {
+      "name": "replicate/google/gemini-3-flash",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000005",
+        "output_cost_per_token": "0.000003",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://replicate.com/google/gemini-3-flash"
+      }
+    },
+    {
+      "name": "replicate/google/gemini-3.1-pro",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000012",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://replicate.com/google/gemini-3.1-pro"
+      }
+    },
+    {
+      "name": "replicate/google/gemini-3.5-flash",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000015",
+        "output_cost_per_token": "0.000009",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://replicate.com/google/gemini-3.5-flash"
+      }
+    },
+    {
+      "name": "replicate/ibm-granite/granite-20b-code-instruct-8k",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000005",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/ibm-granite/granite-20b-code-instruct-8k"
+      }
+    },
+    {
+      "name": "replicate/ibm-granite/granite-3.0-2b-instruct",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000003",
+        "output_cost_per_token": "0.00000025",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/ibm-granite/granite-3.0-2b-instruct"
+      }
+    },
+    {
+      "name": "replicate/ibm-granite/granite-3.0-8b-instruct",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000005",
+        "output_cost_per_token": "0.00000025",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/ibm-granite/granite-3.0-8b-instruct"
+      }
+    },
+    {
+      "name": "replicate/ibm-granite/granite-3.1-2b-instruct",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000003",
+        "output_cost_per_token": "0.00000025",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/ibm-granite/granite-3.1-2b-instruct"
+      }
+    },
+    {
+      "name": "replicate/ibm-granite/granite-3.1-8b-instruct",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000003",
+        "output_cost_per_token": "0.00000025",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/ibm-granite/granite-3.1-8b-instruct"
+      }
+    },
+    {
+      "name": "replicate/ibm-granite/granite-3.2-8b-instruct",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000003",
+        "output_cost_per_token": "0.00000025",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/ibm-granite/granite-3.2-8b-instruct"
+      }
+    },
+    {
+      "name": "replicate/ibm-granite/granite-4.0-h-small",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000006",
+        "output_cost_per_token": "0.00000025",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/ibm-granite/granite-4.0-h-small"
+      }
+    },
+    {
+      "name": "replicate/ibm-granite/granite-4.1-8b",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000006",
+        "output_cost_per_token": "0.00000025",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/ibm-granite/granite-4.1-8b"
+      }
+    },
+    {
+      "name": "replicate/ibm-granite/granite-4.2-8b",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000006",
+        "output_cost_per_token": "0.00000025",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/ibm-granite/granite-4.2-8b"
+      }
+    },
+    {
+      "name": "replicate/ibm-granite/granite-8b-code-instruct-128k",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000005",
+        "output_cost_per_token": "0.00000025",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/ibm-granite/granite-8b-code-instruct-128k"
+      }
+    },
+    {
+      "name": "replicate/ibm-granite/granite-vision-3.3-2b",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0.00000025",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://replicate.com/ibm-granite/granite-vision-3.3-2b"
+      }
+    },
+    {
+      "name": "replicate/ibm-granite/granite-vision-4.1-4b",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000006",
+        "output_cost_per_token": "0.00000025",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://replicate.com/ibm-granite/granite-vision-4.1-4b"
+      }
+    },
+    {
+      "name": "replicate/meta/llama-4-maverick-instruct",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000025",
+        "output_cost_per_token": "0.00000095",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/meta/llama-4-maverick-instruct"
+      }
+    },
+    {
+      "name": "replicate/meta/llama-4-scout-instruct",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000017",
+        "output_cost_per_token": "0.00000065",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/meta/llama-4-scout-instruct"
+      }
+    },
+    {
+      "name": "replicate/meta/llama-guard-4-12b",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://replicate.com/meta/llama-guard-4-12b"
+      }
+    },
+    {
+      "name": "replicate/meta/meta-llama-3-70b",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000065",
+        "output_cost_per_token": "0.00000275",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/meta/meta-llama-3-70b"
+      }
+    },
+    {
+      "name": "replicate/meta/meta-llama-3-70b-instruct",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000065",
+        "output_cost_per_token": "0.00000275",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/meta/meta-llama-3-70b-instruct"
+      }
+    },
+    {
+      "name": "replicate/meta/meta-llama-3-8b",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000005",
+        "output_cost_per_token": "0.00000025",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/meta/meta-llama-3-8b"
+      }
+    },
+    {
+      "name": "replicate/meta/meta-llama-3-8b-instruct",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000005",
+        "output_cost_per_token": "0.00000025",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/meta/meta-llama-3-8b-instruct"
+      }
+    },
+    {
+      "name": "replicate/moonshotai/kimi-k2-thinking",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000066",
+        "output_cost_per_token": "0.0000027",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/moonshotai/kimi-k2-thinking"
+      }
+    },
+    {
+      "name": "replicate/moonshotai/kimi-k2.5",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000072",
+        "output_cost_per_token": "0.0000036",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://replicate.com/moonshotai/kimi-k2.5"
+      }
+    },
+    {
+      "name": "replicate/moonshotai/kimi-k2.6",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000095",
+        "output_cost_per_token": "0.000004",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://replicate.com/moonshotai/kimi-k2.6"
+      }
+    },
+    {
+      "name": "replicate/openai/gpt-5-pro",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000015",
+        "output_cost_per_token": "0.00012",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://replicate.com/openai/gpt-5-pro"
+      }
+    },
+    {
+      "name": "replicate/openai/gpt-5.1",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000125",
+        "output_cost_per_token": "0.00001",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://replicate.com/openai/gpt-5.1"
+      }
+    },
+    {
+      "name": "replicate/openai/gpt-5.2",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000175",
+        "output_cost_per_token": "0.000014",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://replicate.com/openai/gpt-5.2"
+      }
+    },
+    {
+      "name": "replicate/openai/gpt-5.4",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000025",
+        "output_cost_per_token": "0.000015",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://replicate.com/openai/gpt-5.4"
+      }
+    },
+    {
+      "name": "replicate/openai/gpt-5.6-luna",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.000006",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://replicate.com/openai/gpt-5.6-luna"
+      }
+    },
+    {
+      "name": "replicate/openai/gpt-5.6-sol",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.00001",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://replicate.com/openai/gpt-5.6-sol"
+      }
+    },
+    {
+      "name": "replicate/openai/gpt-5.6-terra",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000025",
+        "output_cost_per_token": "0.000015",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://replicate.com/openai/gpt-5.6-terra"
+      }
+    },
+    {
+      "name": "replicate/perceptron-ai-inc/isaac-0.1",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000026",
+        "output_cost_per_token": "0.00000217",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://replicate.com/perceptron-ai-inc/isaac-0.1"
+      }
+    },
+    {
+      "name": "replicate/qwen/qwen3-7-plus",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000000276",
+        "output_cost_per_token": "0.000001101",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://replicate.com/qwen/qwen3-7-plus"
+      }
+    },
+    {
+      "name": "replicate/snowflake/snowflake-arctic-instruct",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00002",
+        "output_cost_per_token": "0.00002",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/snowflake/snowflake-arctic-instruct"
+      }
+    },
+    {
+      "name": "databricks/databricks-claude-fable-5-2",
+      "provider": "databricks",
+      "logo": "/logos/databricks.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000008",
+        "output_cost_per_token": "0.00004",
+        "litellm_provider": "databricks",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/supported-models"
+      }
+    },
+    {
+      "name": "databricks/system.ai.claude-fable-5-2",
+      "provider": "databricks",
+      "logo": "/logos/databricks.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000008",
+        "output_cost_per_token": "0.00004",
+        "litellm_provider": "databricks",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/supported-models"
       }
     }
   ],
@@ -66021,7 +67164,8 @@ export const aiModels: AIModels = {
         "mode": "image_generation",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/flux-pro/v1.1"
       }
     },
     {
@@ -66038,7 +67182,8 @@ export const aiModels: AIModels = {
         "mode": "image_generation",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/flux-pro/v1.1-ultra"
       }
     },
     {
@@ -66055,7 +67200,8 @@ export const aiModels: AIModels = {
         "mode": "image_generation",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/flux/schnell"
       }
     },
     {
@@ -66106,7 +67252,8 @@ export const aiModels: AIModels = {
         "mode": "image_generation",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/ideogram/v3"
       }
     },
     {
@@ -66191,7 +67338,8 @@ export const aiModels: AIModels = {
         "mode": "image_generation",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/stable-diffusion-v35-medium"
       }
     },
     {
@@ -66208,7 +67356,8 @@ export const aiModels: AIModels = {
         "mode": "image_generation",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/nano-banana"
       }
     },
     {
@@ -66225,7 +67374,8 @@ export const aiModels: AIModels = {
         "mode": "image_generation",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/gemini-25-flash-image"
       }
     },
     {
@@ -69590,7 +70740,7 @@ export const aiModels: AIModels = {
         "mode": "image_generation",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false,
+        "supports_vision": true,
         "source": "https://fal.ai/models/fal-ai/flux-lora-depth"
       }
     },
@@ -71915,6 +73065,9960 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://developers.openai.com/api/docs/pricing"
+      }
+    },
+    {
+      "name": "fal_ai/blackforestlabs/flux-3/klein/base/edit-image/lora",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/blackforestlabs/flux-3/klein/base/edit-image/lora"
+      }
+    },
+    {
+      "name": "fal_ai/blackforestlabs/flux-3/klein/base/text-to-image/lora",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/blackforestlabs/flux-3/klein/base/text-to-image/lora"
+      }
+    },
+    {
+      "name": "fal_ai/blackforestlabs/flux-3/klein/edit-image/lora",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/blackforestlabs/flux-3/klein/edit-image/lora"
+      }
+    },
+    {
+      "name": "fal_ai/blackforestlabs/flux-3/klein/text-to-image/lora",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/blackforestlabs/flux-3/klein/text-to-image/lora"
+      }
+    },
+    {
+      "name": "fal_ai/bria/embed-product",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/bria/embed-product"
+      }
+    },
+    {
+      "name": "fal_ai/bria/extract-object",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/bria/extract-object"
+      }
+    },
+    {
+      "name": "fal_ai/bria/fibo-2/edit",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/bria/fibo-2/edit"
+      }
+    },
+    {
+      "name": "fal_ai/bria/fibo-bbq-preview/generate",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/bria/fibo-bbq-preview/generate"
+      }
+    },
+    {
+      "name": "fal_ai/bria/fibo-edit-1.5/edit",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/bria/fibo-edit-1.5/edit"
+      }
+    },
+    {
+      "name": "fal_ai/bria/fibo-edit-1.5/expand",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/bria/fibo-edit-1.5/expand"
+      }
+    },
+    {
+      "name": "fal_ai/bria/fibo-edit-1.5/product-holding",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/bria/fibo-edit-1.5/product-holding"
+      }
+    },
+    {
+      "name": "fal_ai/bria/fibo-edit-1.5/virtual-try-on",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/bria/fibo-edit-1.5/virtual-try-on"
+      }
+    },
+    {
+      "name": "fal_ai/bria/fibo-edit/add_object_by_text",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/bria/fibo-edit/add_object_by_text"
+      }
+    },
+    {
+      "name": "fal_ai/bria/fibo-edit/blend",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/bria/fibo-edit/blend"
+      }
+    },
+    {
+      "name": "fal_ai/bria/fibo-edit/colorize",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/bria/fibo-edit/colorize"
+      }
+    },
+    {
+      "name": "fal_ai/bria/fibo-edit/edit",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/bria/fibo-edit/edit"
+      }
+    },
+    {
+      "name": "fal_ai/bria/fibo-edit/erase_by_text",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/bria/fibo-edit/erase_by_text"
+      }
+    },
+    {
+      "name": "fal_ai/bria/fibo-edit/relight",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/bria/fibo-edit/relight"
+      }
+    },
+    {
+      "name": "fal_ai/bria/fibo-edit/replace_object_by_text",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/bria/fibo-edit/replace_object_by_text"
+      }
+    },
+    {
+      "name": "fal_ai/bria/fibo-edit/reseason",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/bria/fibo-edit/reseason"
+      }
+    },
+    {
+      "name": "fal_ai/bria/fibo-edit/restore",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/bria/fibo-edit/restore"
+      }
+    },
+    {
+      "name": "fal_ai/bria/fibo-edit/restyle",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/bria/fibo-edit/restyle"
+      }
+    },
+    {
+      "name": "fal_ai/bria/fibo-edit/rewrite_text",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/bria/fibo-edit/rewrite_text"
+      }
+    },
+    {
+      "name": "fal_ai/bria/fibo-edit/sketch_to_colored_image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/bria/fibo-edit/sketch_to_colored_image"
+      }
+    },
+    {
+      "name": "fal_ai/bria/fibo-gen-1.5/text-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/bria/fibo-gen-1.5/text-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/bria/fibo-lite/generate",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/bria/fibo-lite/generate"
+      }
+    },
+    {
+      "name": "fal_ai/bria/fibo/generate",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/bria/fibo/generate"
+      }
+    },
+    {
+      "name": "fal_ai/bria/genfill/v2",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/bria/genfill/v2"
+      }
+    },
+    {
+      "name": "fal_ai/bria/guided-remove-background",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/bria/guided-remove-background"
+      }
+    },
+    {
+      "name": "fal_ai/bria/increase-resolution",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/bria/increase-resolution"
+      }
+    },
+    {
+      "name": "fal_ai/bria/product-dimensions",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/bria/product-dimensions"
+      }
+    },
+    {
+      "name": "fal_ai/bria/replace-background",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/bria/replace-background"
+      }
+    },
+    {
+      "name": "fal_ai/bria/upscale/creative",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/bria/upscale/creative"
+      }
+    },
+    {
+      "name": "fal_ai/bytedance/seedream/v5/flash/edit",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/bytedance/seedream/v5/flash/edit"
+      }
+    },
+    {
+      "name": "fal_ai/bytedance/seedream/v5/flash/layerize",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/bytedance/seedream/v5/flash/layerize"
+      }
+    },
+    {
+      "name": "fal_ai/bytedance/seedream/v5/flash/text-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/bytedance/seedream/v5/flash/text-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/bytedance/seedream/v5/lite/edit",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/bytedance/seedream/v5/lite/edit"
+      }
+    },
+    {
+      "name": "fal_ai/bytedance/seedream/v5/lite/text-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/bytedance/seedream/v5/lite/text-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/clarityai/crystal-upscaler",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/clarityai/crystal-upscaler"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/bagel",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/bagel"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/bagel/edit",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/bagel/edit"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/ben/v2/image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/ben/v2/image"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/boogu-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/boogu-image"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/boogu-image/edit",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/boogu-image/edit"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/bria/background/replace",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/bria/background/replace"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/bria/eraser",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/bria/eraser"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/bria/expand",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/bria/expand"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/bria/genfill",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/bria/genfill"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/bria/product-shot",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/bria/product-shot"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/bria/reimagine",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/bria/reimagine"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/bria/text-to-image/base",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/bria/text-to-image/base"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/bria/text-to-image/fast",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/bria/text-to-image/fast"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/bria/text-to-image/hd",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/bria/text-to-image/hd"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/bytedance/seedream/v4.5/edit",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/bytedance/seedream/v4.5/edit"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/bytedance/seedream/v4.5/text-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/bytedance/seedream/v4.5/text-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/bytedance/seedream/v4/edit",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/bytedance/seedream/v4/edit"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/bytedance/seedream/v4/text-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/bytedance/seedream/v4/text-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/clarity-upscaler",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/clarity-upscaler"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/codeformer",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/codeformer"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/control-light",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/control-light"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/ddcolor",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/ddcolor"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/ernie-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/ernie-image"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/ernie-image/lora",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/ernie-image/lora"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/ernie-image/lora/turbo",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/ernie-image/lora/turbo"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/ernie-image/turbo",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/ernie-image/turbo"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/fashn/tryon/v1.5",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/fashn/tryon/v1.5"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/fashn/tryon/v1.6",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/fashn/tryon/v1.6"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/feynobg",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/feynobg"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/finegrain-eraser",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/finegrain-eraser"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/finegrain-eraser/bbox",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/finegrain-eraser/bbox"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/finegrain-eraser/mask",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/finegrain-eraser/mask"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/firered-image-edit-v1.1",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/firered-image-edit-v1.1"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-1/dev",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/flux-1/dev"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-1/dev/image-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/flux-1/dev/image-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-1/dev/redux",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/flux-1/dev/redux"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-1/krea",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/flux-1/krea"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-1/krea/image-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/flux-1/krea/image-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-1/krea/redux",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/flux-1/krea/redux"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-1/schnell",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/flux-1/schnell"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-1/schnell/redux",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/flux-1/schnell/redux"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-1/srpo",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/flux-1/srpo"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-1/srpo/image-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/flux-1/srpo/image-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-2",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/flux-2"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-2-flex",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/flux-2-flex"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-2-flex/edit",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/flux-2-flex/edit"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-2-lora-gallery/add-background",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/flux-2-lora-gallery/add-background"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-2-lora-gallery/apartment-staging",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/flux-2-lora-gallery/apartment-staging"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-2-lora-gallery/ballpoint-pen-sketch",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/flux-2-lora-gallery/ballpoint-pen-sketch"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-2-lora-gallery/digital-comic-art",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/flux-2-lora-gallery/digital-comic-art"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-2-lora-gallery/face-to-full-portrait",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/flux-2-lora-gallery/face-to-full-portrait"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-2-lora-gallery/hdr-style",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/flux-2-lora-gallery/hdr-style"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-2-lora-gallery/multiple-angles",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/flux-2-lora-gallery/multiple-angles"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-2-lora-gallery/realism",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/flux-2-lora-gallery/realism"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-2-lora-gallery/satellite-view-style",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/flux-2-lora-gallery/satellite-view-style"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-2-lora-gallery/sepia-vintage",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/flux-2-lora-gallery/sepia-vintage"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-2-lora-gallery/virtual-tryon",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/flux-2-lora-gallery/virtual-tryon"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-2/edit",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/flux-2/edit"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-2/flash",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/flux-2/flash"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-2/flash/edit",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/flux-2/flash/edit"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-2/klein/4b",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/flux-2/klein/4b"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-2/klein/4b/base",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/flux-2/klein/4b/base"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-2/klein/4b/base/edit",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/flux-2/klein/4b/base/edit"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-2/klein/4b/base/edit/lora",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/flux-2/klein/4b/base/edit/lora"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-2/klein/4b/base/lora",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/flux-2/klein/4b/base/lora"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-2/klein/4b/edit",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/flux-2/klein/4b/edit"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-2/klein/4b/edit/lora",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/flux-2/klein/4b/edit/lora"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-2/klein/4b/lora",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/flux-2/klein/4b/lora"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-2/klein/9b",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/flux-2/klein/9b"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-2/klein/9b/base",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/flux-2/klein/9b/base"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-2/klein/9b/base/edit",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/flux-2/klein/9b/base/edit"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-2/klein/9b/base/edit/lora",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/flux-2/klein/9b/base/edit/lora"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-2/klein/9b/base/lora",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/flux-2/klein/9b/base/lora"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-2/klein/9b/edit",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/flux-2/klein/9b/edit"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-2/klein/9b/edit/lora",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/flux-2/klein/9b/edit/lora"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-2/klein/9b/lora",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/flux-2/klein/9b/lora"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-2/lora",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/flux-2/lora"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-2/lora/edit",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/flux-2/lora/edit"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-2/turbo",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/flux-2/turbo"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-2/turbo/edit",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/flux-2/turbo/edit"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-general",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/flux-general"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-general/image-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/flux-general/image-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-general/inpainting",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/flux-general/inpainting"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-kontext-lora",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/flux-kontext-lora"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-kontext-lora/inpaint",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/flux-kontext-lora/inpaint"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-kontext-lora/text-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/flux-kontext-lora/text-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-kontext/dev",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/flux-kontext/dev"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-krea-lora",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/flux-krea-lora"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-krea-lora/image-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/flux-krea-lora/image-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-krea-lora/inpainting",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/flux-krea-lora/inpainting"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-krea-lora/stream",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/flux-krea-lora/stream"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-lora",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/flux-lora"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-lora-canny",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/flux-lora-canny"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-lora-fill",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/flux-lora-fill"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-lora/image-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/flux-lora/image-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-lora/inpainting",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/flux-lora/inpainting"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-lora/stream",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/flux-lora/stream"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-pro/kontext",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/flux-pro/kontext"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-pro/kontext/max",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/flux-pro/kontext/max"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-pro/kontext/max/multi",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/flux-pro/kontext/max/multi"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-pro/kontext/max/text-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/flux-pro/kontext/max/text-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-pro/kontext/multi",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/flux-pro/kontext/multi"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-pro/kontext/text-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/flux-pro/kontext/text-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-pro/v1.1-ultra-finetuned",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/flux-pro/v1.1-ultra-finetuned"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-pro/v1.1-ultra/redux",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/flux-pro/v1.1-ultra/redux"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-pro/v1.1/redux",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/flux-pro/v1.1/redux"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-pro/v1/fill",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/flux-pro/v1/fill"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-pro/v1/fill-finetuned",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/flux-pro/v1/fill-finetuned"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-pulid",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/flux-pulid"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-vision-upscaler",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/flux-vision-upscaler"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux/dev/image-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/flux/dev/image-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux/dev/redux",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/flux/dev/redux"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux/krea",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/flux/krea"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux/krea/image-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/flux/krea/image-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux/krea/redux",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/flux/krea/redux"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux/schnell/redux",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/flux/schnell/redux"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux/srpo",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/flux/srpo"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux/srpo/image-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/flux/srpo/image-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/gemini-25-flash-image/edit",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/gemini-25-flash-image/edit"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/gemini-3-pro-image-preview",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/gemini-3-pro-image-preview"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/gemini-3-pro-image-preview/edit",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/gemini-3-pro-image-preview/edit"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/gemini-3.1-flash-image-preview",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/gemini-3.1-flash-image-preview"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/gemini-3.1-flash-image-preview/edit",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/gemini-3.1-flash-image-preview/edit"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/glm-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/glm-image"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/glm-image/image-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/glm-image/image-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/hidream-i1-fast",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/hidream-i1-fast"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/hidream-i1-full",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/hidream-i1-full"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/hidream-i1-full/image-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/hidream-i1-full/image-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/hidream-o1-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/hidream-o1-image"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/hidream-o1-image/dev",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/hidream-o1-image/dev"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/hidream-o1-image/dev/edit",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/hidream-o1-image/dev/edit"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/hidream-o1-image/edit",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/hidream-o1-image/edit"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/hunyuan_world",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/hunyuan_world"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/hunyuan-image/v2.1/text-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/hunyuan-image/v2.1/text-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/hunyuan-image/v3/instruct/edit",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/hunyuan-image/v3/instruct/edit"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/hunyuan-image/v3/instruct/text-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/hunyuan-image/v3/instruct/text-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/hunyuan-image/v3/text-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/hunyuan-image/v3/text-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/iclight-v2",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/iclight-v2"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/ideogram/character",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/ideogram/character"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/ideogram/character/edit",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/ideogram/character/edit"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/ideogram/character/remix",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/ideogram/character/remix"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/ideogram/object-removal",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/ideogram/object-removal"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/ideogram/remove-background",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/ideogram/remove-background"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/ideogram/upscale",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/ideogram/upscale"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/ideogram/v2",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/ideogram/v2"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/ideogram/v2/edit",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/ideogram/v2/edit"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/ideogram/v2/remix",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/ideogram/v2/remix"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/ideogram/v2/turbo",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/ideogram/v2/turbo"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/ideogram/v2/turbo/edit",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/ideogram/v2/turbo/edit"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/ideogram/v2/turbo/remix",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/ideogram/v2/turbo/remix"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/ideogram/v2a",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/ideogram/v2a"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/ideogram/v2a/remix",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/ideogram/v2a/remix"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/ideogram/v2a/turbo",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/ideogram/v2a/turbo"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/ideogram/v2a/turbo/remix",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/ideogram/v2a/turbo/remix"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/ideogram/v3/edit",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/ideogram/v3/edit"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/ideogram/v3/generate-transparent",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/ideogram/v3/generate-transparent"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/ideogram/v3/layerize-text",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/ideogram/v3/layerize-text"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/ideogram/v3/reframe",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/ideogram/v3/reframe"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/ideogram/v3/remix",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/ideogram/v3/remix"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/ideogram/v3/replace-background",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/ideogram/v3/replace-background"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/image-apps-v2/age-modify",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/image-apps-v2/age-modify"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/image-apps-v2/city-teleport",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/image-apps-v2/city-teleport"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/image-apps-v2/expression-change",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/image-apps-v2/expression-change"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/image-apps-v2/hair-change",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/image-apps-v2/hair-change"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/image-apps-v2/headshot-photo",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/image-apps-v2/headshot-photo"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/image-apps-v2/makeup-application",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/image-apps-v2/makeup-application"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/image-apps-v2/object-removal",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/image-apps-v2/object-removal"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/image-apps-v2/outpaint",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/image-apps-v2/outpaint"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/image-apps-v2/perspective",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/image-apps-v2/perspective"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/image-apps-v2/photo-restoration",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/image-apps-v2/photo-restoration"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/image-apps-v2/photography-effects",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/image-apps-v2/photography-effects"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/image-apps-v2/portrait-enhance",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/image-apps-v2/portrait-enhance"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/image-apps-v2/product-holding",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/image-apps-v2/product-holding"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/image-apps-v2/product-photography",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/image-apps-v2/product-photography"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/image-apps-v2/relighting",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/image-apps-v2/relighting"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/image-apps-v2/style-transfer",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/image-apps-v2/style-transfer"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/image-apps-v2/texture-transform",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/image-apps-v2/texture-transform"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/image-apps-v2/virtual-try-on",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/image-apps-v2/virtual-try-on"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/image-editing/age-progression",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/image-editing/age-progression"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/image-editing/baby-version",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/image-editing/baby-version"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/image-editing/background-change",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/image-editing/background-change"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/image-editing/broccoli-haircut",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/image-editing/broccoli-haircut"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/image-editing/cartoonify",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/image-editing/cartoonify"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/image-editing/color-correction",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/image-editing/color-correction"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/image-editing/expression-change",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/image-editing/expression-change"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/image-editing/face-enhancement",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/image-editing/face-enhancement"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/image-editing/hair-change",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/image-editing/hair-change"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/image-editing/object-removal",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/image-editing/object-removal"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/image-editing/photo-restoration",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/image-editing/photo-restoration"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/image-editing/plushie-style",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/image-editing/plushie-style"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/image-editing/professional-photo",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/image-editing/professional-photo"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/image-editing/realism",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/image-editing/realism"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/image-editing/reframe",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/image-editing/reframe"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/image-editing/retouch",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/image-editing/retouch"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/image-editing/scene-composition",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/image-editing/scene-composition"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/image-editing/style-transfer",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/image-editing/style-transfer"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/image-editing/text-removal",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/image-editing/text-removal"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/image-editing/time-of-day",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/image-editing/time-of-day"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/image-editing/weather-effect",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/image-editing/weather-effect"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/image-editing/wojak-style",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/image-editing/wojak-style"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/image-editing/youtube-thumbnails",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/image-editing/youtube-thumbnails"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/image2svg",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/image2svg"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/instant-character",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/instant-character"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/kling-image/o1",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/kling-image/o1"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/kling-image/o3/image-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/kling-image/o3/image-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/kling-image/o3/text-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/kling-image/o3/text-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/kling-image/v3/image-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/kling-image/v3/image-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/kling-image/v3/text-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/kling-image/v3/text-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/krea-2/turbo",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/krea-2/turbo"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/krea-2/turbo/lora",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/krea-2/turbo/lora"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/krea-2/turbo/style",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/krea-2/turbo/style"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/leffa/pose-transfer",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/leffa/pose-transfer"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/leffa/virtual-tryon",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/leffa/virtual-tryon"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/longcat-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/longcat-image"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/longcat-image/edit",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/longcat-image/edit"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/lumina-image/v2",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/lumina-image/v2"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/marigold-v2",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/marigold-v2"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/minimax/image-01/subject-reference",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/minimax/image-01/subject-reference"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/moss-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/moss-image"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/nafnet/deblur",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/nafnet/deblur"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/nafnet/denoise",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/nafnet/denoise"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/nano-banana-2/edit",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/nano-banana-2/edit"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/nano-banana-pro/edit",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/nano-banana-pro/edit"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/nano-banana/edit",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/nano-banana/edit"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/nucleus-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/nucleus-image"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/omnigen-v2",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/omnigen-v2"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/patina",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/patina"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/phota/enhance",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/phota/enhance"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/post-processing/blur",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/post-processing/blur"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/post-processing/chromatic-aberration",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/post-processing/chromatic-aberration"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/post-processing/color-correction",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/post-processing/color-correction"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/post-processing/color-tint",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/post-processing/color-tint"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/post-processing/desaturate",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/post-processing/desaturate"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/post-processing/dissolve",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/post-processing/dissolve"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/post-processing/dodge-burn",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/post-processing/dodge-burn"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/post-processing/grain",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/post-processing/grain"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/post-processing/parabolize",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/post-processing/parabolize"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/post-processing/sharpen",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/post-processing/sharpen"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/post-processing/solarize",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/post-processing/solarize"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/post-processing/vignette",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/post-processing/vignette"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/qwen-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/qwen-image"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/qwen-image-2512",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/qwen-image-2512"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/qwen-image-2512/lora",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/qwen-image-2512/lora"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/qwen-image-edit-2509",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/qwen-image-edit-2509"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/qwen-image-edit-2509-lora",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/qwen-image-edit-2509-lora"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/qwen-image-edit-2509-lora-gallery/add-background",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/qwen-image-edit-2509-lora-gallery/add-background"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/qwen-image-edit-2509-lora-gallery/face-to-full-portrait",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/qwen-image-edit-2509-lora-gallery/face-to-full-portrait"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/qwen-image-edit-2509-lora-gallery/group-photo",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/qwen-image-edit-2509-lora-gallery/group-photo"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/qwen-image-edit-2509-lora-gallery/integrate-product",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/qwen-image-edit-2509-lora-gallery/integrate-product"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/qwen-image-edit-2509-lora-gallery/lighting-restoration",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/qwen-image-edit-2509-lora-gallery/lighting-restoration"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/qwen-image-edit-2509-lora-gallery/multiple-angles",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/qwen-image-edit-2509-lora-gallery/multiple-angles"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/qwen-image-edit-2509-lora-gallery/next-scene",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/qwen-image-edit-2509-lora-gallery/next-scene"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/qwen-image-edit-2509-lora-gallery/remove-element",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/qwen-image-edit-2509-lora-gallery/remove-element"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/qwen-image-edit-2509-lora-gallery/remove-lighting",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/qwen-image-edit-2509-lora-gallery/remove-lighting"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/qwen-image-edit-2509-lora-gallery/shirt-design",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/qwen-image-edit-2509-lora-gallery/shirt-design"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/qwen-image-edit-2511",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/qwen-image-edit-2511"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/qwen-image-edit-2511-multiple-angles",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/qwen-image-edit-2511-multiple-angles"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/qwen-image-edit-2511/lora",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/qwen-image-edit-2511/lora"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/qwen-image-edit-lora",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/qwen-image-edit-lora"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/qwen-image-edit-plus",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/qwen-image-edit-plus"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/qwen-image-edit-plus-lora",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/qwen-image-edit-plus-lora"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/qwen-image-edit-plus-lora-gallery/add-background",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/qwen-image-edit-plus-lora-gallery/add-background"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/qwen-image-edit-plus-lora-gallery/face-to-full-portrait",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/qwen-image-edit-plus-lora-gallery/face-to-full-portrait"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/qwen-image-edit-plus-lora-gallery/group-photo",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/qwen-image-edit-plus-lora-gallery/group-photo"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/qwen-image-edit-plus-lora-gallery/integrate-product",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/qwen-image-edit-plus-lora-gallery/integrate-product"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/qwen-image-edit-plus-lora-gallery/lighting-restoration",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/qwen-image-edit-plus-lora-gallery/lighting-restoration"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/qwen-image-edit-plus-lora-gallery/multiple-angles",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/qwen-image-edit-plus-lora-gallery/multiple-angles"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/qwen-image-edit-plus-lora-gallery/next-scene",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/qwen-image-edit-plus-lora-gallery/next-scene"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/qwen-image-edit-plus-lora-gallery/remove-element",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/qwen-image-edit-plus-lora-gallery/remove-element"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/qwen-image-edit-plus-lora-gallery/remove-lighting",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/qwen-image-edit-plus-lora-gallery/remove-lighting"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/qwen-image-edit-plus-lora-gallery/shirt-design",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/qwen-image-edit-plus-lora-gallery/shirt-design"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/qwen-image-edit/image-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/qwen-image-edit/image-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/qwen-image-edit/inpaint",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/qwen-image-edit/inpaint"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/qwen-image-layered",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/qwen-image-layered"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/qwen-image-layered/lora",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/qwen-image-layered/lora"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/qwen-image/image-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/qwen-image/image-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/recraft/upscale/creative",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/recraft/upscale/creative"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/recraft/upscale/crisp",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/recraft/upscale/crisp"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/recraft/v4.1/pro/text-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/recraft/v4.1/pro/text-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/recraft/v4.1/pro/text-to-vector",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/recraft/v4.1/pro/text-to-vector"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/recraft/v4.1/text-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/recraft/v4.1/text-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/recraft/v4.1/text-to-vector",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/recraft/v4.1/text-to-vector"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/recraft/v4.1/utility/pro/text-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/recraft/v4.1/utility/pro/text-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/recraft/v4.1/utility/text-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/recraft/v4.1/utility/text-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/recraft/v4/pro/text-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/recraft/v4/pro/text-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/recraft/v4/pro/text-to-vector",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/recraft/v4/pro/text-to-vector"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/recraft/v4/text-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/recraft/v4/text-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/recraft/v4/text-to-vector",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/recraft/v4/text-to-vector"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/recraft/vectorize",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/recraft/vectorize"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/sana",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/sana"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/sana/sprint",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/sana/sprint"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/sana/v1.5/1.6b",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/sana/v1.5/1.6b"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/sana/v1.5/4.8b",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/sana/v1.5/4.8b"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/seedvr/upscale/image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/seedvr/upscale/image"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/seedvr/upscale/image/seamless",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/seedvr/upscale/image/seamless"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/stable-diffusion-v3-medium",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/stable-diffusion-v3-medium"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/stable-diffusion-v35-large",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/stable-diffusion-v35-large"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/stepx-edit2",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/stepx-edit2"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/telestyle-v2",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/telestyle-v2"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/uso",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/uso"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/vidu/q2/reference-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/vidu/q2/reference-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/vidu/q2/text-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/vidu/q2/text-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/vidu/reference-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/vidu/reference-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/wan-25-preview/image-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/wan-25-preview/image-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/wan-25-preview/text-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/wan-25-preview/text-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/wan/v2.2-5b/text-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/wan/v2.2-5b/text-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/wan/v2.2-a14b/image-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/wan/v2.2-a14b/image-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/wan/v2.2-a14b/text-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/wan/v2.2-a14b/text-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/wan/v2.2-a14b/text-to-image/lora",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/wan/v2.2-a14b/text-to-image/lora"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/wan/v2.7/edit",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/wan/v2.7/edit"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/wan/v2.7/pro/edit",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/wan/v2.7/pro/edit"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/wan/v2.7/pro/text-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/wan/v2.7/pro/text-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/wan/v2.7/text-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/wan/v2.7/text-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/z-image/base",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/z-image/base"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/z-image/base/lora",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/z-image/base/lora"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/z-image/turbo",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/z-image/turbo"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/z-image/turbo/controlnet",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/z-image/turbo/controlnet"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/z-image/turbo/controlnet/lora",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/z-image/turbo/controlnet/lora"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/z-image/turbo/image-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/z-image/turbo/image-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/z-image/turbo/image-to-image/lora",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/z-image/turbo/image-to-image/lora"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/z-image/turbo/inpaint",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/z-image/turbo/inpaint"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/z-image/turbo/inpaint/lora",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/z-image/turbo/inpaint/lora"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/z-image/turbo/lora",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/z-image/turbo/lora"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/z-image/turbo/tiling",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/z-image/turbo/tiling"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/z-image/turbo/tiling/lora",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/z-image/turbo/tiling/lora"
+      }
+    },
+    {
+      "name": "fal_ai/krea/v3/edit",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/krea/v3/edit"
+      }
+    },
+    {
+      "name": "fal_ai/krea/v3/text-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/krea/v3/text-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/luma/agent/uni-1/v1/max",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/luma/agent/uni-1/v1/max"
+      }
+    },
+    {
+      "name": "fal_ai/luma/agent/uni-1/v1/text-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/luma/agent/uni-1/v1/text-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/meta/muse-image/edit",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/meta/muse-image/edit"
+      }
+    },
+    {
+      "name": "fal_ai/meta/muse-image/text-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/meta/muse-image/text-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/pixelcut/background-removal",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/pixelcut/background-removal"
+      }
+    },
+    {
+      "name": "fal_ai/pixelcut/product-photo",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/pixelcut/product-photo"
+      }
+    },
+    {
+      "name": "fal_ai/recraft/v4.1/flash/text-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/recraft/v4.1/flash/text-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/rundiffusion-fal/juggernaut-flux/base",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/rundiffusion-fal/juggernaut-flux/base"
+      }
+    },
+    {
+      "name": "fal_ai/rundiffusion-fal/juggernaut-flux/base/image-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/rundiffusion-fal/juggernaut-flux/base/image-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/rundiffusion-fal/juggernaut-flux/lightning",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/rundiffusion-fal/juggernaut-flux/lightning"
+      }
+    },
+    {
+      "name": "fal_ai/rundiffusion-fal/juggernaut-flux/pro",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/rundiffusion-fal/juggernaut-flux/pro"
+      }
+    },
+    {
+      "name": "fal_ai/rundiffusion-fal/juggernaut-flux/pro/image-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/rundiffusion-fal/juggernaut-flux/pro/image-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/rundiffusion-fal/rundiffusion-photo-flux",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/rundiffusion-fal/rundiffusion-photo-flux"
+      }
+    },
+    {
+      "name": "fal_ai/smoretalk-ai/rembg-enhance",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/smoretalk-ai/rembg-enhance"
+      }
+    },
+    {
+      "name": "fal_ai/wan/v2.6/image-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/wan/v2.6/image-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/wan/v2.6/text-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/wan/v2.6/text-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/xai/grok-imagine-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/xai/grok-imagine-image"
+      }
+    },
+    {
+      "name": "fal_ai/ideogram/v4.5",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/ideogram/v4.5"
+      }
+    },
+    {
+      "name": "fal_ai/ideogram/v4.5/edit",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/ideogram/v4.5/edit"
+      }
+    },
+    {
+      "name": "fal_ai/ideogram/v4/instant",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/ideogram/v4/instant"
+      }
+    },
+    {
+      "name": "replicate/alibaba/qwen-image-3",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/alibaba/qwen-image-3"
+      }
+    },
+    {
+      "name": "replicate/alibaba/qwen-image-3-pro",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/alibaba/qwen-image-3-pro"
+      }
+    },
+    {
+      "name": "replicate/black-forest-labs/flux-1.1-pro",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/black-forest-labs/flux-1.1-pro"
+      }
+    },
+    {
+      "name": "replicate/black-forest-labs/flux-1.1-pro-ultra",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/black-forest-labs/flux-1.1-pro-ultra"
+      }
+    },
+    {
+      "name": "replicate/black-forest-labs/flux-1.1-pro-ultra-finetuned",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/black-forest-labs/flux-1.1-pro-ultra-finetuned"
+      }
+    },
+    {
+      "name": "replicate/black-forest-labs/flux-2-flex",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/black-forest-labs/flux-2-flex"
+      }
+    },
+    {
+      "name": "replicate/black-forest-labs/flux-2-klein-4b",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/black-forest-labs/flux-2-klein-4b"
+      }
+    },
+    {
+      "name": "replicate/black-forest-labs/flux-2-klein-4b-base",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/black-forest-labs/flux-2-klein-4b-base"
+      }
+    },
+    {
+      "name": "replicate/black-forest-labs/flux-2-klein-4b-base-lora",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/black-forest-labs/flux-2-klein-4b-base-lora"
+      }
+    },
+    {
+      "name": "replicate/black-forest-labs/flux-2-klein-9b",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/black-forest-labs/flux-2-klein-9b"
+      }
+    },
+    {
+      "name": "replicate/black-forest-labs/flux-2-klein-9b-base",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/black-forest-labs/flux-2-klein-9b-base"
+      }
+    },
+    {
+      "name": "replicate/black-forest-labs/flux-2-klein-9b-base-lora",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/black-forest-labs/flux-2-klein-9b-base-lora"
+      }
+    },
+    {
+      "name": "replicate/black-forest-labs/flux-canny-dev",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/black-forest-labs/flux-canny-dev"
+      }
+    },
+    {
+      "name": "replicate/black-forest-labs/flux-canny-pro",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/black-forest-labs/flux-canny-pro"
+      }
+    },
+    {
+      "name": "replicate/black-forest-labs/flux-depth-dev",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/black-forest-labs/flux-depth-dev"
+      }
+    },
+    {
+      "name": "replicate/black-forest-labs/flux-depth-pro",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/black-forest-labs/flux-depth-pro"
+      }
+    },
+    {
+      "name": "replicate/black-forest-labs/flux-dev",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/black-forest-labs/flux-dev"
+      }
+    },
+    {
+      "name": "replicate/black-forest-labs/flux-dev-lora",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/black-forest-labs/flux-dev-lora"
+      }
+    },
+    {
+      "name": "replicate/black-forest-labs/flux-fill-dev",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/black-forest-labs/flux-fill-dev"
+      }
+    },
+    {
+      "name": "replicate/black-forest-labs/flux-fill-pro",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/black-forest-labs/flux-fill-pro"
+      }
+    },
+    {
+      "name": "replicate/black-forest-labs/flux-kontext-dev",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/black-forest-labs/flux-kontext-dev"
+      }
+    },
+    {
+      "name": "replicate/black-forest-labs/flux-kontext-dev-lora",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/black-forest-labs/flux-kontext-dev-lora"
+      }
+    },
+    {
+      "name": "replicate/black-forest-labs/flux-kontext-max",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/black-forest-labs/flux-kontext-max"
+      }
+    },
+    {
+      "name": "replicate/black-forest-labs/flux-kontext-pro",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/black-forest-labs/flux-kontext-pro"
+      }
+    },
+    {
+      "name": "replicate/black-forest-labs/flux-krea-dev",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/black-forest-labs/flux-krea-dev"
+      }
+    },
+    {
+      "name": "replicate/black-forest-labs/flux-pro",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/black-forest-labs/flux-pro"
+      }
+    },
+    {
+      "name": "replicate/black-forest-labs/flux-pro-finetuned",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/black-forest-labs/flux-pro-finetuned"
+      }
+    },
+    {
+      "name": "replicate/black-forest-labs/flux-redux-dev",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/black-forest-labs/flux-redux-dev"
+      }
+    },
+    {
+      "name": "replicate/black-forest-labs/flux-redux-schnell",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/black-forest-labs/flux-redux-schnell"
+      }
+    },
+    {
+      "name": "replicate/black-forest-labs/flux-schnell",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/black-forest-labs/flux-schnell"
+      }
+    },
+    {
+      "name": "replicate/black-forest-labs/flux-schnell-lora",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/black-forest-labs/flux-schnell-lora"
+      }
+    },
+    {
+      "name": "replicate/bria/eraser",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/bria/eraser"
+      }
+    },
+    {
+      "name": "replicate/bria/expand-image",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/bria/expand-image"
+      }
+    },
+    {
+      "name": "replicate/bria/fibo",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/bria/fibo"
+      }
+    },
+    {
+      "name": "replicate/bria/fibo-edit",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/bria/fibo-edit"
+      }
+    },
+    {
+      "name": "replicate/bria/generate-background",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/bria/generate-background"
+      }
+    },
+    {
+      "name": "replicate/bria/genfill",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/bria/genfill"
+      }
+    },
+    {
+      "name": "replicate/bria/image-3.2",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/bria/image-3.2"
+      }
+    },
+    {
+      "name": "replicate/bria/increase-resolution",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/bria/increase-resolution"
+      }
+    },
+    {
+      "name": "replicate/bria/product-cutout",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/bria/product-cutout"
+      }
+    },
+    {
+      "name": "replicate/bria/product-packshot",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/bria/product-packshot"
+      }
+    },
+    {
+      "name": "replicate/bria/product-shadow",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/bria/product-shadow"
+      }
+    },
+    {
+      "name": "replicate/bria/remove-background",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/bria/remove-background"
+      }
+    },
+    {
+      "name": "replicate/bytedance/dreamina-3.1",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/bytedance/dreamina-3.1"
+      }
+    },
+    {
+      "name": "replicate/bytedance/seedream-3",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/bytedance/seedream-3"
+      }
+    },
+    {
+      "name": "replicate/bytedance/seedream-4",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/bytedance/seedream-4"
+      }
+    },
+    {
+      "name": "replicate/bytedance/seedream-4.5",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/bytedance/seedream-4.5"
+      }
+    },
+    {
+      "name": "replicate/bytedance/seedream-5-lite",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/bytedance/seedream-5-lite"
+      }
+    },
+    {
+      "name": "replicate/easel/ai-avatars",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/easel/ai-avatars"
+      }
+    },
+    {
+      "name": "replicate/flux-kontext-apps/cartoonify",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/flux-kontext-apps/cartoonify"
+      }
+    },
+    {
+      "name": "replicate/flux-kontext-apps/change-haircut",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/flux-kontext-apps/change-haircut"
+      }
+    },
+    {
+      "name": "replicate/flux-kontext-apps/depth-of-field",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/flux-kontext-apps/depth-of-field"
+      }
+    },
+    {
+      "name": "replicate/flux-kontext-apps/face-to-many-kontext",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/flux-kontext-apps/face-to-many-kontext"
+      }
+    },
+    {
+      "name": "replicate/flux-kontext-apps/filters",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/flux-kontext-apps/filters"
+      }
+    },
+    {
+      "name": "replicate/flux-kontext-apps/iconic-locations",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/flux-kontext-apps/iconic-locations"
+      }
+    },
+    {
+      "name": "replicate/flux-kontext-apps/impossible-scenarios",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/flux-kontext-apps/impossible-scenarios"
+      }
+    },
+    {
+      "name": "replicate/flux-kontext-apps/multi-image-kontext-max",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/flux-kontext-apps/multi-image-kontext-max"
+      }
+    },
+    {
+      "name": "replicate/flux-kontext-apps/multi-image-kontext-pro",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/flux-kontext-apps/multi-image-kontext-pro"
+      }
+    },
+    {
+      "name": "replicate/flux-kontext-apps/multi-image-list",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/flux-kontext-apps/multi-image-list"
+      }
+    },
+    {
+      "name": "replicate/flux-kontext-apps/portrait-series",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/flux-kontext-apps/portrait-series"
+      }
+    },
+    {
+      "name": "replicate/flux-kontext-apps/professional-headshot",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/flux-kontext-apps/professional-headshot"
+      }
+    },
+    {
+      "name": "replicate/flux-kontext-apps/restore-image",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/flux-kontext-apps/restore-image"
+      }
+    },
+    {
+      "name": "replicate/flux-kontext-apps/restyle-video-frame",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/flux-kontext-apps/restyle-video-frame"
+      }
+    },
+    {
+      "name": "replicate/flux-kontext-apps/text-removal",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/flux-kontext-apps/text-removal"
+      }
+    },
+    {
+      "name": "replicate/google/gemini-2.5-flash-image",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/google/gemini-2.5-flash-image"
+      }
+    },
+    {
+      "name": "replicate/google/nano-banana",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/google/nano-banana"
+      }
+    },
+    {
+      "name": "replicate/google/nano-banana-2",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/google/nano-banana-2"
+      }
+    },
+    {
+      "name": "replicate/google/nano-banana-2-lite",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/google/nano-banana-2-lite"
+      }
+    },
+    {
+      "name": "replicate/google/nano-banana-2.1",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/google/nano-banana-2.1"
+      }
+    },
+    {
+      "name": "replicate/ideogram-ai/ideogram-v2",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/ideogram-ai/ideogram-v2"
+      }
+    },
+    {
+      "name": "replicate/ideogram-ai/ideogram-v2-turbo",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/ideogram-ai/ideogram-v2-turbo"
+      }
+    },
+    {
+      "name": "replicate/ideogram-ai/ideogram-v2a",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/ideogram-ai/ideogram-v2a"
+      }
+    },
+    {
+      "name": "replicate/ideogram-ai/ideogram-v2a-turbo",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/ideogram-ai/ideogram-v2a-turbo"
+      }
+    },
+    {
+      "name": "replicate/ideogram-ai/ideogram-v3-balanced",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/ideogram-ai/ideogram-v3-balanced"
+      }
+    },
+    {
+      "name": "replicate/ideogram-ai/ideogram-v3-quality",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/ideogram-ai/ideogram-v3-quality"
+      }
+    },
+    {
+      "name": "replicate/ideogram-ai/ideogram-v3-turbo",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/ideogram-ai/ideogram-v3-turbo"
+      }
+    },
+    {
+      "name": "replicate/ideogram-ai/ideogram-v4-balanced",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/ideogram-ai/ideogram-v4-balanced"
+      }
+    },
+    {
+      "name": "replicate/ideogram-ai/ideogram-v4-quality",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/ideogram-ai/ideogram-v4-quality"
+      }
+    },
+    {
+      "name": "replicate/ideogram-ai/layerize",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/ideogram-ai/layerize"
+      }
+    },
+    {
+      "name": "replicate/intelligent-utilities/html-to-image",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/intelligent-utilities/html-to-image"
+      }
+    },
+    {
+      "name": "replicate/luma/photon",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/luma/photon"
+      }
+    },
+    {
+      "name": "replicate/luma/photon-flash",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/luma/photon-flash"
+      }
+    },
+    {
+      "name": "replicate/minimax/image-01",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/minimax/image-01"
+      }
+    },
+    {
+      "name": "replicate/nightmareai/real-esrgan",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/nightmareai/real-esrgan"
+      }
+    },
+    {
+      "name": "replicate/philz1337x/clarity-pro-upscaler",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/philz1337x/clarity-pro-upscaler"
+      }
+    },
+    {
+      "name": "replicate/prunaai/flux-fast",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/prunaai/flux-fast"
+      }
+    },
+    {
+      "name": "replicate/prunaai/flux-kontext-fast",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/prunaai/flux-kontext-fast"
+      }
+    },
+    {
+      "name": "replicate/prunaai/hidream-l1-fast",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/prunaai/hidream-l1-fast"
+      }
+    },
+    {
+      "name": "replicate/prunaai/p-image",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/prunaai/p-image"
+      }
+    },
+    {
+      "name": "replicate/prunaai/p-image-edit",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/prunaai/p-image-edit"
+      }
+    },
+    {
+      "name": "replicate/prunaai/p-image-edit-lora",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/prunaai/p-image-edit-lora"
+      }
+    },
+    {
+      "name": "replicate/prunaai/p-image-lora",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/prunaai/p-image-lora"
+      }
+    },
+    {
+      "name": "replicate/prunaai/wan-2.2-image",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/prunaai/wan-2.2-image"
+      }
+    },
+    {
+      "name": "replicate/quiverai/arrow-1.1",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/quiverai/arrow-1.1"
+      }
+    },
+    {
+      "name": "replicate/quiverai/arrow-1.1-max",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/quiverai/arrow-1.1-max"
+      }
+    },
+    {
+      "name": "replicate/quiverai/arrow-1.1-max-vectorize",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/quiverai/arrow-1.1-max-vectorize"
+      }
+    },
+    {
+      "name": "replicate/quiverai/arrow-1.1-vectorize",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/quiverai/arrow-1.1-vectorize"
+      }
+    },
+    {
+      "name": "replicate/qwen-edit-apps/qwen-image-edit-plus-lora-fusion",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/qwen-edit-apps/qwen-image-edit-plus-lora-fusion"
+      }
+    },
+    {
+      "name": "replicate/qwen-edit-apps/qwen-image-edit-plus-lora-next-scene",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/qwen-edit-apps/qwen-image-edit-plus-lora-next-scene"
+      }
+    },
+    {
+      "name": "replicate/qwen-edit-apps/qwen-image-edit-plus-lora-photo-to-anime",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/qwen-edit-apps/qwen-image-edit-plus-lora-photo-to-anime"
+      }
+    },
+    {
+      "name": "replicate/qwen-edit-apps/qwen-image-edit-plus-lora-relight",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/qwen-edit-apps/qwen-image-edit-plus-lora-relight"
+      }
+    },
+    {
+      "name": "replicate/qwen-edit-apps/qwen-image-edit-plus-lora-skin",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/qwen-edit-apps/qwen-image-edit-plus-lora-skin"
+      }
+    },
+    {
+      "name": "replicate/qwen-edit-apps/qwen-image-edit-plus-lora-upscale",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/qwen-edit-apps/qwen-image-edit-plus-lora-upscale"
+      }
+    },
+    {
+      "name": "replicate/qwen/qwen-edit-multiangle",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/qwen/qwen-edit-multiangle"
+      }
+    },
+    {
+      "name": "replicate/qwen/qwen-image",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/qwen/qwen-image"
+      }
+    },
+    {
+      "name": "replicate/qwen/qwen-image-2",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/qwen/qwen-image-2"
+      }
+    },
+    {
+      "name": "replicate/qwen/qwen-image-2-pro",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/qwen/qwen-image-2-pro"
+      }
+    },
+    {
+      "name": "replicate/qwen/qwen-image-2512",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/qwen/qwen-image-2512"
+      }
+    },
+    {
+      "name": "replicate/qwen/qwen-image-edit",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/qwen/qwen-image-edit"
+      }
+    },
+    {
+      "name": "replicate/qwen/qwen-image-edit-2511",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/qwen/qwen-image-edit-2511"
+      }
+    },
+    {
+      "name": "replicate/qwen/qwen-image-edit-plus",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/qwen/qwen-image-edit-plus"
+      }
+    },
+    {
+      "name": "replicate/qwen/qwen-image-edit-plus-lora",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/qwen/qwen-image-edit-plus-lora"
+      }
+    },
+    {
+      "name": "replicate/recraft-ai/recraft-20b",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/recraft-ai/recraft-20b"
+      }
+    },
+    {
+      "name": "replicate/recraft-ai/recraft-20b-svg",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/recraft-ai/recraft-20b-svg"
+      }
+    },
+    {
+      "name": "replicate/recraft-ai/recraft-creative-upscale",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/recraft-ai/recraft-creative-upscale"
+      }
+    },
+    {
+      "name": "replicate/recraft-ai/recraft-crisp-upscale",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/recraft-ai/recraft-crisp-upscale"
+      }
+    },
+    {
+      "name": "replicate/recraft-ai/recraft-remove-background",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/recraft-ai/recraft-remove-background"
+      }
+    },
+    {
+      "name": "replicate/recraft-ai/recraft-v3",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/recraft-ai/recraft-v3"
+      }
+    },
+    {
+      "name": "replicate/recraft-ai/recraft-v3-svg",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/recraft-ai/recraft-v3-svg"
+      }
+    },
+    {
+      "name": "replicate/recraft-ai/recraft-v4",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/recraft-ai/recraft-v4"
+      }
+    },
+    {
+      "name": "replicate/recraft-ai/recraft-v4-pro",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/recraft-ai/recraft-v4-pro"
+      }
+    },
+    {
+      "name": "replicate/recraft-ai/recraft-v4-pro-svg",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/recraft-ai/recraft-v4-pro-svg"
+      }
+    },
+    {
+      "name": "replicate/recraft-ai/recraft-v4-styles-pro",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/recraft-ai/recraft-v4-styles-pro"
+      }
+    },
+    {
+      "name": "replicate/recraft-ai/recraft-v4-styles-pro-svg",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/recraft-ai/recraft-v4-styles-pro-svg"
+      }
+    },
+    {
+      "name": "replicate/recraft-ai/recraft-v4-svg",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/recraft-ai/recraft-v4-svg"
+      }
+    },
+    {
+      "name": "replicate/recraft-ai/recraft-v4.1",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/recraft-ai/recraft-v4.1"
+      }
+    },
+    {
+      "name": "replicate/recraft-ai/recraft-v4.1-pro",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/recraft-ai/recraft-v4.1-pro"
+      }
+    },
+    {
+      "name": "replicate/recraft-ai/recraft-v4.1-pro-svg",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/recraft-ai/recraft-v4.1-pro-svg"
+      }
+    },
+    {
+      "name": "replicate/recraft-ai/recraft-v4.1-svg",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/recraft-ai/recraft-v4.1-svg"
+      }
+    },
+    {
+      "name": "replicate/recraft-ai/recraft-v4.1-utility",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/recraft-ai/recraft-v4.1-utility"
+      }
+    },
+    {
+      "name": "replicate/recraft-ai/recraft-v4.1-utility-pro",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/recraft-ai/recraft-v4.1-utility-pro"
+      }
+    },
+    {
+      "name": "replicate/recraft-ai/recraft-vectorize",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/recraft-ai/recraft-vectorize"
+      }
+    },
+    {
+      "name": "replicate/retro-diffusion/rd-animation",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/retro-diffusion/rd-animation"
+      }
+    },
+    {
+      "name": "replicate/runwayml/gen4-image-turbo",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/runwayml/gen4-image-turbo"
+      }
+    },
+    {
+      "name": "replicate/stability-ai/stable-diffusion-3",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/stability-ai/stable-diffusion-3"
+      }
+    },
+    {
+      "name": "replicate/stability-ai/stable-diffusion-3.5-large",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/stability-ai/stable-diffusion-3.5-large"
+      }
+    },
+    {
+      "name": "replicate/stability-ai/stable-diffusion-3.5-large-turbo",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/stability-ai/stable-diffusion-3.5-large-turbo"
+      }
+    },
+    {
+      "name": "replicate/stability-ai/stable-diffusion-3.5-medium",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/stability-ai/stable-diffusion-3.5-medium"
+      }
+    },
+    {
+      "name": "replicate/tencent/hunyuan-image-2.1",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/tencent/hunyuan-image-2.1"
+      }
+    },
+    {
+      "name": "replicate/tencent/hunyuan-image-3",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/tencent/hunyuan-image-3"
+      }
+    },
+    {
+      "name": "replicate/wan-video/wan-2.7-image",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/wan-video/wan-2.7-image"
+      }
+    },
+    {
+      "name": "replicate/wan-video/wan-2.7-image-pro",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/wan-video/wan-2.7-image-pro"
+      }
+    },
+    {
+      "name": "replicate/wavespeedai/qwen-image",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/wavespeedai/qwen-image"
+      }
+    },
+    {
+      "name": "replicate/xai/grok-imagine-image",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/xai/grok-imagine-image"
+      }
+    },
+    {
+      "name": "replicate/xai/grok-imagine-image-quality",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/xai/grok-imagine-image-quality"
+      }
+    },
+    {
+      "name": "fal_ai/blackforestlabs/flux-3/edit-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/blackforestlabs/flux-3/edit-image"
+      }
+    },
+    {
+      "name": "fal_ai/blackforestlabs/flux-3/klein/edit-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/blackforestlabs/flux-3/klein/edit-image"
+      }
+    },
+    {
+      "name": "fal_ai/blackforestlabs/flux-3/klein/text-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/blackforestlabs/flux-3/klein/text-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/blackforestlabs/flux-3/text-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/blackforestlabs/flux-3/text-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/bria/fibo-2/generate",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/bria/fibo-2/generate"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/bria/background/remove",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/bria/background/remove"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/emu-3.5-image/edit-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/emu-3.5-image/edit-image"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/emu-3.5-image/text-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/emu-3.5-image/text-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/minimax/image-01",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/fal-ai/minimax/image-01"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/object-removal",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/object-removal"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/object-removal/bbox",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/object-removal/bbox"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/object-removal/mask",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/object-removal/mask"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/recraft/v3/image-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/recraft/v3/image-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/google/virtual-try-on",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/google/virtual-try-on"
+      }
+    },
+    {
+      "name": "fal_ai/ideogram/v4/tiling",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/ideogram/v4/tiling"
+      }
+    },
+    {
+      "name": "fal_ai/ideogram/v4/tiling/lora",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/ideogram/v4/tiling/lora"
+      }
+    },
+    {
+      "name": "fal_ai/nvidia/cosmos-3-super/text-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/nvidia/cosmos-3-super/text-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/recraft/v4/style/pro/text-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/recraft/v4/style/pro/text-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/recraft/v4/style/pro/text-to-vector",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/recraft/v4/style/pro/text-to-vector"
+      }
+    },
+    {
+      "name": "fal_ai/recraft/v4/style/text-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/recraft/v4/style/text-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/recraft/v4/style/text-to-vector",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/recraft/v4/style/text-to-vector"
+      }
+    },
+    {
+      "name": "fal_ai/xai/grok-imagine-image/edit",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/xai/grok-imagine-image/edit"
       }
     }
   ],
@@ -74430,6 +85534,78 @@ export const aiModels: AIModels = {
         "supports_vision": false,
         "source": "https://management.azure.com/subscriptions/a88257a5-3323-4ef9-95bf-5681a46c9624/providers/Microsoft.CognitiveServices/locations/eastus/models?api-version=2024-10-01"
       }
+    },
+    {
+      "name": "replicate/ibm-granite/granite-speech-3.3-8b",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": "0.0000049",
+        "litellm_provider": "replicate",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/ibm-granite/granite-speech-3.3-8b"
+      }
+    },
+    {
+      "name": "replicate/ibm-granite/granite-speech-4.1-2b",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000003",
+        "output_cost_per_token": "0.00000025",
+        "litellm_provider": "replicate",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/ibm-granite/granite-speech-4.1-2b"
+      }
+    },
+    {
+      "name": "replicate/openai/gpt-4o-mini-transcribe",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000003",
+        "output_cost_per_token": "0.000005",
+        "litellm_provider": "replicate",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/openai/gpt-4o-mini-transcribe"
+      }
+    },
+    {
+      "name": "replicate/openai/gpt-4o-transcribe",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000006",
+        "output_cost_per_token": "0.00001",
+        "litellm_provider": "replicate",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/openai/gpt-4o-transcribe"
+      }
     }
   ],
   "audio_speech": [
@@ -75432,6 +86608,420 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"
+      }
+    },
+    {
+      "name": "replicate/elevenlabs/dubbing",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "audio_speech",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/elevenlabs/dubbing"
+      }
+    },
+    {
+      "name": "replicate/elevenlabs/flash-v2.5",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "audio_speech",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/elevenlabs/flash-v2.5"
+      }
+    },
+    {
+      "name": "replicate/elevenlabs/turbo-v2.5",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "audio_speech",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/elevenlabs/turbo-v2.5"
+      }
+    },
+    {
+      "name": "replicate/elevenlabs/v2-multilingual",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "audio_speech",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/elevenlabs/v2-multilingual"
+      }
+    },
+    {
+      "name": "replicate/elevenlabs/v3",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "audio_speech",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/elevenlabs/v3"
+      }
+    },
+    {
+      "name": "replicate/google/gemini-3.1-flash-tts",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.00004",
+        "litellm_provider": "replicate",
+        "mode": "audio_speech",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/google/gemini-3.1-flash-tts"
+      }
+    },
+    {
+      "name": "replicate/google/gemini-3.8-flash-lite-tts",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000005",
+        "output_cost_per_token": "0.000006",
+        "litellm_provider": "replicate",
+        "mode": "audio_speech",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/google/gemini-3.8-flash-lite-tts"
+      }
+    },
+    {
+      "name": "replicate/google/gemini-3.8-flash-tts",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000005",
+        "output_cost_per_token": "0.000009",
+        "litellm_provider": "replicate",
+        "mode": "audio_speech",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/google/gemini-3.8-flash-tts"
+      }
+    },
+    {
+      "name": "replicate/inworld/realtime-tts-1.5-max",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "audio_speech",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/inworld/realtime-tts-1.5-max"
+      }
+    },
+    {
+      "name": "replicate/inworld/realtime-tts-1.5-mini",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "audio_speech",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/inworld/realtime-tts-1.5-mini"
+      }
+    },
+    {
+      "name": "replicate/inworld/realtime-tts-2",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "audio_speech",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/inworld/realtime-tts-2"
+      }
+    },
+    {
+      "name": "replicate/minimax/speech-02-hd",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0001",
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "audio_speech",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/minimax/speech-02-hd"
+      }
+    },
+    {
+      "name": "replicate/minimax/speech-02-turbo",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00006",
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "audio_speech",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/minimax/speech-02-turbo"
+      }
+    },
+    {
+      "name": "replicate/minimax/speech-2.6-hd",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0001",
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "audio_speech",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/minimax/speech-2.6-hd"
+      }
+    },
+    {
+      "name": "replicate/minimax/speech-2.6-turbo",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00006",
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "audio_speech",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/minimax/speech-2.6-turbo"
+      }
+    },
+    {
+      "name": "replicate/minimax/speech-2.8-hd",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0001",
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "audio_speech",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/minimax/speech-2.8-hd"
+      }
+    },
+    {
+      "name": "replicate/minimax/speech-2.8-turbo",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00006",
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "audio_speech",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/minimax/speech-2.8-turbo"
+      }
+    },
+    {
+      "name": "replicate/playht/play-dialog",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "audio_speech",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/playht/play-dialog"
+      }
+    },
+    {
+      "name": "replicate/qwen/qwen3-tts",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "audio_speech",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/qwen/qwen3-tts"
+      }
+    },
+    {
+      "name": "replicate/resemble-ai/chatterbox",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "audio_speech",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/resemble-ai/chatterbox"
+      }
+    },
+    {
+      "name": "replicate/resemble-ai/chatterbox-pro",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "audio_speech",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/resemble-ai/chatterbox-pro"
+      }
+    },
+    {
+      "name": "replicate/resemble-ai/chatterbox-turbo",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "audio_speech",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/resemble-ai/chatterbox-turbo"
+      }
+    },
+    {
+      "name": "replicate/xai/grok-text-to-speech",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "replicate",
+        "mode": "audio_speech",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://replicate.com/xai/grok-text-to-speech"
       }
     }
   ]
