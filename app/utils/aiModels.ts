@@ -47742,6 +47742,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "azure_ai/deepseek-v4.1-flash-1017",
+      "provider": "azure_ai",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "azure_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://ai.azure.com/catalog/models/DeepSeek-V4.1-Flash-1017"
+      }
+    },
+    {
       "name": "azure_ai/deepseek-v4.1-flash",
       "provider": "azure_ai",
       "logo": "/logos/azure.svg",
@@ -60569,6 +60587,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "gmi/google/gemini-4-carbon",
+      "provider": "gmi",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.00001",
+        "litellm_provider": "gmi",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://ie-api.gmicloud.ai/v1/artifact/get_public_artifacts"
+      }
+    },
+    {
       "name": "gmi/google/gemma-4-26b-a4b-it",
       "provider": "gmi",
       "logo": "/placeholder.svg?height=30&width=30",
@@ -61241,6 +61277,24 @@ export const aiModels: AIModels = {
       "sample_spec": {
         "max_tokens": null,
         "max_input_tokens": 2000000,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000006",
+        "litellm_provider": "gmi",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://ie-api.gmicloud.ai/v1/artifact/get_public_artifacts"
+      }
+    },
+    {
+      "name": "gmi/xai/grok4.7",
+      "provider": "gmi",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 500000,
         "max_output_tokens": null,
         "input_cost_per_token": "0.000002",
         "output_cost_per_token": "0.000006",
@@ -63032,6 +63086,60 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/supported-models"
+      }
+    },
+    {
+      "name": "gemini/gemini-4-hydrogen",
+      "provider": "gemini",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 1048576,
+        "input_cost_per_token": "0.0000015",
+        "output_cost_per_token": "0.0000075",
+        "litellm_provider": "gemini",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://aistudio.google.com/docs/pricing#gemini-4-hydrogen"
+      }
+    },
+    {
+      "name": "vertex_ai/gemini-4-hydrogen",
+      "provider": "vertex_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 1048576,
+        "input_cost_per_token": "0.0000015",
+        "output_cost_per_token": "0.0000075",
+        "litellm_provider": "vertex_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"
+      }
+    },
+    {
+      "name": "together_ai/thinkingmachines/Inkling-2-Small",
+      "provider": "together_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 1048576,
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.000001",
+        "litellm_provider": "together_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://api.together.ai/v1/models"
       }
     }
   ],
@@ -67484,6 +67592,42 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://fal.ai/models/fal-ai/nano-banana-pro"
+      }
+    },
+    {
+      "name": "fal_ai/google/nano-banana-2.1",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/google/nano-banana-2.1"
+      }
+    },
+    {
+      "name": "fal_ai/google/nano-banana-2.1/edit",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/google/nano-banana-2.1/edit"
       }
     },
     {
@@ -72812,7 +72956,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://docs.x.ai/docs/models"
+        "source": "https://docs.x.ai/developers/migration/imagine-image-quality-nov-2"
       }
     },
     {
@@ -72830,7 +72974,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://docs.x.ai/docs/models"
+        "source": "https://docs.x.ai/developers/migration/imagine-image-quality-nov-2"
       }
     },
     {
@@ -72848,7 +72992,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://docs.x.ai/docs/models"
+        "source": "https://docs.x.ai/developers/migration/imagine-image-quality-nov-2"
       }
     },
     {
@@ -72866,7 +73010,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://docs.x.ai/docs/models"
+        "source": "https://docs.x.ai/developers/migration/imagine-image-quality-nov-2"
       }
     },
     {
@@ -83415,6 +83559,114 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://docs.dev.runwayml.com/guides/pricing/"
+      }
+    },
+    {
+      "name": "fal_ai/bytedance/seedream/v5.5/text-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/bytedance/seedream/v5.5/text-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/bytedance/seedream/v5.5/edit",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/bytedance/seedream/v5.5/edit"
+      }
+    },
+    {
+      "name": "fal_ai/bytedance/seedream/v5.5/layerize",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/bytedance/seedream/v5.5/layerize"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/flux-pro/v1/vto",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/flux-pro/v1/vto"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/patina/material",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/patina/material"
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/patina/material/extract",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/fal-ai/patina/material/extract"
       }
     }
   ],
