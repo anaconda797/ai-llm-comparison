@@ -17122,7 +17122,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000075",
         "litellm_provider": "vertex_ai",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"
@@ -17716,7 +17716,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000075",
         "litellm_provider": "vertex_ai-language-models",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"
@@ -30825,7 +30825,7 @@ export const aiModels: AIModels = {
       "sample_spec": {
         "max_tokens": null,
         "max_input_tokens": 163840,
-        "max_output_tokens": 163840,
+        "max_output_tokens": 8000,
         "input_cost_per_token": "0.00000062",
         "output_cost_per_token": "0.00000185",
         "litellm_provider": "bedrock_converse",
@@ -30843,7 +30843,7 @@ export const aiModels: AIModels = {
       "sample_spec": {
         "max_tokens": null,
         "max_input_tokens": 163840,
-        "max_output_tokens": 163840,
+        "max_output_tokens": 8000,
         "input_cost_per_token": "0.00000074",
         "output_cost_per_token": "0.00000222",
         "litellm_provider": "bedrock_converse",
@@ -33517,6 +33517,24 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": true,
         "supports_vision": true,
         "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"
+      }
+    },
+    {
+      "name": "vertex_ai/deep-research-preview-04-2026",
+      "provider": "vertex_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000012",
+        "litellm_provider": "vertex_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://cloud.google.com/model-garden/pricing"
       }
     },
     {
@@ -46713,6 +46731,78 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://deepinfra.com/pricing"
+      }
+    },
+    {
+      "name": "deepinfra/zai-org/GLM-5.3-Flash",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 1048576,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.0000005",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://deepinfra.com/zai-org/GLM-5.3-Flash"
+      }
+    },
+    {
+      "name": "deepinfra/XiaomiMiMo/MiMo-V2.6-Flash",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000014",
+        "output_cost_per_token": "0.00000028",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://deepinfra.com/XiaomiMiMo/MiMo-V2.6-Flash"
+      }
+    },
+    {
+      "name": "deepinfra/nvidia/NVIDIA-Nemotron-3.5-Super-VL",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 262144,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.0000005",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://deepinfra.com/nvidia/NVIDIA-Nemotron-3.5-Super-VL"
+      }
+    },
+    {
+      "name": "deepinfra/tencent/Hy4-preview",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.000000834",
+        "output_cost_per_token": "0.000002501",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://deepinfra.com/tencent/Hy4-preview"
       }
     },
     {
@@ -62146,7 +62236,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.000003",
         "litellm_provider": "together_ai",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://api.together.ai/v1/models"
@@ -63140,6 +63230,24 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://api.together.ai/v1/models"
+      }
+    },
+    {
+      "name": "github_copilot/gemini-4-hydrogen",
+      "provider": "github_copilot",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.0000015",
+        "output_cost_per_token": "0.0000075",
+        "litellm_provider": "github_copilot",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot"
       }
     }
   ],
@@ -85698,7 +85806,43 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "soniox/stt-async-v6",
+      "provider": "soniox",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 8000,
+        "max_output_tokens": 8000,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "soniox",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://soniox.com/pricing"
+      }
+    },
+    {
       "name": "soniox/stt-rt-v5",
+      "provider": "soniox",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "soniox",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://soniox.com/pricing"
+      }
+    },
+    {
+      "name": "soniox/stt-rt-v6",
       "provider": "soniox",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
