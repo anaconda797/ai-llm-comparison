@@ -8305,24 +8305,6 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "bedrock/us-gov-east-1/claude-sonnet-4-5-20250929-v1:0",
-      "provider": "bedrock",
-      "logo": "/logos/amazon.svg",
-      "sample_spec": {
-        "max_tokens": null,
-        "max_input_tokens": 200000,
-        "max_output_tokens": 64000,
-        "input_cost_per_token": "0.0000036",
-        "output_cost_per_token": "0.000018",
-        "litellm_provider": "bedrock",
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
-        "supports_vision": true,
-        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-sonnet-4-5.md"
-      }
-    },
-    {
       "name": "bedrock/us-gov-east-1/meta.llama3-70b-instruct-v1:0",
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
@@ -8463,24 +8445,6 @@ export const aiModels: AIModels = {
     },
     {
       "name": "bedrock/us-gov-west-1/anthropic.claude-sonnet-4-5-20250929-v1:0",
-      "provider": "bedrock",
-      "logo": "/logos/amazon.svg",
-      "sample_spec": {
-        "max_tokens": null,
-        "max_input_tokens": 200000,
-        "max_output_tokens": 64000,
-        "input_cost_per_token": "0.0000036",
-        "output_cost_per_token": "0.000018",
-        "litellm_provider": "bedrock",
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
-        "supports_vision": true,
-        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-sonnet-4-5.md"
-      }
-    },
-    {
-      "name": "bedrock/us-gov-west-1/claude-sonnet-4-5-20250929-v1:0",
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
@@ -10963,6 +10927,24 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+      }
+    },
+    {
+      "name": "dashscope/qwen4-max",
+      "provider": "dashscope",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 991808,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000015",
+        "output_cost_per_token": "0.0000045",
+        "litellm_provider": "dashscope",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/qwen4-max"
       }
     },
     {
@@ -25522,7 +25504,7 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": null,
-        "max_input_tokens": null,
+        "max_input_tokens": 1048576,
         "max_output_tokens": null,
         "input_cost_per_token": "0.000002",
         "output_cost_per_token": "0.00001",
@@ -41381,6 +41363,78 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "us.openai.gpt-daybreak-blue-5.6-sol",
+      "provider": "bedrock_converse",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 922000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000044",
+        "output_cost_per_token": "0.000022",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-daybreak-blue-56-sol.html"
+      }
+    },
+    {
+      "name": "global.openai.gpt-daybreak-blue-5.6-sol",
+      "provider": "bedrock_converse",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 922000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000004",
+        "output_cost_per_token": "0.00002",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-daybreak-blue-56-sol.html"
+      }
+    },
+    {
+      "name": "us.openai.gpt-5.6-cyber",
+      "provider": "bedrock_converse",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 922000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00001375",
+        "output_cost_per_token": "0.0000825",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-56-cyber.html"
+      }
+    },
+    {
+      "name": "global.openai.gpt-5.6-cyber",
+      "provider": "bedrock_converse",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 922000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000125",
+        "output_cost_per_token": "0.000075",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-56-cyber.html"
+      }
+    },
+    {
       "name": "us.openai.gpt-5.6-terra",
       "provider": "bedrock_converse",
       "logo": "/placeholder.svg?height=30&width=30",
@@ -48903,6 +48957,114 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrock/current/us-east-1/index.json"
+      }
+    },
+    {
+      "name": "azure/us-gov/gpt-4.1",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.00000275",
+        "output_cost_per_token": "0.000011",
+        "litellm_provider": "azure",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://prices.azure.com/api/retail/prices?$filter=armRegionName%20eq%20'usgovvirginia'%20and%20contains(productName,'OpenAI')"
+      }
+    },
+    {
+      "name": "azure/us-gov/gpt-4.1-mini",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.00000055",
+        "output_cost_per_token": "0.0000022",
+        "litellm_provider": "azure",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://prices.azure.com/api/retail/prices?$filter=armRegionName%20eq%20'usgovvirginia'%20and%20contains(productName,'OpenAI')"
+      }
+    },
+    {
+      "name": "azure/us-gov/gpt-4o",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.000003438",
+        "output_cost_per_token": "0.00001375",
+        "litellm_provider": "azure",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://prices.azure.com/api/retail/prices?$filter=armRegionName%20eq%20'usgovvirginia'%20and%20contains(productName,'OpenAI')"
+      }
+    },
+    {
+      "name": "azure/us-gov/gpt-5.6-luna",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 922000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000000275",
+        "output_cost_per_token": "0.00000165",
+        "litellm_provider": "azure",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://prices.azure.com/api/retail/prices?$filter=armRegionName%20eq%20'usgovvirginia'%20and%20contains(productName,'OpenAI')"
+      }
+    },
+    {
+      "name": "azure/us-gov/gpt-5.6-sol",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 922000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000055",
+        "output_cost_per_token": "0.0000275",
+        "litellm_provider": "azure",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://prices.azure.com/api/retail/prices?$filter=armRegionName%20eq%20'usgovvirginia'%20and%20contains(productName,'OpenAI')"
+      }
+    },
+    {
+      "name": "azure/us-gov/gpt-5.6-terra",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 922000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000275",
+        "output_cost_per_token": "0.0000165",
+        "litellm_provider": "azure",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://prices.azure.com/api/retail/prices?$filter=armRegionName%20eq%20'usgovvirginia'%20and%20contains(productName,'OpenAI')"
       }
     },
     {
@@ -61582,7 +61744,7 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": null,
-        "max_input_tokens": 1000000,
+        "max_input_tokens": 1048576,
         "max_output_tokens": 1048576,
         "input_cost_per_token": "0.000002",
         "output_cost_per_token": "0.00001",
@@ -63248,6 +63410,42 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": true,
         "supports_vision": true,
         "source": "https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot"
+      }
+    },
+    {
+      "name": "cloudflare/@cf/thinkingmachines/inkling-2-small",
+      "provider": "cloudflare",
+      "logo": "/logos/cloudflare.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.000001",
+        "litellm_provider": "cloudflare",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://developers.cloudflare.com/workers-ai/models/inkling-2-small/"
+      }
+    },
+    {
+      "name": "nebius/thinkingmachines/Inkling-2-Small",
+      "provider": "nebius",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.000001",
+        "litellm_provider": "nebius",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://tokenfactory.nebius.com/api/public/models_info"
       }
     }
   ],
@@ -65756,6 +65954,24 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://api.fireworks.ai/v1/serverless/models?format=nested"
+      }
+    },
+    {
+      "name": "azure/us-gov/text-embedding-ada-002",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 8192,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000000125",
+        "output_cost_per_token": "0",
+        "litellm_provider": "azure",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://prices.azure.com/api/retail/prices?$filter=armRegionName%20eq%20'usgovvirginia'%20and%20contains(productName,'OpenAI')"
       }
     },
     {
@@ -83811,6 +84027,24 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://fal.ai/models/bytedance/seedream/v5/pro/us/text-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/bria/rmbg-3",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/bria/rmbg-3"
       }
     }
   ],
