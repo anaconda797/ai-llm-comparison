@@ -10030,6 +10030,204 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "c4ai-aya-vision-32b",
+      "provider": "cohere_chat",
+      "logo": "/logos/cohere.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 16384,
+        "max_output_tokens": 4000,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "cohere_chat",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://docs.cohere.com/docs/aya-vision"
+      }
+    },
+    {
+      "name": "command-a-reasoning-08-2025",
+      "provider": "cohere_chat",
+      "logo": "/logos/cohere.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 288768,
+        "max_output_tokens": 32000,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "cohere_chat",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.cohere.com/docs/command-a-reasoning"
+      }
+    },
+    {
+      "name": "command-a-translate-08-2025",
+      "provider": "cohere_chat",
+      "logo": "/logos/cohere.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 8992,
+        "max_output_tokens": 8000,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "cohere_chat",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.cohere.com/docs/command-a-translate"
+      }
+    },
+    {
+      "name": "command-a-vision-07-2025",
+      "provider": "cohere_chat",
+      "logo": "/logos/cohere.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 8000,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "cohere_chat",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://docs.cohere.com/docs/command-a-vision"
+      }
+    },
+    {
+      "name": "command-r7b-arabic-02-2025",
+      "provider": "cohere_chat",
+      "logo": "/logos/cohere.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 128000,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "cohere_chat",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.cohere.com/docs/models"
+      }
+    },
+    {
+      "name": "north-mini-code-1.0",
+      "provider": "cohere_chat",
+      "logo": "/logos/cohere.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 436000,
+        "max_output_tokens": 64000,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "cohere_chat",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.cohere.com/docs/north-mini-code-1.0"
+      }
+    },
+    {
+      "name": "north-small-translate-1.0",
+      "provider": "cohere_chat",
+      "logo": "/logos/cohere.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 16000,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "cohere_chat",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.cohere.com/docs/north-small-translate-1.0"
+      }
+    },
+    {
+      "name": "tiny-aya-earth",
+      "provider": "cohere_chat",
+      "logo": "/logos/cohere.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8000,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "cohere_chat",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.cohere.com/docs/tiny-aya"
+      }
+    },
+    {
+      "name": "tiny-aya-fire",
+      "provider": "cohere_chat",
+      "logo": "/logos/cohere.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8000,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "cohere_chat",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.cohere.com/docs/tiny-aya"
+      }
+    },
+    {
+      "name": "tiny-aya-global",
+      "provider": "cohere_chat",
+      "logo": "/logos/cohere.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8000,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "cohere_chat",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.cohere.com/docs/tiny-aya"
+      }
+    },
+    {
+      "name": "tiny-aya-water",
+      "provider": "cohere_chat",
+      "logo": "/logos/cohere.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8000,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "cohere_chat",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.cohere.com/docs/tiny-aya"
+      }
+    },
+    {
       "name": "coralbricks/glm-5.3-fast",
       "provider": "coralbricks",
       "logo": "/placeholder.svg?height=30&width=30",
@@ -10944,7 +11142,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://www.alibabacloud.com/help/en/model-studio/qwen4-max"
+        "source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
       }
     },
     {
@@ -28989,6 +29187,780 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "nvidia_nim/01-ai/yi-large",
+      "provider": "nvidia_nim",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "nvidia_nim",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://build.nvidia.com/01-ai/yi-large.md"
+      }
+    },
+    {
+      "name": "nvidia_nim/aisingapore/sea-lion-7b-instruct",
+      "provider": "nvidia_nim",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "nvidia_nim",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://build.nvidia.com/aisingapore/sea-lion-7b-instruct.md"
+      }
+    },
+    {
+      "name": "nvidia_nim/databricks/dbrx-instruct",
+      "provider": "nvidia_nim",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "nvidia_nim",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://build.nvidia.com/databricks/dbrx-instruct.md"
+      }
+    },
+    {
+      "name": "nvidia_nim/deepseek-ai/deepseek-v4.1-flash",
+      "provider": "nvidia_nim",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": 1048576,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "nvidia_nim",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://build.nvidia.com/deepseek-ai/deepseek-v4.1-flash.md"
+      }
+    },
+    {
+      "name": "nvidia_nim/google/codegemma-7b",
+      "provider": "nvidia_nim",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "nvidia_nim",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://build.nvidia.com/google/codegemma-7b.md"
+      }
+    },
+    {
+      "name": "nvidia_nim/google/diffusiongemma-26b-a4b-it",
+      "provider": "nvidia_nim",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "nvidia_nim",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://build.nvidia.com/google/diffusiongemma-26b-a4b-it.md"
+      }
+    },
+    {
+      "name": "nvidia_nim/google/gemma-2b",
+      "provider": "nvidia_nim",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "nvidia_nim",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://build.nvidia.com/google/gemma-2b.md"
+      }
+    },
+    {
+      "name": "nvidia_nim/google/gemma-4-31b-it",
+      "provider": "nvidia_nim",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "nvidia_nim",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://build.nvidia.com/google/gemma-4-31b-it.md"
+      }
+    },
+    {
+      "name": "nvidia_nim/google/recurrentgemma-2b",
+      "provider": "nvidia_nim",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "nvidia_nim",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://build.nvidia.com/google/recurrentgemma-2b.md"
+      }
+    },
+    {
+      "name": "nvidia_nim/ibm/granite-34b-code-instruct",
+      "provider": "nvidia_nim",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "nvidia_nim",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://build.nvidia.com/ibm/granite-34b-code-instruct.md"
+      }
+    },
+    {
+      "name": "nvidia_nim/ibm/granite-8b-code-instruct",
+      "provider": "nvidia_nim",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "nvidia_nim",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://build.nvidia.com/ibm/granite-8b-code-instruct.md"
+      }
+    },
+    {
+      "name": "nvidia_nim/meta/codellama-70b",
+      "provider": "nvidia_nim",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "nvidia_nim",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://build.nvidia.com/meta/codellama-70b.md"
+      }
+    },
+    {
+      "name": "nvidia_nim/meta/llama-3.2-90b-vision-instruct",
+      "provider": "nvidia_nim",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "nvidia_nim",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://build.nvidia.com/meta/llama-3.2-90b-vision-instruct.md"
+      }
+    },
+    {
+      "name": "nvidia_nim/meta/llama-guard-4-12b",
+      "provider": "nvidia_nim",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "nvidia_nim",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://build.nvidia.com/meta/llama-guard-4-12b.md"
+      }
+    },
+    {
+      "name": "nvidia_nim/meta/llama2-70b",
+      "provider": "nvidia_nim",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "nvidia_nim",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://build.nvidia.com/meta/llama2-70b.md"
+      }
+    },
+    {
+      "name": "nvidia_nim/meta/muse-glimmer-30b",
+      "provider": "nvidia_nim",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "nvidia_nim",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://build.nvidia.com/meta/muse-glimmer-30b.md"
+      }
+    },
+    {
+      "name": "nvidia_nim/minimaxai/minimax-m3.1-flash",
+      "provider": "nvidia_nim",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "nvidia_nim",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://build.nvidia.com/minimaxai/minimax-m3.1-flash.md"
+      }
+    },
+    {
+      "name": "nvidia_nim/mistralai/mistral-large-4-1t-a52b",
+      "provider": "nvidia_nim",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "nvidia_nim",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://build.nvidia.com/mistralai/mistral-large-4-1t-a52b.md"
+      }
+    },
+    {
+      "name": "nvidia_nim/nv-mistralai/mistral-nemo-12b-instruct",
+      "provider": "nvidia_nim",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "nvidia_nim",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://build.nvidia.com/nv-mistralai/mistral-nemo-12b-instruct.md"
+      }
+    },
+    {
+      "name": "nvidia_nim/nvidia/cosmos-reason2-8b",
+      "provider": "nvidia_nim",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "nvidia_nim",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://build.nvidia.com/nvidia/cosmos-reason2-8b/modelcard"
+      }
+    },
+    {
+      "name": "nvidia_nim/nvidia/ising-calibration-1.5-31b",
+      "provider": "nvidia_nim",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "nvidia_nim",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://build.nvidia.com/nvidia/ising-calibration-1.5-31b.md"
+      }
+    },
+    {
+      "name": "nvidia_nim/nvidia/mistral-nemo-minitron-8b-8k-instruct",
+      "provider": "nvidia_nim",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "nvidia_nim",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://build.nvidia.com/nvidia/mistral-nemo-minitron-8b-8k-instruct.md"
+      }
+    },
+    {
+      "name": "nvidia_nim/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+      "provider": "nvidia_nim",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "nvidia_nim",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://build.nvidia.com/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning.md"
+      }
+    },
+    {
+      "name": "nvidia_nim/nvidia/nemotron-3-super-120b-a12b",
+      "provider": "nvidia_nim",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "nvidia_nim",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://build.nvidia.com/nvidia/nemotron-3-super-120b-a12b.md"
+      }
+    },
+    {
+      "name": "nvidia_nim/nvidia/nemotron-3-ultra-550b-a55b",
+      "provider": "nvidia_nim",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "nvidia_nim",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://build.nvidia.com/nvidia/nemotron-3-ultra-550b-a55b.md"
+      }
+    },
+    {
+      "name": "nvidia_nim/nvidia/nemotron-3.5-bolt-e4b",
+      "provider": "nvidia_nim",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "nvidia_nim",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://build.nvidia.com/nvidia/nemotron-3.5-bolt-e4b.md"
+      }
+    },
+    {
+      "name": "nvidia_nim/nvidia/nemotron-3.5-content-safety",
+      "provider": "nvidia_nim",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "nvidia_nim",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://build.nvidia.com/nvidia/nemotron-3.5-content-safety.md"
+      }
+    },
+    {
+      "name": "nvidia_nim/nvidia/nemotron-3.5-lightning-30b-a3b",
+      "provider": "nvidia_nim",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "nvidia_nim",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://build.nvidia.com/nvidia/nemotron-3.5-lightning-30b-a3b.md"
+      }
+    },
+    {
+      "name": "nvidia_nim/nvidia/nemotron-3.5-super-vl-120b-a12b",
+      "provider": "nvidia_nim",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "nvidia_nim",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://build.nvidia.com/nvidia/nemotron-3.5-super-vl-120b-a12b.md"
+      }
+    },
+    {
+      "name": "nvidia_nim/nvidia/nemotron-4-340b-instruct",
+      "provider": "nvidia_nim",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "nvidia_nim",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://build.nvidia.com/nvidia/nemotron-4-340b-instruct.md"
+      }
+    },
+    {
+      "name": "nvidia_nim/nvidia/nemotron-4-340b-reward",
+      "provider": "nvidia_nim",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "nvidia_nim",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://build.nvidia.com/nvidia/nemotron-4-340b-reward.md"
+      }
+    },
+    {
+      "name": "nvidia_nim/nvidia/nemotron-parse",
+      "provider": "nvidia_nim",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "nvidia_nim",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://build.nvidia.com/nvidia/nemotron-parse.md"
+      }
+    },
+    {
+      "name": "nvidia_nim/nvidia/nemotron-parse-2.0",
+      "provider": "nvidia_nim",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "nvidia_nim",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://build.nvidia.com/nvidia/nemotron-parse-2.0.md"
+      }
+    },
+    {
+      "name": "nvidia_nim/nvidia/riva-translate-4b-instruct",
+      "provider": "nvidia_nim",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "nvidia_nim",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://build.nvidia.com/nvidia/riva-translate-4b-instruct.md"
+      }
+    },
+    {
+      "name": "nvidia_nim/nvidia/riva-translate-4b-instruct-v2",
+      "provider": "nvidia_nim",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "nvidia_nim",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://build.nvidia.com/nvidia/riva-translate-4b-instruct-v2.md"
+      }
+    },
+    {
+      "name": "nvidia_nim/openai/gpt-oss-20b",
+      "provider": "nvidia_nim",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "nvidia_nim",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://build.nvidia.com/openai/gpt-oss-20b.md"
+      }
+    },
+    {
+      "name": "nvidia_nim/poolside/laguna-xs-2.1",
+      "provider": "nvidia_nim",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "nvidia_nim",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://build.nvidia.com/poolside/laguna-xs-2.1.md"
+      }
+    },
+    {
+      "name": "nvidia_nim/stepfun-ai/step-5-preview",
+      "provider": "nvidia_nim",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": 1048576,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "nvidia_nim",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://build.nvidia.com/stepfun-ai/step-5-preview.md"
+      }
+    },
+    {
+      "name": "nvidia_nim/writer/palmyra-creative-122b",
+      "provider": "nvidia_nim",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "nvidia_nim",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://build.nvidia.com/writer/palmyra-creative-122b.md"
+      }
+    },
+    {
+      "name": "nvidia_nim/writer/palmyra-fin-70b-32k",
+      "provider": "nvidia_nim",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "nvidia_nim",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://build.nvidia.com/writer/palmyra-fin-70b-32k.md"
+      }
+    },
+    {
+      "name": "nvidia_nim/writer/palmyra-med-70b",
+      "provider": "nvidia_nim",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "nvidia_nim",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://build.nvidia.com/writer/palmyra-med-70b.md"
+      }
+    },
+    {
+      "name": "nvidia_nim/writer/palmyra-med-70b-32k",
+      "provider": "nvidia_nim",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "nvidia_nim",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://build.nvidia.com/writer/palmyra-med-70b-32k.md"
+      }
+    },
+    {
+      "name": "nvidia_nim/zyphra/zamba2-7b-instruct",
+      "provider": "nvidia_nim",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "nvidia_nim",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://build.nvidia.com/zyphra/zamba2-7b-instruct.md"
+      }
+    },
+    {
       "name": "sagemaker/meta-textgeneration-llama-2-13b-f",
       "provider": "sagemaker",
       "logo": "/logos/amazon.svg",
@@ -29468,8 +30440,8 @@ export const aiModels: AIModels = {
         "max_tokens": null,
         "max_input_tokens": 128000,
         "max_output_tokens": 16384,
-        "input_cost_per_token": "0.00000024",
-        "output_cost_per_token": "0.00000024",
+        "input_cost_per_token": "0.00000022",
+        "output_cost_per_token": "0.00000022",
         "litellm_provider": "snowflake",
         "mode": "chat",
         "supports_function_calling": false,
@@ -29485,8 +30457,8 @@ export const aiModels: AIModels = {
         "max_tokens": null,
         "max_input_tokens": 128000,
         "max_output_tokens": 8192,
-        "input_cost_per_token": null,
-        "output_cost_per_token": null,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000001",
         "litellm_provider": "snowflake",
         "mode": "chat",
         "supports_function_calling": false,
@@ -29502,8 +30474,8 @@ export const aiModels: AIModels = {
         "max_tokens": null,
         "max_input_tokens": 128000,
         "max_output_tokens": 8192,
-        "input_cost_per_token": null,
-        "output_cost_per_token": null,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.00000015",
         "litellm_provider": "snowflake",
         "mode": "chat",
         "supports_function_calling": false,
@@ -29536,8 +30508,8 @@ export const aiModels: AIModels = {
         "max_tokens": null,
         "max_input_tokens": 32000,
         "max_output_tokens": 8192,
-        "input_cost_per_token": null,
-        "output_cost_per_token": null,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.0000002",
         "litellm_provider": "snowflake",
         "mode": "chat",
         "supports_function_calling": false,
@@ -31082,6 +32054,60 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true
+      }
+    },
+    {
+      "name": "vispark/vision-small",
+      "provider": "vispark",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.00000105",
+        "output_cost_per_token": "0.00000316",
+        "litellm_provider": "vispark",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://api.lab.vispark.in/v1/models"
+      }
+    },
+    {
+      "name": "vispark/vision-medium",
+      "provider": "vispark",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.00000421",
+        "output_cost_per_token": "0.00001263",
+        "litellm_provider": "vispark",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://api.lab.vispark.in/v1/models"
+      }
+    },
+    {
+      "name": "vispark/vision-large",
+      "provider": "vispark",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.00000737",
+        "output_cost_per_token": "0.00002211",
+        "litellm_provider": "vispark",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://api.lab.vispark.in/v1/models"
       }
     },
     {
@@ -41820,14 +42846,14 @@ export const aiModels: AIModels = {
         "max_tokens": null,
         "max_input_tokens": 200000,
         "max_output_tokens": 64000,
-        "input_cost_per_token": "0.000001",
-        "output_cost_per_token": "0.000005",
+        "input_cost_per_token": "0.0000011",
+        "output_cost_per_token": "0.0000055",
         "litellm_provider": "bedrock_mantle",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://aws.amazon.com/about-aws/whats-new/2025/10/claude-4-5-haiku-anthropic-amazon-bedrock"
+        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrockFoundationModels/current/index.json"
       }
     },
     {
@@ -42262,8 +43288,8 @@ export const aiModels: AIModels = {
         "max_tokens": null,
         "max_input_tokens": 1000000,
         "max_output_tokens": 16384,
-        "input_cost_per_token": "0.0000003",
-        "output_cost_per_token": "0.0000012",
+        "input_cost_per_token": "0.00000025",
+        "output_cost_per_token": "0.000002",
         "litellm_provider": "snowflake",
         "mode": "chat",
         "supports_function_calling": true,
@@ -42279,8 +43305,8 @@ export const aiModels: AIModels = {
         "max_tokens": null,
         "max_input_tokens": 5000000,
         "max_output_tokens": 16384,
-        "input_cost_per_token": "0.00000015",
-        "output_cost_per_token": "0.0000006",
+        "input_cost_per_token": "0.00000006",
+        "output_cost_per_token": "0.00000044",
         "litellm_provider": "snowflake",
         "mode": "chat",
         "supports_function_calling": true,
@@ -48861,6 +49887,456 @@ export const aiModels: AIModels = {
         "max_output_tokens": 8000,
         "input_cost_per_token": "0.00000022",
         "output_cost_per_token": "0.00000088",
+        "litellm_provider": "bedrock_mantle",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrock/current/us-east-1/index.json"
+      }
+    },
+    {
+      "name": "bedrock_mantle/deepseek.v3.2",
+      "provider": "bedrock_mantle",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 156000,
+        "max_output_tokens": 8000,
+        "input_cost_per_token": "0.00000062",
+        "output_cost_per_token": "0.00000185",
+        "litellm_provider": "bedrock_mantle",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-deepseek-deepseek-v3-2.md"
+      }
+    },
+    {
+      "name": "bedrock_mantle/google.gemma-3-12b-it",
+      "provider": "bedrock_mantle",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 8000,
+        "input_cost_per_token": "0.00000009",
+        "output_cost_per_token": "0.00000029",
+        "litellm_provider": "bedrock_mantle",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrock/current/us-east-1/index.json"
+      }
+    },
+    {
+      "name": "bedrock_mantle/google.gemma-3-27b-it",
+      "provider": "bedrock_mantle",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 8000,
+        "input_cost_per_token": "0.00000023",
+        "output_cost_per_token": "0.00000038",
+        "litellm_provider": "bedrock_mantle",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrock/current/us-east-1/index.json"
+      }
+    },
+    {
+      "name": "bedrock_mantle/google.gemma-3-4b-it",
+      "provider": "bedrock_mantle",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 8000,
+        "input_cost_per_token": "0.00000004",
+        "output_cost_per_token": "0.00000008",
+        "litellm_provider": "bedrock_mantle",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrock/current/us-east-1/index.json"
+      }
+    },
+    {
+      "name": "bedrock_mantle/minimax.minimax-m2",
+      "provider": "bedrock_mantle",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 8000,
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "bedrock_mantle",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrock/current/us-east-1/index.json"
+      }
+    },
+    {
+      "name": "bedrock_mantle/minimax.minimax-m2.1",
+      "provider": "bedrock_mantle",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 196000,
+        "max_output_tokens": 8000,
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "bedrock_mantle",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrock/current/us-east-1/index.json"
+      }
+    },
+    {
+      "name": "bedrock_mantle/minimax.minimax-m2.5",
+      "provider": "bedrock_mantle",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 196000,
+        "max_output_tokens": 8000,
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "bedrock_mantle",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrock/current/us-east-1/index.json"
+      }
+    },
+    {
+      "name": "bedrock_mantle/mistral.devstral-2-123b",
+      "provider": "bedrock_mantle",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 256000,
+        "max_output_tokens": 32000,
+        "input_cost_per_token": "0.0000004",
+        "output_cost_per_token": "0.000002",
+        "litellm_provider": "bedrock_mantle",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrock/current/us-east-1/index.json"
+      }
+    },
+    {
+      "name": "bedrock_mantle/mistral.magistral-small-2509",
+      "provider": "bedrock_mantle",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 40000,
+        "input_cost_per_token": "0.0000005",
+        "output_cost_per_token": "0.0000015",
+        "litellm_provider": "bedrock_mantle",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrock/current/us-east-1/index.json"
+      }
+    },
+    {
+      "name": "bedrock_mantle/mistral.ministral-3-14b-instruct",
+      "provider": "bedrock_mantle",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 8000,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "bedrock_mantle",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrock/current/us-east-1/index.json"
+      }
+    },
+    {
+      "name": "bedrock_mantle/mistral.ministral-3-3b-instruct",
+      "provider": "bedrock_mantle",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 8000,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000001",
+        "litellm_provider": "bedrock_mantle",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrock/current/us-east-1/index.json"
+      }
+    },
+    {
+      "name": "bedrock_mantle/mistral.ministral-3-8b-instruct",
+      "provider": "bedrock_mantle",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 8000,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.00000015",
+        "litellm_provider": "bedrock_mantle",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrock/current/us-east-1/index.json"
+      }
+    },
+    {
+      "name": "bedrock_mantle/mistral.mistral-large-3-675b-instruct",
+      "provider": "bedrock_mantle",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 256000,
+        "max_output_tokens": 32000,
+        "input_cost_per_token": "0.0000005",
+        "output_cost_per_token": "0.0000015",
+        "litellm_provider": "bedrock_mantle",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrock/current/us-east-1/index.json"
+      }
+    },
+    {
+      "name": "bedrock_mantle/mistral.voxtral-mini-3b-2507",
+      "provider": "bedrock_mantle",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.00000004",
+        "output_cost_per_token": "0.00000004",
+        "litellm_provider": "bedrock_mantle",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrock/current/us-east-1/index.json"
+      }
+    },
+    {
+      "name": "bedrock_mantle/mistral.voxtral-small-24b-2507",
+      "provider": "bedrock_mantle",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000003",
+        "litellm_provider": "bedrock_mantle",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrock/current/us-east-1/index.json"
+      }
+    },
+    {
+      "name": "bedrock_mantle/moonshotai.kimi-k2.5",
+      "provider": "bedrock_mantle",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 256000,
+        "max_output_tokens": 16000,
+        "input_cost_per_token": "0.0000006",
+        "output_cost_per_token": "0.000003",
+        "litellm_provider": "bedrock_mantle",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrock/current/us-east-1/index.json"
+      }
+    },
+    {
+      "name": "bedrock_mantle/nvidia.nemotron-nano-12b-v2",
+      "provider": "bedrock_mantle",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 8000,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000006",
+        "litellm_provider": "bedrock_mantle",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrock/current/us-east-1/index.json"
+      }
+    },
+    {
+      "name": "bedrock_mantle/nvidia.nemotron-nano-3-30b",
+      "provider": "bedrock_mantle",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 256000,
+        "max_output_tokens": 8000,
+        "input_cost_per_token": "0.00000006",
+        "output_cost_per_token": "0.00000024",
+        "litellm_provider": "bedrock_mantle",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrock/current/us-east-1/index.json"
+      }
+    },
+    {
+      "name": "bedrock_mantle/nvidia.nemotron-nano-9b-v2",
+      "provider": "bedrock_mantle",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 8000,
+        "input_cost_per_token": "0.00000006",
+        "output_cost_per_token": "0.00000023",
+        "litellm_provider": "bedrock_mantle",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrock/current/us-east-1/index.json"
+      }
+    },
+    {
+      "name": "bedrock_mantle/nvidia.nemotron-super-3-120b",
+      "provider": "bedrock_mantle",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 256000,
+        "max_output_tokens": 32000,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.00000065",
+        "litellm_provider": "bedrock_mantle",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrock/current/us-east-1/index.json"
+      }
+    },
+    {
+      "name": "bedrock_mantle/qwen.qwen3-coder-next",
+      "provider": "bedrock_mantle",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 256000,
+        "max_output_tokens": 16000,
+        "input_cost_per_token": "0.0000005",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "bedrock_mantle",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrock/current/us-east-1/index.json"
+      }
+    },
+    {
+      "name": "bedrock_mantle/writer.palmyra-vision-7b",
+      "provider": "bedrock_mantle",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.0000006",
+        "litellm_provider": "bedrock_mantle",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrock/current/us-east-1/index.json"
+      }
+    },
+    {
+      "name": "bedrock_mantle/zai.glm-4.7",
+      "provider": "bedrock_mantle",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 203000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000006",
+        "output_cost_per_token": "0.0000022",
+        "litellm_provider": "bedrock_mantle",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrock/current/us-east-1/index.json"
+      }
+    },
+    {
+      "name": "bedrock_mantle/zai.glm-4.7-flash",
+      "provider": "bedrock_mantle",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 203000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000007",
+        "output_cost_per_token": "0.0000004",
+        "litellm_provider": "bedrock_mantle",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrock/current/us-east-1/index.json"
+      }
+    },
+    {
+      "name": "bedrock_mantle/zai.glm-5",
+      "provider": "bedrock_mantle",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.0000032",
         "litellm_provider": "bedrock_mantle",
         "mode": "chat",
         "supports_function_calling": true,
@@ -63447,6 +64923,618 @@ export const aiModels: AIModels = {
         "supports_vision": true,
         "source": "https://tokenfactory.nebius.com/api/public/models_info"
       }
+    },
+    {
+      "name": "bedrock_mantle/anthropic.claude-fable-5",
+      "provider": "bedrock_mantle",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000011",
+        "output_cost_per_token": "0.000055",
+        "litellm_provider": "bedrock_mantle",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrockFoundationModels/current/index.json"
+      }
+    },
+    {
+      "name": "bedrock_mantle/anthropic.claude-mythos-5",
+      "provider": "bedrock_mantle",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000011",
+        "output_cost_per_token": "0.000055",
+        "litellm_provider": "bedrock_mantle",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrockFoundationModels/current/index.json"
+      }
+    },
+    {
+      "name": "bedrock_mantle/anthropic.claude-opus-4-7",
+      "provider": "bedrock_mantle",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000055",
+        "output_cost_per_token": "0.0000275",
+        "litellm_provider": "bedrock_mantle",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrockFoundationModels/current/index.json"
+      }
+    },
+    {
+      "name": "bedrock_mantle/anthropic.claude-opus-4-8",
+      "provider": "bedrock_mantle",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000055",
+        "output_cost_per_token": "0.0000275",
+        "litellm_provider": "bedrock_mantle",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrockFoundationModels/current/index.json"
+      }
+    },
+    {
+      "name": "bedrock_mantle/anthropic.claude-opus-5",
+      "provider": "bedrock_mantle",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000055",
+        "output_cost_per_token": "0.0000275",
+        "litellm_provider": "bedrock_mantle",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrockFoundationModels/current/index.json"
+      }
+    },
+    {
+      "name": "bedrock_mantle/anthropic.claude-sonnet-5",
+      "provider": "bedrock_mantle",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000022",
+        "output_cost_per_token": "0.000011",
+        "litellm_provider": "bedrock_mantle",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrockFoundationModels/current/index.json"
+      }
+    },
+    {
+      "name": "bedrock/mantle/anthropic.claude-fable-5",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000011",
+        "output_cost_per_token": "0.000055",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrockFoundationModels/current/index.json"
+      }
+    },
+    {
+      "name": "bedrock/mantle/anthropic.claude-mythos-5",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000011",
+        "output_cost_per_token": "0.000055",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrockFoundationModels/current/index.json"
+      }
+    },
+    {
+      "name": "bedrock/mantle/anthropic.claude-opus-4-7",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000055",
+        "output_cost_per_token": "0.0000275",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrockFoundationModels/current/index.json"
+      }
+    },
+    {
+      "name": "bedrock/mantle/anthropic.claude-opus-4-8",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000055",
+        "output_cost_per_token": "0.0000275",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrockFoundationModels/current/index.json"
+      }
+    },
+    {
+      "name": "bedrock/mantle/anthropic.claude-opus-5",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000055",
+        "output_cost_per_token": "0.0000275",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrockFoundationModels/current/index.json"
+      }
+    },
+    {
+      "name": "bedrock/mantle/anthropic.claude-sonnet-5",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000022",
+        "output_cost_per_token": "0.000011",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrockFoundationModels/current/index.json"
+      }
+    },
+    {
+      "name": "bedrock/mantle/anthropic.claude-haiku-4-5",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 64000,
+        "input_cost_per_token": "0.0000011",
+        "output_cost_per_token": "0.0000055",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrockFoundationModels/current/index.json"
+      }
+    },
+    {
+      "name": "bedrock/mantle/anthropic.claude-opus-5-5",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000044",
+        "output_cost_per_token": "0.000022",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-opus-5-5.html"
+      }
+    },
+    {
+      "name": "bedrock/mantle/anthropic.claude-sonnet-5-5",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000022",
+        "output_cost_per_token": "0.000011",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrockFoundationModels/current/index.json"
+      }
+    },
+    {
+      "name": "bedrock/mantle/anthropic.claude-haiku-5-5",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000011",
+        "output_cost_per_token": "0.00000055",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-haiku-5-5.html"
+      }
+    },
+    {
+      "name": "databricks/system.ai.gemini-4-hydrogen",
+      "provider": "databricks",
+      "logo": "/logos/databricks.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.0000015",
+        "output_cost_per_token": "0.0000075",
+        "litellm_provider": "databricks",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/supported-models"
+      }
+    },
+    {
+      "name": "gpt-6.2-astra",
+      "provider": "openai",
+      "logo": "/logos/openai.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 922000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000008",
+        "output_cost_per_token": "0.00004",
+        "litellm_provider": "openai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/pricing"
+      }
+    },
+    {
+      "name": "gpt-6.2-sol",
+      "provider": "openai",
+      "logo": "/logos/openai.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 922000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.00001",
+        "litellm_provider": "openai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/pricing"
+      }
+    },
+    {
+      "name": "gpt-6.2-astra-law",
+      "provider": "openai",
+      "logo": "/logos/openai.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 922000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000008",
+        "output_cost_per_token": "0.00004",
+        "litellm_provider": "openai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/pricing"
+      }
+    },
+    {
+      "name": "azure/gpt-6.2-astra",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 922000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000008",
+        "output_cost_per_token": "0.00004",
+        "litellm_provider": "azure",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/gpt-6-2-astra-and-gpt-6-2-sol-now-generally-available-in/ba-p/4574122"
+      }
+    },
+    {
+      "name": "azure/us/gpt-6.2-astra",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 922000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000088",
+        "output_cost_per_token": "0.000044",
+        "litellm_provider": "azure",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/gpt-6-2-astra-and-gpt-6-2-sol-now-generally-available-in/ba-p/4574122"
+      }
+    },
+    {
+      "name": "azure/eu/gpt-6.2-astra",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 922000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000096",
+        "output_cost_per_token": "0.000048",
+        "litellm_provider": "azure",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/gpt-6-2-astra-and-gpt-6-2-sol-now-generally-available-in/ba-p/4574122"
+      }
+    },
+    {
+      "name": "azure/apac/gpt-6.2-astra",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 922000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000096",
+        "output_cost_per_token": "0.000048",
+        "litellm_provider": "azure",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/gpt-6-2-astra-and-gpt-6-2-sol-now-generally-available-in/ba-p/4574122"
+      }
+    },
+    {
+      "name": "azure/gpt-6.2-sol",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 922000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.00001",
+        "litellm_provider": "azure",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/gpt-6-2-astra-and-gpt-6-2-sol-now-generally-available-in/ba-p/4574122"
+      }
+    },
+    {
+      "name": "azure/us/gpt-6.2-sol",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 922000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000022",
+        "output_cost_per_token": "0.000011",
+        "litellm_provider": "azure",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/gpt-6-2-astra-and-gpt-6-2-sol-now-generally-available-in/ba-p/4574122"
+      }
+    },
+    {
+      "name": "azure/eu/gpt-6.2-sol",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 922000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000024",
+        "output_cost_per_token": "0.000012",
+        "litellm_provider": "azure",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/gpt-6-2-astra-and-gpt-6-2-sol-now-generally-available-in/ba-p/4574122"
+      }
+    },
+    {
+      "name": "azure/apac/gpt-6.2-sol",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 922000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000024",
+        "output_cost_per_token": "0.000012",
+        "litellm_provider": "azure",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/gpt-6-2-astra-and-gpt-6-2-sol-now-generally-available-in/ba-p/4574122"
+      }
+    },
+    {
+      "name": "global.openai.gpt-6.2-astra",
+      "provider": "bedrock_converse",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 922000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000008",
+        "output_cost_per_token": "0.00004",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/pricing"
+      }
+    },
+    {
+      "name": "global.openai.gpt-6.2-sol",
+      "provider": "bedrock_converse",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 922000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.00001",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/pricing"
+      }
+    },
+    {
+      "name": "us.openai.gpt-6.2-astra",
+      "provider": "bedrock_converse",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 922000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000088",
+        "output_cost_per_token": "0.000044",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/pricing"
+      }
+    },
+    {
+      "name": "us.openai.gpt-6.2-sol",
+      "provider": "bedrock_converse",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 922000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000022",
+        "output_cost_per_token": "0.000011",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/pricing"
+      }
+    },
+    {
+      "name": "openai.gpt-6.2-astra",
+      "provider": "bedrock_converse",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 922000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000008",
+        "output_cost_per_token": "0.00004",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/pricing"
+      }
+    },
+    {
+      "name": "openai.gpt-6.2-sol",
+      "provider": "bedrock_converse",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 922000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.00001",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/pricing"
+      }
     }
   ],
   "embedding": [
@@ -63889,6 +65977,24 @@ export const aiModels: AIModels = {
     },
     {
       "name": "cohere.embed-v4:0",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 128000,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000012",
+        "output_cost_per_token": "0",
+        "litellm_provider": "bedrock",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://aws.amazon.com/bedrock/pricing/"
+      }
+    },
+    {
+      "name": "eu.cohere.embed-v4:0",
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
@@ -64684,7 +66790,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/google.svg",
       "sample_spec": {
         "max_tokens": null,
-        "max_input_tokens": 2048,
+        "max_input_tokens": 32,
         "max_output_tokens": null,
         "input_cost_per_token": "0.0000008",
         "output_cost_per_token": "0",
@@ -64702,7 +66808,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/google.svg",
       "sample_spec": {
         "max_tokens": null,
-        "max_input_tokens": 2048,
+        "max_input_tokens": 32,
         "max_output_tokens": null,
         "input_cost_per_token": "0.0000008",
         "output_cost_per_token": "0",
@@ -64982,6 +67088,114 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://docs.perplexity.ai/docs/embeddings/quickstart"
+      }
+    },
+    {
+      "name": "nvidia_nim/nvidia/embed-qa-4",
+      "provider": "nvidia_nim",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "nvidia_nim",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://build.nvidia.com/nvidia/embed-qa-4.md"
+      }
+    },
+    {
+      "name": "nvidia_nim/nvidia/llama-nemotron-embed-vl-1b-v2",
+      "provider": "nvidia_nim",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "nvidia_nim",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://build.nvidia.com/nvidia/llama-nemotron-embed-vl-1b-v2.md"
+      }
+    },
+    {
+      "name": "nvidia_nim/nvidia/nemotron-3-embed-1b",
+      "provider": "nvidia_nim",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "nvidia_nim",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://build.nvidia.com/nvidia/nemotron-3-embed-1b.md"
+      }
+    },
+    {
+      "name": "nvidia_nim/nvidia/nv-embedqa-mistral-7b-v2",
+      "provider": "nvidia_nim",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "nvidia_nim",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://build.nvidia.com/nvidia/nv-embedqa-mistral-7b-v2.md"
+      }
+    },
+    {
+      "name": "nvidia_nim/nvidia/nvclip",
+      "provider": "nvidia_nim",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "nvidia_nim",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://build.nvidia.com/nvidia/nvclip.md"
+      }
+    },
+    {
+      "name": "nvidia_nim/snowflake/arctic-embed-l",
+      "provider": "nvidia_nim",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "nvidia_nim",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://build.nvidia.com/snowflake/arctic-embed-l.md"
       }
     },
     {
@@ -84046,6 +86260,240 @@ export const aiModels: AIModels = {
         "supports_vision": true,
         "source": "https://fal.ai/models/bria/rmbg-3"
       }
+    },
+    {
+      "name": "fal_ai/speridlabs/iris-z/depth-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/speridlabs/iris-z/depth-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/speridlabs/iris-z/small/depth-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/speridlabs/iris-z/small/depth-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/speridlabs/iris-z/small/text-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/speridlabs/iris-z/small/text-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/speridlabs/iris-z/small/text-to-rgbd",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/speridlabs/iris-z/small/text-to-rgbd"
+      }
+    },
+    {
+      "name": "fal_ai/speridlabs/iris-z/text-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/speridlabs/iris-z/text-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/speridlabs/iris-z/text-to-rgbd",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/speridlabs/iris-z/text-to-rgbd"
+      }
+    },
+    {
+      "name": "fal_ai/kling/v4/text-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/kling/v4/text-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/kling/v4/image-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/kling/v4/image-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/kling/v4/long-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/kling/v4/long-image"
+      }
+    },
+    {
+      "name": "fal_ai/microsoft/mai-image-2.7/text-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/microsoft/mai-image-2.7/text-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/microsoft/mai-image-2.7/edit",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/microsoft/mai-image-2.7/edit"
+      }
+    },
+    {
+      "name": "fal_ai/microsoft/mai-image-2.7/flash/text-to-image",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/microsoft/mai-image-2.7/flash/text-to-image"
+      }
+    },
+    {
+      "name": "fal_ai/microsoft/mai-image-2.7/flash/edit",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/microsoft/mai-image-2.7/flash/edit"
+      }
     }
   ],
   "completion": [
@@ -84463,6 +86911,24 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false
+      }
+    },
+    {
+      "name": "nvidia_nim/bigcode/starcoder2-15b",
+      "provider": "nvidia_nim",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "nvidia_nim",
+        "mode": "completion",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://build.nvidia.com/bigcode/starcoder2-15b.md"
       }
     },
     {
