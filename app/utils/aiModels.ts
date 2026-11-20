@@ -56350,7 +56350,7 @@ export const aiModels: AIModels = {
         "max_input_tokens": 1049000,
         "max_output_tokens": 943718,
         "input_cost_per_token": "0.00000015",
-        "output_cost_per_token": "0.0000005",
+        "output_cost_per_token": "0.00000047",
         "litellm_provider": "wandb",
         "mode": "chat",
         "supports_function_calling": true,
@@ -59308,14 +59308,14 @@ export const aiModels: AIModels = {
         "max_tokens": null,
         "max_input_tokens": 1048576,
         "max_output_tokens": 384000,
-        "input_cost_per_token": "0.000000105",
-        "output_cost_per_token": "0.00000021",
+        "input_cost_per_token": "0.00000007",
+        "output_cost_per_token": "0.00000014",
         "litellm_provider": "fireworks_ai",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://api.fireworks.ai/v1/serverless/models"
+        "source": "https://api.fireworks.ai/v1/serverless/models?format=nested"
       }
     },
     {
@@ -59344,14 +59344,14 @@ export const aiModels: AIModels = {
         "max_tokens": null,
         "max_input_tokens": 1048576,
         "max_output_tokens": 128000,
-        "input_cost_per_token": "0.00000098",
-        "output_cost_per_token": "0.00000308",
+        "input_cost_per_token": "0.0000007",
+        "output_cost_per_token": "0.0000022",
         "litellm_provider": "fireworks_ai",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://api.fireworks.ai/v1/serverless/models"
+        "source": "https://api.fireworks.ai/v1/serverless/models?format=nested"
       }
     },
     {
@@ -59362,14 +59362,14 @@ export const aiModels: AIModels = {
         "max_tokens": null,
         "max_input_tokens": 1048576,
         "max_output_tokens": 393216,
-        "input_cost_per_token": "0.00000021",
-        "output_cost_per_token": "0.00000084",
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.0000006",
         "litellm_provider": "fireworks_ai",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://api.fireworks.ai/v1/serverless/models"
+        "source": "https://api.fireworks.ai/v1/serverless/models?format=nested"
       }
     },
     {
@@ -59380,14 +59380,14 @@ export const aiModels: AIModels = {
         "max_tokens": null,
         "max_input_tokens": 1048576,
         "max_output_tokens": 393216,
-        "input_cost_per_token": "0.0000024",
-        "output_cost_per_token": "0.0000096",
+        "input_cost_per_token": "0.0000012",
+        "output_cost_per_token": "0.0000048",
         "litellm_provider": "fireworks_ai",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://docs.fireworks.ai/serverless/pricing.md"
+        "source": "https://api.fireworks.ai/v1/serverless/models?format=nested"
       }
     },
     {
@@ -59398,14 +59398,32 @@ export const aiModels: AIModels = {
         "max_tokens": null,
         "max_input_tokens": 1048576,
         "max_output_tokens": 393216,
-        "input_cost_per_token": "0.00000021",
-        "output_cost_per_token": "0.00000084",
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.0000006",
         "litellm_provider": "fireworks_ai",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://api.fireworks.ai/v1/serverless/models"
+        "source": "https://api.fireworks.ai/v1/serverless/models?format=nested"
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/routers/deepseek-v4p1-flash-1017-flex",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 393216,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.0000006",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://docs.fireworks.ai/serverless/serverless-modes.md"
       }
     },
     {
@@ -62703,6 +62721,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "gmi/google/gemini-4-hydrogen",
+      "provider": "gmi",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000015",
+        "output_cost_per_token": "0.0000075",
+        "litellm_provider": "gmi",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://ie-api.gmicloud.ai/v1/artifact/get_public_artifacts"
+      }
+    },
+    {
       "name": "gmi/google/gemma-4-26b-a4b-it",
       "provider": "gmi",
       "logo": "/placeholder.svg?height=30&width=30",
@@ -65158,14 +65194,14 @@ export const aiModels: AIModels = {
         "max_tokens": null,
         "max_input_tokens": 1048576,
         "max_output_tokens": 1048576,
-        "input_cost_per_token": "0.000002",
-        "output_cost_per_token": "0.00001",
+        "input_cost_per_token": "0.00000249998",
+        "output_cost_per_token": "0.00001249997",
         "litellm_provider": "databricks",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/supported-models"
+        "source": "https://www.databricks.com/product/pricing/proprietary-foundation-model-serving"
       }
     },
     {
@@ -65176,14 +65212,14 @@ export const aiModels: AIModels = {
         "max_tokens": null,
         "max_input_tokens": 1048576,
         "max_output_tokens": 1048576,
-        "input_cost_per_token": "0.000002",
-        "output_cost_per_token": "0.00001",
+        "input_cost_per_token": "0.00000249998",
+        "output_cost_per_token": "0.00001249997",
         "litellm_provider": "databricks",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/supported-models"
+        "source": "https://www.databricks.com/product/pricing/proprietary-foundation-model-serving"
       }
     },
     {
@@ -65554,14 +65590,14 @@ export const aiModels: AIModels = {
         "max_tokens": null,
         "max_input_tokens": 1048576,
         "max_output_tokens": 65536,
-        "input_cost_per_token": "0.0000015",
-        "output_cost_per_token": "0.0000075",
+        "input_cost_per_token": "0.00000187502",
+        "output_cost_per_token": "0.00000937503",
         "litellm_provider": "databricks",
         "mode": "chat",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/supported-models"
+        "source": "https://www.databricks.com/product/pricing/proprietary-foundation-model-serving"
       }
     },
     {
@@ -65763,6 +65799,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "azure_ai/kimi-k3.1-pro",
+      "provider": "azure_ai",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 1048576,
+        "input_cost_per_token": "0.0000023",
+        "output_cost_per_token": "0.0000115",
+        "litellm_provider": "azure_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'"
+      }
+    },
+    {
       "name": "global.openai.gpt-6.2-astra",
       "provider": "bedrock_converse",
       "logo": "/placeholder.svg?height=30&width=30",
@@ -65878,8 +65932,8 @@ export const aiModels: AIModels = {
         "max_tokens": null,
         "max_input_tokens": 1000000,
         "max_output_tokens": 1000000,
-        "input_cost_per_token": "0.000001425",
-        "output_cost_per_token": "0.000004275",
+        "input_cost_per_token": "0.00000105",
+        "output_cost_per_token": "0.00000315",
         "litellm_provider": "together_ai",
         "mode": "chat",
         "supports_function_calling": true,
@@ -78900,6 +78954,60 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://openrouter.ai/api/v1/models"
+      }
+    },
+    {
+      "name": "gemini/genie-4",
+      "provider": "gemini",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.0000015",
+        "output_cost_per_token": "0.000009",
+        "litellm_provider": "gemini",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://ai.google.dev/gemini-api/docs/pricing"
+      }
+    },
+    {
+      "name": "together_ai/tencent/Hy4",
+      "provider": "together_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 1048576,
+        "input_cost_per_token": "0.000000834",
+        "output_cost_per_token": "0.000002501",
+        "litellm_provider": "together_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://api.together.ai/v1/models"
+      }
+    },
+    {
+      "name": "databricks/databricks-gemini-nano-banana-2-1",
+      "provider": "databricks",
+      "logo": "/logos/databricks.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.00000187502",
+        "output_cost_per_token": "0.00000937503",
+        "litellm_provider": "databricks",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://www.databricks.com/product/pricing/proprietary-foundation-model-serving"
       }
     }
   ],
@@ -100165,6 +100273,42 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://fal.ai/models/microsoft/mai-image-2.7/flash/edit"
+      }
+    },
+    {
+      "name": "fal_ai/ideogram/v4.6",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/ideogram/v4.6"
+      }
+    },
+    {
+      "name": "fal_ai/ideogram/v4.6/edit",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/ideogram/v4.6/edit"
       }
     }
   ],
