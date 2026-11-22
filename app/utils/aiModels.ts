@@ -29367,6 +29367,96 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "resetdata/deepseek/deepseek-v4-flash",
+      "provider": "resetdata",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.00000007432",
+        "output_cost_per_token": "0.0000001486",
+        "litellm_provider": "resetdata",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.resetdata.ai/models/overview"
+      }
+    },
+    {
+      "name": "resetdata/google/gemma-4-26b-a4b-it",
+      "provider": "resetdata",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.00000006054",
+        "output_cost_per_token": "0.0000003328",
+        "litellm_provider": "resetdata",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://docs.resetdata.ai/models/overview"
+      }
+    },
+    {
+      "name": "resetdata/qwen/qwen3-coder-30b-a3b-instruct",
+      "provider": "resetdata",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.00000007061",
+        "output_cost_per_token": "0.0000002723",
+        "litellm_provider": "resetdata",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.resetdata.ai/models/overview"
+      }
+    },
+    {
+      "name": "resetdata/qwen/qwen3.8-27b",
+      "provider": "resetdata",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000002905",
+        "output_cost_per_token": "0.000002453",
+        "litellm_provider": "resetdata",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://docs.resetdata.ai/models/overview"
+      }
+    },
+    {
+      "name": "resetdata/zai/glm-5.3",
+      "provider": "resetdata",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 524288,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.000001189",
+        "output_cost_per_token": "0.000003736",
+        "litellm_provider": "resetdata",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.resetdata.ai/models/overview"
+      }
+    },
+    {
       "name": "nvidia_nim/01-ai/yi-large",
       "provider": "nvidia_nim",
       "logo": "/placeholder.svg?height=30&width=30",
@@ -56792,6 +56882,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "fireworks_ai/accounts/fireworks/routers/deepseek-v4p1-flash-1017-us",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 393216,
+        "input_cost_per_token": "0.00000045",
+        "output_cost_per_token": "0.0000018",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://docs.fireworks.ai/serverless/us-only-serverless"
+      }
+    },
+    {
       "name": "wandb/reflection/Beam-1.0-501B-A23B",
       "provider": "wandb",
       "logo": "/placeholder.svg?height=30&width=30",
@@ -79206,6 +79314,24 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://api.together.ai/v1/models"
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/routers/kimi-k3p1-pro-us",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000025",
+        "output_cost_per_token": "0.0000125",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://docs.fireworks.ai/serverless/pricing"
       }
     }
   ],
@@ -102776,6 +102902,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "resetdata/openai/whisper-large-v3-turbo",
+      "provider": "resetdata",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "resetdata",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.resetdata.ai/guides/audio/"
+      }
+    },
+    {
       "name": "together_ai/nvidia/nemotron-3.5-asr-streaming-0.6b",
       "provider": "together_ai",
       "logo": "/placeholder.svg?height=30&width=30",
@@ -104066,6 +104210,60 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://developers.openai.com/api/docs/models/gpt-4o-mini-tts"
+      }
+    },
+    {
+      "name": "gradium/default",
+      "provider": "gradium",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "gradium",
+        "mode": "audio_speech",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://gradium.ai/pricing"
+      }
+    },
+    {
+      "name": "gradium/gradium-tts-202602",
+      "provider": "gradium",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "gradium",
+        "mode": "audio_speech",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://gradium.ai/pricing"
+      }
+    },
+    {
+      "name": "gradium/gradium-tts-beta",
+      "provider": "gradium",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "gradium",
+        "mode": "audio_speech",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://gradium.ai/pricing"
       }
     },
     {
