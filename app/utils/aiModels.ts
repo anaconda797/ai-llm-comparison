@@ -102616,6 +102616,42 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "gnani/prisma-v2.5",
+      "provider": "gnani",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "gnani",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.gnani.ai/api/STT/models/prisma-v2-5"
+      }
+    },
+    {
+      "name": "gnani/prisma-v3.0",
+      "provider": "gnani",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "gnani",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.gnani.ai/api/STT/models/prisma-v3"
+      }
+    },
+    {
       "name": "elevenlabs/scribe_v1",
       "provider": "elevenlabs",
       "logo": "/placeholder.svg?height=30&width=30",
