@@ -20253,7 +20253,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/openai.svg",
       "sample_spec": {
         "max_tokens": null,
-        "max_input_tokens": 400000,
+        "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.000005",
         "output_cost_per_token": "0.00003",
@@ -80234,6 +80234,132 @@ export const aiModels: AIModels = {
         "supports_vision": true,
         "source": "https://api.together.ai/v1/models"
       }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen4-max",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 262144,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000015",
+        "output_cost_per_token": "0.0000045",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://api.fireworks.ai/v1/serverless/models?format=nested"
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/hy4-flash",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 524288,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000007",
+        "output_cost_per_token": "0.000000281",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fireworks.ai/models/fireworks/hy4-flash"
+      }
+    },
+    {
+      "name": "huawei_maas/glm-5.3",
+      "provider": "huawei_maas",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000014",
+        "output_cost_per_token": "0.0000044",
+        "litellm_provider": "huawei_maas",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://support.huaweicloud.com/intl/en-us/price-maas/price-maas-0002.html"
+      }
+    },
+    {
+      "name": "huawei_maas/glm-5.2",
+      "provider": "huawei_maas",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000014",
+        "output_cost_per_token": "0.0000044",
+        "litellm_provider": "huawei_maas",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://support.huaweicloud.com/intl/en-us/price-maas/price-maas-0002.html"
+      }
+    },
+    {
+      "name": "huawei_maas/deepseek-v4.1-flash-1017",
+      "provider": "huawei_maas",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 384000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 384000,
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "huawei_maas",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://support.huaweicloud.com/intl/en-us/price-maas/price-maas-0002.html"
+      }
+    },
+    {
+      "name": "huawei_maas/deepseek-v4.1-flash",
+      "provider": "huawei_maas",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 384000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 384000,
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "huawei_maas",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://support.huaweicloud.com/intl/en-us/price-maas/price-maas-0002.html"
+      }
+    },
+    {
+      "name": "us-gov.openai.gpt-5.6-cyber",
+      "provider": "bedrock_converse",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 922000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000016875",
+        "output_cost_per_token": "0.00010125",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-56-cyber.html"
+      }
     }
   ],
   "embedding": [
@@ -104592,6 +104718,42 @@ export const aiModels: AIModels = {
     },
     {
       "name": "elevenlabs/scribe_v2",
+      "provider": "elevenlabs",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "elevenlabs",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://elevenlabs.io/pricing/api"
+      }
+    },
+    {
+      "name": "elevenlabs/scribe_v2_realtime",
+      "provider": "elevenlabs",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "elevenlabs",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://elevenlabs.io/pricing/api"
+      }
+    },
+    {
+      "name": "elevenlabs/scribe_v2_realtime/keyterms",
       "provider": "elevenlabs",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
