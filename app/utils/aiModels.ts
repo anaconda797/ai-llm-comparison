@@ -80276,7 +80276,7 @@ export const aiModels: AIModels = {
       "provider": "huawei_maas",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": null,
         "max_input_tokens": 1000000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.0000014",
@@ -80294,7 +80294,7 @@ export const aiModels: AIModels = {
       "provider": "huawei_maas",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": null,
         "max_input_tokens": 1000000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.0000014",
@@ -80312,7 +80312,7 @@ export const aiModels: AIModels = {
       "provider": "huawei_maas",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 384000,
+        "max_tokens": null,
         "max_input_tokens": 1000000,
         "max_output_tokens": 384000,
         "input_cost_per_token": "0.0000003",
@@ -80330,7 +80330,7 @@ export const aiModels: AIModels = {
       "provider": "huawei_maas",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 384000,
+        "max_tokens": null,
         "max_input_tokens": 1000000,
         "max_output_tokens": 384000,
         "input_cost_per_token": "0.0000003",
@@ -80359,6 +80359,132 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-56-cyber.html"
+      }
+    },
+    {
+      "name": "xai/grok-4.7-latest",
+      "provider": "xai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 500000,
+        "max_output_tokens": 500000,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000006",
+        "litellm_provider": "xai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://api.x.ai/v1/language-models"
+      }
+    },
+    {
+      "name": "xai/grok-4.6-latest",
+      "provider": "xai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 500000,
+        "max_output_tokens": 500000,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000006",
+        "litellm_provider": "xai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://api.x.ai/v1/language-models"
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/inkling-2-small",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.000001",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://docs.fireworks.ai/serverless/pricing"
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/routers/glm-5p3-flex",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000007",
+        "output_cost_per_token": "0.0000022",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://api.fireworks.ai/v1/serverless/models?format=nested"
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/routers/glm-5p3-flash-flex",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 1048576,
+        "input_cost_per_token": "0.000000075",
+        "output_cost_per_token": "0.00000025",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://api.fireworks.ai/v1/serverless/models?format=nested"
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/glm-5p3-spot",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000007",
+        "output_cost_per_token": "0.0000022",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.fireworks.ai/guides/spot-serverless.md"
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/routers/kimi-k3p1-pro-ultrafast",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.000005",
+        "output_cost_per_token": "0.000025",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://api.fireworks.ai/v1/serverless/models?format=nested"
       }
     }
   ],
@@ -102020,6 +102146,42 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://fal.ai/models/recraft/vectorize/pro"
+      }
+    },
+    {
+      "name": "fal_ai/krea/v3/text-to-image/lora",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fal.ai/models/krea/v3/text-to-image/lora"
+      }
+    },
+    {
+      "name": "fal_ai/krea/v3/edit/lora",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://fal.ai/models/krea/v3/edit/lora"
       }
     }
   ],
