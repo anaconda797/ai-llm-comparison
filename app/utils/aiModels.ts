@@ -90953,6 +90953,204 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "volcengine/doubao-seedream-4-0-260415",
+      "provider": "volcengine",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "volcengine",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.volcengine.com/docs/82379/1544106"
+      }
+    },
+    {
+      "name": "volcengine/doubao-seedream-4-0-20260415",
+      "provider": "volcengine",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "volcengine",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.volcengine.com/docs/82379/1544106"
+      }
+    },
+    {
+      "name": "volcengine/doubao-seedream-5-0-flash-260915",
+      "provider": "volcengine",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "volcengine",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.volcengine.com/docs/82379/1544106"
+      }
+    },
+    {
+      "name": "volcengine/doubao-seedream-5-0-pro-260628",
+      "provider": "volcengine",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "volcengine",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.volcengine.com/docs/82379/1544106"
+      }
+    },
+    {
+      "name": "volcengine/dola-seedream-5-5-261028",
+      "provider": "volcengine",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "volcengine",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.byteplus.com/en/docs/ModelArk/1544106"
+      }
+    },
+    {
+      "name": "volcengine/dola-seedream-5-0-pro-260628",
+      "provider": "volcengine",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "volcengine",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.byteplus.com/en/docs/ModelArk/1544106"
+      }
+    },
+    {
+      "name": "volcengine/dola-seedream-5-0-flash-260915",
+      "provider": "volcengine",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "volcengine",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.byteplus.com/en/docs/ModelArk/1544106"
+      }
+    },
+    {
+      "name": "volcengine/seedream-5-0-lite-260128",
+      "provider": "volcengine",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "volcengine",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.byteplus.com/en/docs/ModelArk/1544106"
+      }
+    },
+    {
+      "name": "volcengine/seedream-4-5-251128",
+      "provider": "volcengine",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "volcengine",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.byteplus.com/en/docs/ModelArk/1544106"
+      }
+    },
+    {
+      "name": "volcengine/seedream-4-0-250828",
+      "provider": "volcengine",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "volcengine",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.byteplus.com/en/docs/ModelArk/1544106"
+      }
+    },
+    {
+      "name": "volcengine/doubao-seedream-5-5-261028",
+      "provider": "volcengine",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "volcengine",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.volcengine.com/docs/82379/1544106"
+      }
+    },
+    {
       "name": "tencent/seedream-image-v5.0-flash",
       "provider": "tencent",
       "logo": "/placeholder.svg?height=30&width=30",
